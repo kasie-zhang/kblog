@@ -8,7 +8,7 @@ categories:
 tags:
 - Cmder
 publish: true
-permalink: /89
+permalink: /article/89
 ---
 
 > 第 89 篇文章

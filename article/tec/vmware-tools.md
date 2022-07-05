@@ -8,7 +8,7 @@ categories:
 tags:
 - 虚拟机
 publish: true
-permalink: /36
+permalink: /article/36
 ---
 
 > 第 36 篇文章

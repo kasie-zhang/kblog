@@ -11,7 +11,7 @@ tags:
 - 后端
 - JAR
 publish: true
-permalink: /72
+permalink: /article/72
 ---
 
 > 第 72 篇文章

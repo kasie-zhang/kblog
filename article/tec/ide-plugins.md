@@ -9,7 +9,7 @@ tags:
 - 插件
 - IDE
 publish: true
-permalink: /60
+permalink: /article/60
 ---
 
 > 第 60 篇文章

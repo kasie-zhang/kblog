@@ -10,7 +10,7 @@ tags:
  - Ubuntu
  - 文件权限
 publish: true
-permalink: /112
+permalink: /article/112
 ---
 
 > 第 112 篇文章

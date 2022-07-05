@@ -9,7 +9,7 @@ tags:
 - 家庭影院
 - Kodi
 publish: true
-permalink: /100
+permalink: /article/100
 --- 
 
 > 第 100 篇文章

@@ -9,7 +9,7 @@ tags:
 - java
 - 配置
 publish: true
-permalink: /35
+permalink: /article/35
 ---
 
 > 第 35 篇文章

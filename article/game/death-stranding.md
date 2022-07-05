@@ -10,7 +10,7 @@ tags:
 - 死亡搁浅
 publish: true
 isShowComments: true
-permalink: /54
+permalink: /article/54
 ---
 
 > 第 54 篇文章

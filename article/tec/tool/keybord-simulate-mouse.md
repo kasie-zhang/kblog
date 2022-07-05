@@ -8,7 +8,7 @@ categories:
 tags:
 - Windows
 publish: true
-permalink: /50
+permalink: /article/50
 ---
 
 > 第 50 篇文章

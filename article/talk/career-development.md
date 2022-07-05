@@ -8,7 +8,7 @@ categories:
 tags:
 - 职业发展
 publish: true
-permalink: /92
+permalink: /article/92
 ---
 
 > 第 92 篇文章

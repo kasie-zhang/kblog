@@ -8,7 +8,7 @@ categories:
 tags:
 - Steve Jobs
 publish: true
-permalink: /68
+permalink: /article/68
 ---
 
 > 第 68 篇文章

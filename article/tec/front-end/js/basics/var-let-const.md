@@ -9,7 +9,7 @@ tags:
 - JavaScript
 - 前端
 publish: true
-permalink: /47
+permalink: /article/47
 ---
 
 > 第 47 篇文章

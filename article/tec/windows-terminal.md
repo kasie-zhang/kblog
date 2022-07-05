@@ -10,7 +10,7 @@ tags:
 - Terminal
 - 配置
 publish: true
-permalink: /40
+permalink: /article/40
 ---
 
 > 第 40 篇文章

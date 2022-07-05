@@ -9,7 +9,7 @@ tags:
 - SpringBoot
 - 配置
 publish: true
-permalink: /45
+permalink: /article/45
 ---
 
 > 第 45 篇文章

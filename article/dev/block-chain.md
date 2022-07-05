@@ -10,7 +10,7 @@ tags:
 publish: true
 keys:
 - '2c39c02b7d80bd827e0f3cd88ca86f26'
-permalink: /61
+permalink: /article/61
 ---
 
 > 第 61 篇文章
@@ -127,7 +127,3 @@ Blockcerts | [Blockcerts](https://github.com/blockchain-certificates)
 2020-01-04  | 小组+指导老师 ( 第二次会议)
 2020-01-09  | 小组 (第三次会议)
 ****
-
-
-
-

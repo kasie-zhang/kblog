@@ -8,7 +8,7 @@ categories:
 tags:
 - Vim
 publish: true
-permalink: /49
+permalink: /article/49
 ---
 
 > 第 49 篇文章

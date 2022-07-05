@@ -9,7 +9,7 @@ tags:
 - 前端
 - 缓存
 publish: true
-permalink: /85
+permalink: /article/85
 ---
 
 > 第 85 篇文章

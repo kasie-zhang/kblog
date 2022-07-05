@@ -11,7 +11,7 @@ tags:
 - 后端
 - 数据库
 publish: true
-permalink: /16
+permalink: /article/16
 ---
 
 > 第 16 篇文章

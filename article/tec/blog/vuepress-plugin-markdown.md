@@ -9,7 +9,7 @@ tags:
 - Markdown
 - 插件
 publish: true
-permalink: /3
+permalink: /article/3
 ---
 
 > 第 3 篇文章

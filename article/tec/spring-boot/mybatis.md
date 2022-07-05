@@ -11,7 +11,7 @@ tags:
 - Java
 - 后端
 publish: true
-permalink: /43
+permalink: /article/43
 ---
 
 > 第 43 篇文章

@@ -9,7 +9,7 @@ tags:
 - 搭建博客
 - Hexo
 publish: true
-permalink: /22
+permalink: /article/22
 ---
 
 > 第 22 篇文章

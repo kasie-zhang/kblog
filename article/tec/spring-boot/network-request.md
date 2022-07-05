@@ -11,7 +11,7 @@ tags:
 - 网络请求
 - 后端
 publish: true
-permalink: /75
+permalink: /article/75
 ---
 
 > 第 75 篇文章

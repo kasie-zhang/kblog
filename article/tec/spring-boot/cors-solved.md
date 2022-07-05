@@ -9,7 +9,7 @@ tags:
 - SpringBoot
 - CORS
 publish: true
-permalink: /76
+permalink: /article/76
 ---
 
 > 第 76 篇文章

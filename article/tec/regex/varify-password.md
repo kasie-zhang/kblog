@@ -9,7 +9,7 @@ tags:
 - Java
 - 正则表达式
 publish: true
-permalink: /70
+permalink: /article/70
 ---
 
 > 第 70 篇文章

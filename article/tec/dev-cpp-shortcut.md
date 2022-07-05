@@ -10,7 +10,7 @@ tags:
 - IDE
 - 快捷键
 publish: true
-permalink: /97
+permalink: /article/97
 ---
 
 > 第 97 篇文章

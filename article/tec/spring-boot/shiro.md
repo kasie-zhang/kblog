@@ -12,7 +12,7 @@ tags:
 - 框架
 - 后端
 publish: true
-permalink: /79
+permalink: /article/79
 ---
 
 > 第 79 篇文章

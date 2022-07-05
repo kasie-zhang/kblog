@@ -8,7 +8,7 @@ categories:
 tags:
  - Java 基础
 publish: true
-permalink: /118
+permalink: /article/118
 ---
 
 > 第 118 篇文章

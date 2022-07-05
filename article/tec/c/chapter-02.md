@@ -9,7 +9,7 @@ categories:
 tags:
 - C
 publish: true
-permalink: /32
+permalink: /article/32
 ---
 
 > 第 32 篇文章

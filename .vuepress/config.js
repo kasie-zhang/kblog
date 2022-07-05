@@ -8,7 +8,7 @@ module.exports = {
             "link",
             {
                 "rel": "icon",
-                "href": "/img/personal/photo.jpg"
+                "href": "https://api.zk123.top/link/blog/repo1/img/personal/photo.jpg"
             }
         ],
         [
@@ -69,7 +69,7 @@ module.exports = {
         //         contentInfo: {
         //             title: "欢迎关注微信公众号，不定时分享资源！🎉🎉🎉",
         //             needImg: true,
-        //             imgUrl: "/img/personal/kasie-tool.jpg",
+        //             imgUrl: "https://api.zk123.top/link/blog/repo1/img/personal/kasie-tool.jpg",
         //         },
         //         bottomInfo: {
         //             btnText: '主站',
@@ -119,13 +119,13 @@ module.exports = {
                     {
                         name: '灰色轨迹',
                         artist: 'Beyond',
-                        url: '/music/m_5.flac',
+                        url: '/music/m_5.mp3',
                         cover: '/music/p_5.jpg'
                     },
                     {
                         name: '谁伴我闯荡',
                         artist: 'Beyond',
-                        url: '/music/m_6.flac',
+                        url: '/music/m_6.mp3',
                         cover: '/music/p_6.jpg'
                     },
                     {
@@ -143,25 +143,25 @@ module.exports = {
                     {
                         name: '真的爱你',
                         artist: 'Beyond',
-                        url: '/music/m_9.flac',
+                        url: '/music/m_9.mp3',
                         cover: '/music/p_9.jpg'
                     },
                     {
                         name: '喜欢你',
                         artist: 'Beyond',
-                        url: '/music/m_10.flac',
+                        url: '/music/m_10.mp3',
                         cover: '/music/p_10.jpg'
                     },
                     {
                         name: '冷雨夜',
                         artist: 'Beyond',
-                        url: '/music/m_11.flac',
+                        url: '/music/m_11.mp3',
                         cover: '/music/p_11.jpg'
                     },
                     {
                         name: 'Last Dance',
                         artist: '伍佰 & China Blue',
-                        url: '/music/m_12.flac',
+                        url: '/music/m_12.mp3',
                         cover: '/music/p_12.jpg'
                     },
                     {
@@ -179,13 +179,13 @@ module.exports = {
                     {
                         name: '再度重相逢',
                         artist: '伍佰 & China Blue',
-                        url: '/music/m_15.flac',
+                        url: '/music/m_15.mp3',
                         cover: '/music/p_15.jpg'
                     },
                     {
                         name: '挪威的森林',
                         artist: '伍佰 & China Blue',
-                        url: '/music/m_16.flac',
+                        url: '/music/m_16.mp3',
                         cover: '/music/p_16.jpg'
                     },
                     {
@@ -203,7 +203,7 @@ module.exports = {
                     {
                         name: '突然的自我',
                         artist: '伍佰 & China Blue',
-                        url: '/music/m_19.flac',
+                        url: '/music/m_19.mp3',
                         cover: '/music/p_19.jpg'
                     },
                     {
@@ -269,13 +269,13 @@ module.exports = {
                     {
                         name:'A moment of peace',
                         artist: 'Painless Destiny',
-                        url:'/music/m_30.flac',
+                        url:'/music/m_30.mp3',
                         cover:'/music/p_30.jpg'
                     },
                     {
                         name:'Sleepyhead',
                         artist: 'Galen Crew',
-                        url:'/music/m_31.flac',
+                        url:'/music/m_31.mp3',
                         cover:'/music/p_31.jpg'
                     },
                     {
@@ -399,7 +399,7 @@ module.exports = {
             {
                 title: '吴川斌的博客',
                 desc: '分享编程资源和知识',
-                logo: '/img/personal/mr-wu.ico',
+                logo: 'https://api.zk123.top/link/blog/repo1/img/personal/mr-wu.ico',
                 link: 'https://www.mr-wu.cn/'
             },
             {
@@ -417,7 +417,7 @@ module.exports = {
             {
                 title: '午后杂南',
                 desc: 'reco_luan',
-                logo: '/img/personal/recoluan.ico',
+                logo: 'https://api.zk123.top/link/blog/repo1/img/personal/recoluan.ico',
                 link: 'https://www.recoluan.com/'
             }
         ],
@@ -532,7 +532,7 @@ module.exports = {
                 "QQ93": "QQ/zuohengheng.gif"
             },
         },
-        "logo": "/img/personal/photo.jpg",
+        "logo": "https://api.zk123.top/link/blog/repo1/img/personal/photo.jpg",
         "smoothScroll": true,
         "search": true,
         "lastUpdated": "Last Updated",
@@ -551,7 +551,7 @@ module.exports = {
             "segmentfault": false, //思否
             "csdn": "https://blog.csdn.net/kasie_zhang",
             "wechat": false, //微信
-            "qq": "/img/personal/qq.jpg" //QQ
+            "qq": "https://api.zk123.top/link/blog/repo1/img/personal/qq.jpg" //QQ
         },
         "mottos": [{
             "zh": "愿你保持初心和善良,笑里尽是温暖与坦荡。",
@@ -582,13 +582,13 @@ module.exports = {
             }
         ],
         "covers": [
-            '/img/personal/bg1.webp',
-            '/img/personal/bg2.webp',
-            '/img/personal/bg3.webp',
-            '/img/personal/bg4.webp',
-            '/img/personal/bg5.webp',
-            '/img/personal/bg6.webp',
-            '/img/personal/bg7.webp'
+            'https://api.zk123.top/link/blog/repo1/img/personal/bg1.webp',
+            'https://api.zk123.top/link/blog/repo1/img/personal/bg2.webp',
+            'https://api.zk123.top/link/blog/repo1/img/personal/bg3.webp',
+            'https://api.zk123.top/link/blog/repo1/img/personal/bg4.webp',
+            'https://api.zk123.top/link/blog/repo1/img/personal/bg5.webp',
+            'https://api.zk123.top/link/blog/repo1/img/personal/bg6.webp',
+            'https://api.zk123.top/link/blog/repo1/img/personal/bg7.webp'
         ],
         "codeTheme": "tomorrow"
     },

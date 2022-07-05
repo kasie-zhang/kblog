@@ -9,7 +9,7 @@ tags:
 - Vue
 - 前端
 publish: true
-permalink: /4
+permalink: /article/4
 ---
 
 > 第 4 篇文章

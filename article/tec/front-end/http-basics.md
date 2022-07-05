@@ -9,7 +9,7 @@ tags:
 - HTTP
 - 前端
 publish: true
-permalink: /86
+permalink: /article/86
 ---
 
 > 第 86 篇文章

@@ -10,7 +10,7 @@ tags:
  - 游记
  - 书摘
 publish: true
-permalink: /105
+permalink: /article/105
 ---
 
 > 第 105 篇文章

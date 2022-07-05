@@ -8,7 +8,7 @@ categories:
 tags:
 - 数学
 publish: true
-permalink: /93
+permalink: /article/93
 ---
 
 > 第 93 篇文章

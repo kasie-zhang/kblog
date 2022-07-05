@@ -10,7 +10,7 @@ tags:
 - 软件
 - Windows
 publish: true
-permalink: /53
+permalink: /article/53
 ---
 
 > 第 53 篇文章

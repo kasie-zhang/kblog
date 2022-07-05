@@ -8,7 +8,7 @@ categories:
 tags:
 - VuePress
 publish: true
-permalink: /5
+permalink: /article/5
 ---
 
 > 第 5 篇文章

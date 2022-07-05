@@ -5,5 +5,3 @@ module.exports = {
     AppId: 'gljmBsm3bHU5wV6ctAVmXbul-gzGzoHsz',
     AppKey:'gwdTgs5314hy6j5LzckkBxzG'
 }
-
-// keys 密码：001015

@@ -9,7 +9,7 @@ tags:
 - XShell
 - Linux
 publish: true
-permalink: /98
+permalink: /article/98
 ---
 
 > 第 98 篇文章

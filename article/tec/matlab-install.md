@@ -9,7 +9,7 @@ tags:
 - Matlab
 - 软件安装
 publish: true
-permalink: /48
+permalink: /article/48
 ---
 
 > 第 48 篇文章

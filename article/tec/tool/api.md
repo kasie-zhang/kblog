@@ -8,7 +8,7 @@ categories:
 tags:
 - 接口分享
 publish: true
-permalink: /34
+permalink: /article/34
 ---
 
 > 第 34 篇文章

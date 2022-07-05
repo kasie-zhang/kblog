@@ -10,7 +10,7 @@ tags:
 - 后端
 - 数据库
 publish: true
-permalink: /15
+permalink: /article/15
 ---
 
 > 第 15 篇文章 

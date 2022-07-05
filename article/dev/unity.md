@@ -11,7 +11,7 @@ tags:
 keys:
 - '2c39c02b7d80bd827e0f3cd88ca86f26'
 publish: true
-permalink: /7
+permalink: /article/7
 ---
 
 > 第 7 篇文章
@@ -96,5 +96,3 @@ permalink: /7
 下一阶段计划：
 1.完成人机系统，对战系统
 2.添加游戏相关音效，美化地图，撰写 策划书、开发文档、PPT
-    
-

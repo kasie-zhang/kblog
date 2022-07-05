@@ -9,7 +9,7 @@ tags:
 - CTF
 - 网络安全
 publish: true
-permalink: /42
+permalink: /article/42
 ---
 
 > 第 42 篇文章

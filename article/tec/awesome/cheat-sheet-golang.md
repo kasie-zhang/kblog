@@ -10,7 +10,7 @@ tags:
 - Golang
 - Cheat Sheet
 publish: true
-permalink: /26
+permalink: /article/26
 ---
 
 > 第 26 篇文章

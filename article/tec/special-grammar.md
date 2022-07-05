@@ -8,7 +8,7 @@ categories:
 tags:
 - 特殊字符
 publish: true
-permalink: /77
+permalink: /article/77
 ---
 
 > 第 77 篇文章

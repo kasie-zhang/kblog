@@ -11,7 +11,7 @@ tags:
 - Util
 - 后端
 publish: true
-permalink: /81
+permalink: /article/81
 ---
 
 > 第 81 篇文章

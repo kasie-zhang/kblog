@@ -8,7 +8,7 @@ categories:
 tags:
 - Collect
 publish: true
-permalink: /63
+permalink: /article/63
 ---
 
 > 第 63 篇文章

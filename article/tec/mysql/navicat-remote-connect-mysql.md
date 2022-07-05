@@ -11,7 +11,7 @@ tags:
 - Navicat
 - 数据库
 publish: true
-permalink: /88
+permalink: /article/88
 ---
 
 > 第 88 篇文章

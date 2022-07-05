@@ -8,7 +8,7 @@ categories:
 tags:
 - Java 基础
 publish: true
-permalink: /30
+permalink: /article/30
 ---
 
 > 第 30 篇文章

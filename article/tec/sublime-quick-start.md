@@ -10,7 +10,7 @@ tags:
 - Windows
 - IDE
 publish: true
-permalink: /37
+permalink: /article/37
 ---
 
 > 第 37 篇文章

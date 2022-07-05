@@ -9,7 +9,7 @@ tags:
 - GitHub
 - 插件
 publish: true
-permalink: /78
+permalink: /article/78
 ---
 
 > 第 78 篇文章

@@ -9,7 +9,7 @@ tags:
 - Windows
 - 软件
 publish: true
-permalink: /94
+permalink: /article/94
 ---
 
 > 第 94 篇文章

@@ -9,7 +9,7 @@ tags:
  - MySQL
  - 定时任务
 publish: true
-permalink: /119
+permalink: /article/119
 ---
 
 > 第 119 篇文章

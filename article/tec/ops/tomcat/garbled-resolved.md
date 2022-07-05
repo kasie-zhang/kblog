@@ -9,7 +9,7 @@ tags:
 - 运维
 - Tomcat
 publish: true
-permalink: /74
+permalink: /article/74
 ---
 
 > 第 74 篇文章

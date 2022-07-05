@@ -9,10 +9,10 @@ categories:
 tags:
  - C
 publish: true
-permalink: /110
+permalink: /article/110
 ---
 
-> 第 110 篇文章
+> ? 110 ???
 <!-- more -->
 
 程序设计时，最重要的步骤之一是选择表示数据的方法。在很多情况下，简单变量甚至是数组还不够。为此，C提供了**结构变量**（struct variable)

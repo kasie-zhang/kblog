@@ -10,7 +10,7 @@ tags:
 - JavaDoc
 - 后端
 publish: true
-permalink: /46
+permalink: /article/46
 ---
 
 > 第 46 篇文章

@@ -11,7 +11,7 @@ tags:
 - Util
 - 后端
 publish: true
-permalink: /33
+permalink: /article/33
 ---
 
 > 第 33 篇文章

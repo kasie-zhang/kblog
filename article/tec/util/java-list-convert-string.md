@@ -9,7 +9,7 @@ tags:
 - Java
 - Util
 publish: true
-permalink: /38
+permalink: /article/38
 ---
 
 > 第 38 篇文章

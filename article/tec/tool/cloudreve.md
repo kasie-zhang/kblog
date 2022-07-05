@@ -8,7 +8,7 @@ categories:
 tags:
 - 网盘
 publish: true
-permalink: /95
+permalink: /article/95
 ---
 
 > 第 95 篇文章

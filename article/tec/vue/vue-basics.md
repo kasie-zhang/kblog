@@ -9,7 +9,7 @@ tags:
 - Vue
 - 前端
 publish: true
-permalink: /55
+permalink: /article/55
 ---
 
 > 第 55 篇文章

@@ -8,7 +8,7 @@ categories:
 tags:
 - Regex
 publish: true
-permalink: /71
+permalink: /article/71
 ---
 
 > 第 71 篇文章

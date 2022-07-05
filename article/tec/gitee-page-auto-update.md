@@ -10,7 +10,7 @@ tags:
 - 自动化
 - JavaScript
 publish: true
-permalink: /19
+permalink: /article/19
 ---
 
 > 第 19 篇文章 

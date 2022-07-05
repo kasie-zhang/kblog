@@ -10,7 +10,7 @@ tags:
  - Linux
  - 文件删除
 publish: true
-permalink: /103
+permalink: /article/103
 ---
 
 > 第 103 篇文章

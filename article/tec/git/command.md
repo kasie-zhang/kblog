@@ -8,7 +8,7 @@ categories:
 tags:
 - Git
 publish: true
-permalink: /67
+permalink: /article/67
 ---
 
 > 第 67 篇文章

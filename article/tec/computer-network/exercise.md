@@ -8,7 +8,7 @@ categories:
 tags:
 - 计算机网络
 publish: true
-permalink: /66
+permalink: /article/66
 ---
 
 > 第 66 篇文章

@@ -10,7 +10,7 @@ tags:
  - C
  - 文件IO
 publish: true
-permalink: /108
+permalink: /article/108
 ---
 
 > 第 108 篇文章

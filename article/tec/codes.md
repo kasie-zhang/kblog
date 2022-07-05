@@ -10,7 +10,7 @@ tags:
 - 数据结构
 - 算法
 publish: true
-permalink: /10
+permalink: /article/10
 ---
 
 > 第 10 篇文章

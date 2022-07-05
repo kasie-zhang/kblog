@@ -10,7 +10,7 @@ tags:
 - Java
 - 后端
 publish: true
-permalink: /9
+permalink: /article/9
 ---
 
 > 第 9 篇文章

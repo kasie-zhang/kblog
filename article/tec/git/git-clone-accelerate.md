@@ -8,7 +8,7 @@ categories:
 tags:
 - git
 publish: true
-permalink: /21
+permalink: /article/21
 ---
 
 > 第 21 篇文章

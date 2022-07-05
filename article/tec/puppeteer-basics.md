@@ -9,7 +9,7 @@ tags:
 - 浏览器
 - 自动化
 publish: true
-permalink: /20
+permalink: /article/20
 ---
 
 > 第 20 篇文章

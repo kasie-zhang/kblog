@@ -11,7 +11,7 @@ tags:
  - 函数
  - 字符串
 publish: true
-permalink: /104
+permalink: /article/104
 ---
 
 > 第 104 篇文章

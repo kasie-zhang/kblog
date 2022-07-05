@@ -10,7 +10,7 @@ tags:
 - Cheat Sheet
 - Awesome
 publish: true
-permalink: /25
+permalink: /article/25
 ---
 
 > 第 25 篇文章

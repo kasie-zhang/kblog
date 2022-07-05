@@ -9,7 +9,7 @@ tags:
 - Python
 - Util
 publish: true
-permalink: /23
+permalink: /article/23
 ---
 
 > 第 23 篇文章

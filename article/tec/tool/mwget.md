@@ -10,7 +10,7 @@ tags:
 - Ubuntu
 - 下载工具
 publish: true
-permalink: /99
+permalink: /article/99
 ---
 > 第 99 篇文章
 <!-- more -->
@@ -70,14 +70,22 @@ mwget -n 10 "URL"
 
 ## Axel
 ### 安装
+[Axel GitHub Release Page](https://github.com/axel-download-accelerator/axel/releases)
+找到最新的发行版本 >> `axel-2.17.11.tar.gz`
 ```shell
-git clone https://hub.fastgit.org/kasie-zhang/axel.git
-
-cd axel
-
-./configure
-
-make && make install
+# 下载
+wget https://github.com/axel-download-accelerator/axel/releases/download/v2.17.11/axel-2.17.11.tar.gz
+# 解压
+tar -zxvf axel-2.17.11.tar.gz
+# 进入解压路径
+cd axel-2.17.11
+# 编译安装
+./configure && make && make install
+# ERROR: configure: error: Package requirements (openssl) were not met
+# Ubuntu and Debian 安装 openssl libssl-dev
+sudo apt-get install openssl libssl-dev
+# RedHat and CentOS 安装 openssl-devel
+sudo apt-get install openssl-devel libssl-dev
 
 vim /etc/profile
 

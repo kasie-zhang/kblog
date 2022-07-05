@@ -8,8 +8,7 @@ categories:
 tags:
 - 区块链
 publish: true
-
-permalink: /6
+permalink: /article/6
 ---
 
 > 第 6 篇文章

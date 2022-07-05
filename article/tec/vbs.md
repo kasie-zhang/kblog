@@ -9,7 +9,7 @@ tags:
 - Bat
 - Windows
 publish: true
-permalink: /41
+permalink: /article/41
 ---
 
 > 第 41 篇文章

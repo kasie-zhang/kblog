@@ -9,7 +9,7 @@ tags:
  - 计算机基础
  - 字节序
 publish: true
-permalink: /111
+permalink: /article/111
 ---
 
 > 第 111 篇文章

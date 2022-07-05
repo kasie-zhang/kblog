@@ -9,7 +9,7 @@ tags:
  - C
  - 计算机技术
 publish: true 
-permalink: /117
+permalink: /article/117
 ---
 
 > 第 117 篇文章

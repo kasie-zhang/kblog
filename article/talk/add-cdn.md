@@ -8,7 +8,7 @@ categories:
 tags:
 - CDN
 publish: true
-permalink: /96
+permalink: /article/96
 ---
 
 > 第 96 篇文章

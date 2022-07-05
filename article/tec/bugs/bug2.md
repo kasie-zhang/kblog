@@ -9,7 +9,7 @@ tags:
  - 踩坑
  - C
 publish: true
-permalink: /109
+permalink: /article/109
 ---
 
 > 第 109 篇文章

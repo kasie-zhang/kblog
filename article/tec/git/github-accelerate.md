@@ -8,7 +8,7 @@ categories:
 tags:
 - git
 publish: true
-permalink: /120
+permalink: /article/120
 ---
 
 > 第 120 篇文章

@@ -9,7 +9,7 @@ tags:
 - 浏览器
 - 前端
 publish: true
-permalink: /84
+permalink: /article/84
 ---
 
 > 第 84 篇文章

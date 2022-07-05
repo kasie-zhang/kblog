@@ -11,7 +11,7 @@ tags:
 - JPA
 - 后端
 publish: true
-permalink: /44
+permalink: /article/44
 ---
 
 > 第 44 篇文章

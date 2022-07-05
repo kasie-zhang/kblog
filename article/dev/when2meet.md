@@ -8,7 +8,7 @@ categories:
 keys:
 - '2c39c02b7d80bd827e0f3cd88ca86f26'
 publish: true
-permalink: /8
+permalink: /article/8
 ---
 
 > 第 8 篇文章

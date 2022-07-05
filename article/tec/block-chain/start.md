@@ -8,7 +8,7 @@ categories:
 tags:
 - 区块链
 publish: true
-permalink: /64
+permalink: /article/64
 ---
 
 > 第 64 篇文章

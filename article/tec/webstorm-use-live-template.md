@@ -10,7 +10,7 @@ tags:
 - IDE
 - 配置
 publish: true
-permalink: /91
+permalink: /article/91
 ---
 
 > 第 91 篇文章

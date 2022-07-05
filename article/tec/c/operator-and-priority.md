@@ -9,7 +9,7 @@ categories:
 tags:
  - C
 publish: true
-permalink: /115
+permalink: /article/115
 ---
 
 > 第 115 篇文章

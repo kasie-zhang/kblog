@@ -12,7 +12,7 @@ tags:
 - Util
 - 邮件发送
 publish: true
-permalink: /83
+permalink: /article/83
 ---
 
 > 第 83 篇文章

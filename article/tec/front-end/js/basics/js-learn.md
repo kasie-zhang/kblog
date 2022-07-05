@@ -9,7 +9,7 @@ tags:
 - JavaScript
 - 前端
 publish: true
-permalink: /2
+permalink: /article/2
 ---
 
 > 第 2 篇文章

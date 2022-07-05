@@ -9,7 +9,7 @@ tags:
 - Frp
 - 内网穿透
 publish: true
-permalink: /51
+permalink: /article/51
 ---
 
 > 第 51 篇文章 

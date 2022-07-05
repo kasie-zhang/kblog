@@ -10,7 +10,7 @@ tags:
 - Python
 - IDE
 publish: true
-permalink: /1
+permalink: /article/1
 ---
  
 > 第 1 篇文章

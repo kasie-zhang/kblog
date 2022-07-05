@@ -10,7 +10,7 @@ tags:
 - 配置
 - 运维
 publish: true
-permalink: /52
+permalink: /article/52
 ---
 
 > 第 52 篇文章

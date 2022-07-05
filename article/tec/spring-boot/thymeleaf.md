@@ -11,7 +11,7 @@ tags:
 - Java
 - 后端
 publish: true
-permalink: /11
+permalink: /article/11
 ---
 
 > 第 11 篇文章

@@ -8,7 +8,7 @@ categories:
 tags:
 - 软件安装
 publish: true
-permalink: /17
+permalink: /article/17
 ---
 
 > 第 17 篇文章

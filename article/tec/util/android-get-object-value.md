@@ -9,7 +9,7 @@ tags:
 - Android
 - Util
 publish: true
-permalink: /39
+permalink: /article/39
 ---
 
 > 第 39 篇文章

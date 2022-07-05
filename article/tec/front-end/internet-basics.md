@@ -9,7 +9,7 @@ tags:
 - 互联网
 - 前端
 publish: true
-permalink: /18
+permalink: /article/18
 ---
 
 > 第 18 篇文章
