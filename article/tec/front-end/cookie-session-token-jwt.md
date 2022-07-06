@@ -1,7 +1,7 @@
 ---
 title: Cookie、Session、Token、JWT？
 date: 2021-05-21
-cover: /img/cover/85.webp
+cover: https://api.zk123.top/link/repo1/img/cover/85.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -58,7 +58,7 @@ permalink: /article/85
 - session 是另一种记录服务器和客户端会话状态的机制
 - session 是基于 cookie 实现的，session 存储在服务器端，sessionId 会被存储到客户端的cookie 中
 
-![image](/img/2020/cookie_1.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/cookie_1.jpg)
 
 - session 认证流程：
   - 用户第一次请求服务器的时候，服务器根据用户提交的相关信息，创建对应的 Session
@@ -93,7 +93,7 @@ permalink: /article/85
   - 安全
   - 支持跨程序调用
 - token 的身份验证流程：
-- ![image](/img/2020/cookie_2.jpg)
+- ![image](https://api.zk123.top/link/repo1/img/2020/cookie_2.jpg)
   - 每一次请求都需要携带 token，需要把 token 放到 HTTP 的 Header 里
   - 基于 token 的用户认证是一种服务端无状态的认证方式，服务端不用存放 token 数据。用解析 token 的计算时间换取 session 的存储空间，从而减轻服务器的压力，减少频繁的查询数据库
   - token 完全由应用管理，所以它可以避开同源策略
@@ -101,7 +101,7 @@ permalink: /article/85
 ### Refresh Token
 
 - 专用于刷新 access token 的 token。客户端直接用 refresh token 去更新 access token，无需用户进行额外的操作。
-- ![image](/img/2020/cookie_3.jpg)
+- ![image](https://api.zk123.top/link/repo1/img/2020/cookie_3.jpg)
 
 - Access Token 的有效期比较短，当 Acesss Token 由于过期而失效时，使用 Refresh Token 就可以获取到新的 Token，如果 Refresh Token 也失效了，用户就只能重新登录了。
 - Refresh Token 及过期时间是存储在服务器的数据库中，只有在申请新的 Acesss Token 时才会验证，不会对业务接口响应时间造成影响，也不需要向 Session 一样一直保持在内存中以应对大量的请求。
@@ -124,11 +124,11 @@ permalink: /article/85
 
 ## JWT 的原理
 
-- ![image](/img/2020/cookie_4.jpg)
+- ![image](https://api.zk123.top/link/repo1/img/2020/cookie_4.jpg)
 - JWT 认证流程：
   - 用户输入用户名/密码登录，服务端认证成功后，会返回给客户端一个 JWT
   - 客户端将 token 保存到本地（通常使用 localstorage，也可以使用 cookie）
-  - 当用户希望访问一个受保护的路由或者资源的时候，需要请求头的 Authorization 字段中使用Bearer 模式添加 JWT，其内容看起来是下面这样![image](/img/2020/cookie_5.jpg)
+  - 当用户希望访问一个受保护的路由或者资源的时候，需要请求头的 Authorization 字段中使用Bearer 模式添加 JWT，其内容看起来是下面这样![image](https://api.zk123.top/link/repo1/img/2020/cookie_5.jpg)
   - 服务端的保护路由将会检查请求头 Authorization 中的 JWT 信息，如果合法，则允许用户的行为
   - 因为 JWT 是自包含的（内部包含了一些会话信息），因此减少了需要查询数据库的需要
   - 因为 JWT 并不使用 Cookie 的，所以你可以使用任何域名提供你的 API 服务而不需要担心跨域资源共享问题（CORS）
@@ -185,7 +185,7 @@ permalink: /article/85
 
 ##  常见的加密算法
 
-![image](/img/2020/cookie_6.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/cookie_6.jpg)
 
 - 哈希算法(Hash Algorithm)又称散列算法、散列函数、哈希函数，是一种从任何一种数据中创建小的数字“指纹”的方法。哈希算法将数据重新打乱混合，重新创建一个哈希值。
 - 哈希算法主要用来保障数据真实性(即完整性)，即发信人将原始消息和哈希值一起发送，收信人通过相同的哈希函数来校验原始数据是否真实。

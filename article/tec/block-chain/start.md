@@ -1,7 +1,7 @@
 ---
 title: 初识区块链
 date: 2020-12-24
-cover: /img/cover/64.webp
+cover: https://api.zk123.top/link/repo1/img/cover/64.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -98,4 +98,4 @@ permalink: /article/64
 ## 哈希树
 一种树形数据结构，每个叶子节点均已`数据块的哈希`作为标签，除了叶子节点以外的节点则以其`子节点的标签的加密哈希`作为标签
 
-![](/img/2020/hash_tree.svg)
+![](https://api.zk123.top/link/repo1/img/2020/hash_tree.svg)

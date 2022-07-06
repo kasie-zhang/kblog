@@ -1,7 +1,7 @@
 ---
 title: C 语言语法元素
 date: 2020-09-23
-cover: /img/cover/32.webp
+cover: https://api.zk123.top/link/repo1/img/cover/32.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -173,4 +173,4 @@ int main() {
 
 ## 流程图&&算法
 
-![流程图](/img/2020/c_flow_chart.png)
+![流程图](https://api.zk123.top/link/repo1/img/2020/c_flow_chart.png)

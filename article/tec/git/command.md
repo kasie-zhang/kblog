@@ -1,7 +1,7 @@
 ---
 title: Git 命令大全
 date: 2020-12-30
-cover: /img/cover/67.webp
+cover: https://api.zk123.top/link/repo1/img/cover/67.webp
 sidebar: 'auto'
 categories:
 - 笔记

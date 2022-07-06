@@ -1,7 +1,7 @@
 ---
 title: Steve Jobs Stanford Report 2005
 date: 2021-1-20
-cover: /img/cover/68.webp
+cover: https://api.zk123.top/link/repo1/img/cover/68.webp
 sidebar: 'auto'
 categories:
 - 演讲

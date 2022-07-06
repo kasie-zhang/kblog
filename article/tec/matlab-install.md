@@ -1,7 +1,7 @@
 ---
 title: Matlab 2020a 安装教程
 date: 2020-12-02
-cover: /img/cover/48.webp
+cover: https://api.zk123.top/link/repo1/img/cover/48.webp
 sidebar: 'auto'
 categories:
 - 教程
@@ -22,29 +22,29 @@ permalink: /article/48
 ## 安装过程
 ### 1. 解压文件夹, 完成后的目录如下
 
-![](/img/2020/matlab_install_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/matlab_install_1.png)
 
 ### 2. 右键`MATLAB R2020a.iso`文件，选择`装载`
 
-![](/img/2020/matlab_install_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/matlab_install_2.png)
 
 ### 3. 装载成功后目录如下
 
-![](/img/2020/matlab_install_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/matlab_install_3.png)
 
 ### 4. 在该文件夹下，以管理员身份运行`setup.exe`
 
 ### 5. 接受条款，点击下一步
 
-![](/img/2020/matlab_install_4.png)
+![](https://api.zk123.top/link/repo1/img/2020/matlab_install_4.png)
 
 ### 6. 输入秘钥 `09806-07443-53955-64350-21751-41297`, 点击下一步
 
-![](/img/2020/matlab_install_5.png)
+![](https://api.zk123.top/link/repo1/img/2020/matlab_install_5.png)
 
 ### 7. 选择许可证文件 `license_standalone.lic`,在crack目录下
 
-![](/img/2020/matlab_install_6.png)
+![](https://api.zk123.top/link/repo1/img/2020/matlab_install_6.png)
 
 ### 8. 选择安装位置
 
@@ -55,7 +55,7 @@ permalink: /article/48
 ### 11. 开始安装 
 106个产品，30.83GB
 
-![](/img/2020/matlab_install_7.png)
+![](https://api.zk123.top/link/repo1/img/2020/matlab_install_7.png)
 
 ### 12. 安装完成后，使用crack目录下的`libmwlmgrimpl.dll`文件替换安装目录下的同名文件
 ```md
@@ -63,9 +63,9 @@ permalink: /article/48
 
 crack目录：`crack\bin\win64\matlab_startup_plugins\lmgrimpl\libmwlmgrimpl.dll`
 ```
-![](/img/2020/matlab_install_8.png)
+![](https://api.zk123.top/link/repo1/img/2020/matlab_install_8.png)
 
 ### 13. 破解完成
-![](/img/2020/matlab_install_9.png)
+![](https://api.zk123.top/link/repo1/img/2020/matlab_install_9.png)
 
 :rainbow: 大功告成 :rainbow:

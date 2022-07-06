@@ -1,7 +1,7 @@
 ---
 title: 【Vue之旅】-- 生命周期函数
 date: 2020-12-18
-cover: /img/cover/56.webp
+cover: https://api.zk123.top/link/repo1/img/cover/56.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -27,7 +27,7 @@ permalink: /article/56
     
     - `销毁期间`的生命周期函数
 
-![](/img/2020/vue_lifecycle_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/vue_lifecycle_1.png)
 
 ### 创建期间生命周期
 - **beforeCreated()**

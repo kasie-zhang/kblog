@@ -1,13 +1,13 @@
 ---
 title: C 位操作
 date: 2022-03-27
-cover: /img/cover/113.webp
+cover: https://api.zk123.top/link/repo1/img/cover/113.webp
 sidebar: 'auto'
 categories:
- - 笔记
- - C 语言
+- 笔记
+- C 语言
 tags:
- - C
+- C
 publish: true
 permalink: /article/113
 ---
@@ -37,7 +37,7 @@ permalink: /article/113
 
 有符号整数与二进制值的关系对照图如下:
 
-![](/img/2022/113_1.png)
+![](https://api.zk123.top/link/repo1/img/2022/113_1.png)
 
 ## 二进制浮点数
 浮点数分两部分存储：二进制小数和二进制指数。

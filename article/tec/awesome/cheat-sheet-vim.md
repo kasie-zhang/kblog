@@ -1,7 +1,7 @@
 ---
 title: Awesome-Cheat-Sheet-Vim
 date: 2020-09-08
-cover: /img/cover/24.webp
+cover: https://api.zk123.top/link/repo1/img/cover/24.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -16,7 +16,7 @@ permalink: /article/24
 > 第 24 篇文章
 <!-- more -->
 
-![Vim 速查表](/img/2020/vim-cheatsheet.png)
+![Vim 速查表](https://api.zk123.top/link/repo1/img/2020/vim-cheatsheet.png)
 
 > :arrow_right: **Vim 速查表** :arrow_left: 
 

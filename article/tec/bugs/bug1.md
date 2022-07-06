@@ -1,13 +1,13 @@
 ---
 title: 踩坑之 —— C long double 打印输出 0.000000
 date: 2022-02-26
-cover: /img/cover/106.webp
+cover: https://api.zk123.top/link/repo1/img/cover/106.webp
 sidebar: 'auto'
 categories:
- - 笔记
+- 笔记
 tags:
- - 踩坑
- - C
+- 踩坑
+- C
 publish: true
 permalink: /article/106
 ---
@@ -53,11 +53,11 @@ abc
 
 同时又由于 32 位的 MSVC 不支持更高精度的 double 类型（`在 32 位的 MSVC 中 long double 与 double 的精度均为 8 字节，64 bit`）。
 
-![](/img/2022/106_1.png)
+![](https://api.zk123.top/link/repo1/img/2022/106_1.png)
 
 而 GCC 在 32 位的操作系统中 long double 是 12 字节，96 bit，在 64 位操作系统中 long double 是 16 字节，128 bit，所以就出现了不兼容的问题。
 
-![](/img/2022/106_2.png)
+![](https://api.zk123.top/link/repo1/img/2022/106_2.png)
 
 简单说来就是，如果你用 MSVC 跑代码，不管写 double 还是 long double，都只占用 64bit，而转换说明 `%Lf` 在这种情况下只读取 64bit 的数据，所以能够正常显示。
 

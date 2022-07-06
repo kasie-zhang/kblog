@@ -1,7 +1,7 @@
 ---
 title: JavaScript var和let、const区别
 date: 2020-11-25
-cover: /img/cover/47.webp
+cover: https://api.zk123.top/link/repo1/img/cover/47.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -30,6 +30,6 @@ console.log(window.b);      // 'bbb'
 2. var 没有块级作用域，let有块级作用域
 
 例子：
-![](/img/2020/js_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/js_1.png)
 
 :::

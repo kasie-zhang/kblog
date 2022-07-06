@@ -1,6 +1,6 @@
 ---
 title: 算法刷题
-cover: /img/cover/10.webp
+cover: https://api.zk123.top/link/repo1/img/cover/10.webp
 date: 2020-07-27
 sidebar: 'auto'
 categories:

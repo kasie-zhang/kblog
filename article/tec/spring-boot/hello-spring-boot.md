@@ -1,7 +1,7 @@
 ---
 title: Hello SpringBoot
 date: 2020-07-25
-cover: /img/cover/9.webp
+cover: https://api.zk123.top/link/repo1/img/cover/9.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -39,7 +39,7 @@ permalink: /article/9
 
 ## 6.创建SpringBoot的第一个页面
 根据图片指示，在com.zk.chapter02目录下创建Controller文件夹，并创建helloController.java文件
-![](/img/2020/hello_spring_boot_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/hello_spring_boot_1.png)
 
 文件中写入:
 ```java
@@ -60,4 +60,4 @@ public class helloController {
 
 **项目预览：**
 
-![](/img/2020/hello_spring_boot_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/hello_spring_boot_2.png)

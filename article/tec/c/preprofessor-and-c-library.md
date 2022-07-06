@@ -1,13 +1,13 @@
 ---
 title: C 预处理器和C库
 date: 2022-04-4
-cover: /img/cover/114.webp
+cover: https://api.zk123.top/link/repo1/img/cover/114.webp
 sidebar: 'auto'
 categories:
- - 笔记
- - C 语言
+- 笔记
+- C 语言
 tags:
- - C
+- C
 publish: true
 permalink: /article/114
 ---

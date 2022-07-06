@@ -1,7 +1,7 @@
 ---
 title: 安装Java 并配置环境变量
 date: 2020-10-28
-cover: /img/cover/35.webp
+cover: https://api.zk123.top/link/repo1/img/cover/35.webp
 sidebar: 'auto'
 categories:
 - 教程
@@ -33,27 +33,27 @@ permalink: /article/35
 
 变量名 `JAVA_HOME`，变量值 电脑上JDK的安装路径如 `C:\Program Files\Java\jdk1.8.0_251`
 
-<img src="/img/2020/java_install_1.png"/>
+<img src="https://api.zk123.top/link/repo1/img/2020/java_install_1.png"/>
 
 
 2. 在系统变量中新建 `CLASSPATH`, 变量值为 `.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar`
 
-![](/img/2020/java_install_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/java_install_2.png)
 
 3. 在系统变量的Path中添加两条记录： `%JAVA_HOME%\bin;` 和 `%JAVA_HOME%\jre\bin;`
-![](/img/2020/java_install_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/java_install_3.png)
 
 ## 测试java是否安装成功
 打开 cmd 
 
 输入 `javac`,若提示不是内部或外部命令，则java安装失败，需要重新安装。
 
-![](/img/2020/java_install_4.png)
+![](https://api.zk123.top/link/repo1/img/2020/java_install_4.png)
 
 输入 `java -version` 若安装成功则显示：
 
-![](/img/2020/java_install_5.png)
+![](https://api.zk123.top/link/repo1/img/2020/java_install_5.png)
 
 输入 `java` 若安装成功则显示：
 
-![](/img/2020/java_install_6.png)
+![](https://api.zk123.top/link/repo1/img/2020/java_install_6.png)

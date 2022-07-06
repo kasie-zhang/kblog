@@ -1,7 +1,7 @@
 ---
 title: SpringBoot Application.properties
 date: 2020-11-20
-cover: /img/cover/45.webp
+cover: https://api.zk123.top/link/repo1/img/cover/45.webp
 sidebar: 'auto'
 categories:
 - 笔记

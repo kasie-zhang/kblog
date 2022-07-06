@@ -1,7 +1,7 @@
 ---
 title: Windows 10 键盘模拟鼠标左右键
 date: 2020-12-04
-cover: /img/cover/50.webp
+cover: https://api.zk123.top/link/repo1/img/cover/50.webp
 sidebar: 'auto'
 categories:
 - Tool
@@ -23,6 +23,6 @@ permalink: /article/50
 2. 进入`轻松使用`
 
 3. 找到`交互`下的`鼠标`选项
-![](/img/2020/keyboard_simulate_mouse_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/keyboard_simulate_mouse_1.png)
 
 4. 勾选上`使用小键盘控制鼠标`

@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 整合持久层技术
 date: 2020-07-31
-cover: /img/cover/13.webp
+cover: https://api.zk123.top/link/repo1/img/cover/13.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -19,7 +19,7 @@ permalink: /article/13
 
 ## 1.整合jdbcTemplate
 ### 1.1 创建数据库和表
-![](/img/2020/persistance_layer_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/persistance_layer_1.png)
 
 ### 1.2 创建SpringBoot项目
 项目中添加以下依赖：
@@ -197,11 +197,11 @@ public class BookController {
 ```
 执行之前数据库的数据信息:
 
-![](/img/2020/persistance_layer_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/persistance_layer_2.png)
 
 执行之后数据库的数据信息:
 
-![](/img/2020/persistance_layer_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/persistance_layer_3.png)
 
 :::details 结果分析
 原始数据库：
@@ -429,11 +429,11 @@ public class BookController {
 ### 2.6 测试使用效果
 测试前数据库截图：
 
-![](/img/2020/persistance_layer_4.png)
+![](https://api.zk123.top/link/repo1/img/2020/persistance_layer_4.png)
 
 测试后数据库截图：
 
-![](/img/2020/persistance_layer_5.png)
+![](https://api.zk123.top/link/repo1/img/2020/persistance_layer_5.png)
 
 测试成功！ :rainbow: :rainbow:
 

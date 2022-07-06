@@ -1,7 +1,7 @@
 ---
 title: 【Vue之旅】--基础
 date: 2020-12-15
-cover: /img/cover/55.webp
+cover: https://api.zk123.top/link/repo1/img/cover/55.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -16,7 +16,7 @@ permalink: /article/55
  <!-- more -->
 
 ## MVVM 概念
-![](/img/2020/vue_basics_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/vue_basics_1.png)
  
 ## Vue 和 MVVM 之间的对应关系
 - 新构造的 Vue 实例担任 VM 的角色
@@ -126,7 +126,7 @@ permalink: /article/55
     ``` 
     效果：
     
-    ![](/img/2020/vue_basics_2.png)
+    ![](https://api.zk123.top/link/repo1/img/2020/vue_basics_2.png)
     
 ## v-bind
 - **缩写：** `:`

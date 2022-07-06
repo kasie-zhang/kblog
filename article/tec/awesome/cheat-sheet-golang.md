@@ -1,7 +1,7 @@
 ---
 title: Awesome-Cheat-Sheet-Golang
 date: 2020-09-08
-cover: /img/cover/26.webp
+cover: https://api.zk123.top/link/repo1/img/cover/26.webp
 sidebar: 'auto'
 categories:
 - 笔记

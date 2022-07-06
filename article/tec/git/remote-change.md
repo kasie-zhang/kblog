@@ -1,7 +1,7 @@
 ---
 title: Git 变更远程仓库
 date: 2020-09-17
-cover: /img/cover/29.webp
+cover: https://api.zk123.top/link/repo1/img/cover/29.webp
 sidebar: 'auto'
 categories:
 - 笔记

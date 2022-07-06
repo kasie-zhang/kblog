@@ -1,6 +1,6 @@
 ---
 title: Awesome-Cheat-Sheet-Git
-cover: /img/cover/27.webp
+cover: https://api.zk123.top/link/repo1/img/cover/27.webp
 date: 2020-09-08
 sidebar: 'auto'
 categories:

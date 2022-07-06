@@ -1,7 +1,7 @@
 ---
 title: 【Vue之旅】-- 路由
 date: 2020-12-21
-cover: /img/cover/62.webp
+cover: https://api.zk123.top/link/repo1/img/cover/62.webp
 sidebar: 'auto'
 categories:
 - 笔记

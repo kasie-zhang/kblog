@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 整合邮件发送
 date: 2021-05-19
-cover: /img/cover/83.webp
+cover: https://api.zk123.top/link/repo1/img/cover/83.webp
 sidebar: 'auto'
 categories:
 - 笔记

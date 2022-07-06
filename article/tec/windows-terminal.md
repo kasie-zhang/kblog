@@ -1,7 +1,7 @@
 ---
 title: Windows Terminal 配置
 date: 2020-11-13
-cover: /img/cover/40.webp
+cover: https://api.zk123.top/link/repo1/img/cover/40.webp
 sidebar: 'auto'
 categories:
 - 教程

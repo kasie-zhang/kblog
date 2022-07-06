@@ -1,7 +1,7 @@
 ---
 title: 浏览器是如何运作的？
 date: 2021-05-20
-cover: /img/cover/84.webp
+cover: https://api.zk123.top/link/repo1/img/cover/84.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -55,7 +55,7 @@ permalink: /article/84
 
 7. **数据存储**:这是一个持久层。浏览器可能需要在本地保存各种数据，例如cookie。浏览器还支持存储机制，例如localStorage，IndexedDB，WebSQL和FileSystem。
 
-   ![img](/img/2020/front_end_1.png)
+   ![img](https://api.zk123.top/link/repo1/img/2020/front_end_1.png)
 
 注意：Chrome等浏览器运行渲染引擎的多个实例：每个选项卡一个。每个选项卡在单独的过程中运行。
 
@@ -71,7 +71,7 @@ permalink: /article/84
 
 然后进行以下所示的**基本流程**：
 
-![img](/img/2020/front_end_2.png)
+![img](https://api.zk123.top/link/repo1/img/2020/front_end_2.png)
 
 渲染引擎将开始解析HTMl文档，并将各标记逐个转化成“内容树”上的**[DOM](#DOM)结点**。同时也会解析外部CSS文件以及样式元素中的样式数据。HTML中这些带有视觉指令的样式信息将用于创建另一个树结构：“[呈现树](#呈现树的构建)”
 
@@ -85,13 +85,13 @@ permalink: /article/84
 
 **WebKit 主流程**
 
-![](/img/2020/front_end_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/front_end_3.png)
 
 
 
 **Mozilla 的 Gecko 呈现引擎主流程**
 
-![img](/img/2020/front_end_4.png)
+![img](https://api.zk123.top/link/repo1/img/2020/front_end_4.png)
 
 
 
@@ -103,7 +103,7 @@ permalink: /article/84
 
 示例 - 解析 2 + 3 - 1 这个表达式，会返回下面的树：
 
-![img](/img/2020/front_end_5.png)
+![img](https://api.zk123.top/link/repo1/img/2020/front_end_5.png)
 
 
 
@@ -117,7 +117,7 @@ permalink: /article/84
 
 从源文档到解析树：
 
-![img](/img/2020/front_end_6.png)
+![img](https://api.zk123.top/link/repo1/img/2020/front_end_6.png)
 
 解析是一个迭代的过程。通常，解析器会向词法分析器请求一个新标记，并尝试将其与某条语法规则进行匹配。如果发现了匹配规则，解析器会将一个对应于该标记的节点添加到解析树中，然后继续请求下一个标记。
 
@@ -129,7 +129,7 @@ permalink: /article/84
 
 编译流程：
 
-![img](/img/2020/front_end_7.png)
+![img](https://api.zk123.top/link/repo1/img/2020/front_end_7.png)
 
 
 
@@ -190,7 +190,7 @@ DOM 与标记之间几乎是一一对应的关系。比如下面这段标记：
 
 可以翻译成如下的DOM树：
 
-![img](/img/2020/front_end_8.png "示例标记的DOM树")
+![img](https://api.zk123.top/link/repo1/img/2020/front_end_8.png "示例标记的DOM树")
 
 和HTML一样，DOM也是由W3C组织指定的。参见[www.w3.org/DOM/DOMTR](https://www.w3.org/DOM/DOMTR)。这是关于文档操作的通用规范。其中一个特定模块针对HTML的元素。HTML的定义：[html2.idl](#html2.idl)
 
@@ -270,7 +270,7 @@ RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
 
 有一些呈现对象对应于 DOM 节点，但在树中所在的位置与 DOM 节点不同。浮动定位和绝对定位的元素就是这样，它们处于正常的流程之外，放置在树中的其他地方，并映射到真正的框架，而放在原位的是占位框架。
 
-![markdown](/img/2020/front_end_9.png)
+![markdown](https://api.zk123.top/link/repo1/img/2020/front_end_9.png)
 
 ***图：呈现树及其对应的DOM树。初始容器block为“viewport”，而在WebKit中则为“RenderView”对象***
 
@@ -320,7 +320,7 @@ RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
 
   - 为了简化样式计算，Firefox 还采用了另外两种树：规则树和样式上下文树。WebKit 也有样式对象，但它们不是保存在类似样式上下文树这样的树结构中，只是由 DOM 节点指向此类对象的相关样式。
 
-  - ![](/img/2020/front_end_10.png)
+  - ![](https://api.zk123.top/link/repo1/img/2020/front_end_10.png)
 
   - 样式上下文包含端值。要计算出这些值，应按照正确顺序应用所有的匹配规则，并将其从逻辑值转化为具体的值。例如，如果逻辑值是屏幕大小的百分比，则需要换算成绝对的单位。规则树的点子真的很巧妙，它使得节点之间可以共享这些值，以避免重复计算，还可以节约空间。
 
@@ -328,7 +328,7 @@ RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
 
   - 这个想法相当于将规则树路径视为词典中的单词。如果我们已经计算出如下的规则树：
 
-  - ![img](/img/2020/front_end_11.png)
+  - ![img](https://api.zk123.top/link/repo1/img/2020/front_end_11.png)
 
   - 假设我们需要为内容树中的另一个元素匹配规则，并且找到匹配路径是 B - E - I（按照此顺序）。由于我们在树中已经计算出了路径 A - B - E - I - L，因此就已经有了此路径，这就减少了现在所需的工作量。
 

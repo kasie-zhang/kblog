@@ -1,7 +1,7 @@
 ---
 title: Python 实现批量重命名文件
 date: 2020-09-06
-cover: /img/cover/23.webp
+cover: https://api.zk123.top/link/repo1/img/cover/23.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -55,5 +55,5 @@ print("重命名完成！")
 
 ## 使用实例
 
-![](/img/2020/rename_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/rename_1.png)
 

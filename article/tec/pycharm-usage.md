@@ -1,7 +1,7 @@
 ---
 title: Pycharm使用教程
 date: 2019-03-08
-cover: /img/cover/1.webp
+cover: https://api.zk123.top/link/repo1/img/cover/1.webp
 sidebar: 'auto'
 categories:
 - 教程
@@ -23,7 +23,7 @@ permalink: /article/1
 
 Setting（设置）中找到 Plugins，然后在Marketplace下方进行相关插件的搜索。
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny0xNTFjOTEzM2UyYTA1YmU5LnBuZw)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny0xNTFjOTEzM2UyYTA1YmU5LnBuZw)
 
 ## 推荐一些插件
 
@@ -39,15 +39,15 @@ Setting（设置）中找到 Plugins，然后在Marketplace下方进行相关插
 
 能让你在pycharm的界面中直接使用Markdown，使用的方法是新建file，直接命名为（xxxxx.md)
 
- ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny02MmQ0ZGYxMzllZGQ0YTMwLnBuZw)
+ ![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny02MmQ0ZGYxMzllZGQ0YTMwLnBuZw)
 
 实际的效果如下:
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny00YTdjYzI0NzFhOTI4NmE5LnBuZw)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny00YTdjYzI0NzFhOTI4NmE5LnBuZw)
 
 那么写好的文档怎么导出呢？	field->Save As ； 选择需要保存的地址即可
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny1hYWM3MmQ4ZWU0Mjk5NzNjLnBuZw)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny1hYWM3MmQ4ZWU0Mjk5NzNjLnBuZw)
 
 ### 4.Background Image Plus
 
@@ -55,7 +55,7 @@ Setting（设置）中找到 Plugins，然后在Marketplace下方进行相关插
 
 View->Set Background Image; 进行图片的选择和设置
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny0xYzI1MmQ3YzA2MWIyMDk1LnBuZw)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xODQzNjY2Ny0xYzI1MmQ3YzA2MWIyMDk1LnBuZw)
 
 [参考博客](https://blog.csdn.net/stormdony/article/details/90261391)
 
@@ -177,43 +177,43 @@ pycharm的Terminal界面中输入
 下面要用到，所以顺着步骤先做了
 - 1.点击克隆/下载按钮
 - 2.复制仓库的地址
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sR0g4UC5qcGc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sR0g4UC5qcGc)
 ### 3.下载gitee插件
 pycharm菜单栏打开setting，左侧选择Plugins,在Marketplace搜索gitee，安装插件，安装完成后重启pycharm。
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sSjNyRC5qcGc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sSjNyRC5qcGc)
 
 ### 4.登录码云账号
 setting选择 Version Control中的Gitee
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sSnJxZy5qcGc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sSnJxZy5qcGc)
 点击右上角的加号来登录,账号和密码就是你码云的账号和密码
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sSnlaUS5qcGc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sSnlaUS5qcGc)
 
 ### 5.设置本地仓库
 本地仓库是每次代码提交的地方，将代码存至本地仓库后再pull到码云上
-打开VCS，选中Import into Version Control，再选中 Creat Git Respository![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sWTlkSC5wbmc)
+打开VCS，选中Import into Version Control，再选中 Creat Git Respository![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sWTlkSC5wbmc)
 在硬盘上建立一个文件夹存储python文件
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sWUVTUC5qcGc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sWUVTUC5qcGc)
 
 ### 6.将想要上传的文件+Add
 +Add相当于是把文件放到一个缓冲区，你可以重复选择多个文件进行Add操作
 鼠标右键当前选中文件，选中Git，选中Add
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzIwL21KNkVTeC5wbmc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzIwL21KNkVTeC5wbmc)
 
 ### 7.提交要上传的文件
 左上角可以选择需要上传的文件，显示的文件即刚才进行Add操作的文件，你可以在Commit Message中对于这次上传进行备注。最后确定好后，点击下方的commit
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzIwL21KNlI3NC5qcGc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzIwL21KNlI3NC5qcGc)
 
 ### 8.进行pull操作
 选中Git，选中Respository，选中Push
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sWWh0QS5wbmc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sWWh0QS5wbmc)
 弹出Push Commits(这是绑定了码云仓库地址后），没有绑定地址的会弹出绑定仓库地址的提示框，提示框中的网址就是上面步骤中复制的：忘记网址怎么获取的同学于可以拉到文章底部，定位到相关步骤！
 [^1]:仓库地址
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sWUlwdC5qcGc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sWUlwdC5qcGc)
 提示push成功
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sdHVqSy5qcGc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sdHVqSy5qcGc)
 去码云查看是否上传成功
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sdDNBSC5qcGc)
+![](https:/https://api.zk123.top/link/repo1/imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDE5LzA4LzE5L21sdDNBSC5qcGc)
 显示上传成功！
 这就是pycharm上传码云的全部流程了。
 

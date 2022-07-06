@@ -1,7 +1,7 @@
 ---
 title: IDE 插件大全
 date: 2020-12-20
-cover: /img/cover/60.webp
+cover: https://api.zk123.top/link/repo1/img/cover/60.webp
 sidebar: 'auto'
 categories:
 - 笔记

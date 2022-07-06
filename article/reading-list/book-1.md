@@ -1,14 +1,14 @@
 ---
 title: 【读书分享】《我已与一万亿株白桦相逢》
 date: 2022-02-24
-cover: /img/cover/105.webp
+cover: https://api.zk123.top/link/repo1/img/cover/105.webp
 sidebar: 'auto'
 categories:
- - 读书分享
+- 读书分享
 tags:
- - 人文
- - 游记
- - 书摘
+- 人文
+- 游记
+- 书摘
 publish: true
 permalink: /article/105
 ---
@@ -22,4 +22,4 @@ permalink: /article/105
 
 本文描绘了作者游历西伯利亚途中的所见，所闻，所想。以其之眼带你游历西伯利亚。
 
-![封面](/img/2022/105_1.webp)
+![封面](https://api.zk123.top/link/repo1/img/2022/105_1.webp)

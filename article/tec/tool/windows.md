@@ -1,7 +1,7 @@
 ---
 title: Windows 装机必备,效率提升MAX!
 date: 2020-12-08
-cover: /img/cover/53.webp
+cover: https://api.zk123.top/link/repo1/img/cover/53.webp
 sidebar: 'auto' 
 categories:
 - 教程 
@@ -25,7 +25,7 @@ Windows可以说是我平时使用最多的系统了,今天推荐一些在Window
 
 Geek Uninstaller 是一款极简、超轻便的卸载管理软件，**免安装**，卸载完软件的同时清理软件无用的注册表。
 
-![](/img/2020/windows_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/windows_1.png)
 
 [官网下载地址](https://geekuninstaller.com/)
 
@@ -35,7 +35,7 @@ Everything 借助强大算法，快速扫描计算机磁盘，并提供索引，
 
 你可以在这里搜到电脑中的 everything.
 
-![](/img/2020/windows_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/windows_2.png)
 
 [官网下载地址](https://www.voidtools.com/zh-cn/)
 
@@ -43,7 +43,7 @@ Everything 借助强大算法，快速扫描计算机磁盘，并提供索引，
 
 非常棒的截图软件,支持修改截图,功能强大。
 
-![](/img/2020/windows_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/windows_3.png)
 
 [下载地址](http://f.zk123.top/s/fscapture.zip)
 

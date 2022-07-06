@@ -1,7 +1,7 @@
 ---
 title: Puppeteer 使用教程
 date: 2020-09-01
-cover: /img/cover/20.webp
+cover: https://api.zk123.top/link/repo1/img/cover/20.webp
 sidebar: 'auto'
 categories:
 - 教程
@@ -74,7 +74,7 @@ node example.js
 
 得到截图：
 
-![puppeteer_basics_1](/img/2020/puppeteer_basics_1.png)
+![puppeteer_basics_1](https://api.zk123.top/link/repo1/img/2020/puppeteer_basics_1.png)
 
 
 
@@ -118,7 +118,7 @@ node generatePdf.js
 
 得到网页的PDF
 
-![puppeteer_basics_2](/img/2020/puppeteer_basics_2.png)
+![puppeteer_basics_2](https://api.zk123.top/link/repo1/img/2020/puppeteer_basics_2.png)
 
 
 

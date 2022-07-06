@@ -1,7 +1,7 @@
 ---
 title: SpringBoot MyBatis
 date: 2020-11-20
-cover: /img/cover/43.webp
+cover: https://api.zk123.top/link/repo1/img/cover/43.webp
 sidebar: 'auto'
 categories:
 - 笔记

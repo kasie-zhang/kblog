@@ -1,7 +1,7 @@
 ---
 title: 加班与效率
 date: 2021-07-29
-cover: /img/cover/90.webp
+cover: https://api.zk123.top/link/repo1/img/cover/90.webp
 sidebar: 'auto'
 categories:
 - 杂谈

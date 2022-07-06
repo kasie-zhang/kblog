@@ -1,7 +1,7 @@
 ---
 title: SpringBoot导出JSON文件并下载
 date: 2021-04-25
-cover: /img/cover/81.webp
+cover: https://api.zk123.top/link/repo1/img/cover/81.webp
 sidebar: 'auto'
 categories:
 - 笔记

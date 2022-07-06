@@ -1,7 +1,7 @@
 ---
 title: C 语言程序设计设计概述
 date: 2020-09-23
-cover: /img/cover/31.webp
+cover: https://api.zk123.top/link/repo1/img/cover/31.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -45,7 +45,7 @@ int main()
 }
 ```
 
-![](/img/2020/c_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/c_1.png)
 
 穷举法是计算机求解问题最常用的一种方法。
 
@@ -76,7 +76,7 @@ C语言描述中需要注意一下几点：
 
 ## C语言发展历史和现状
 
-![C语言"家族谱"](/img/2020/c_history.png)
+![C语言"家族谱"](https://api.zk123.top/link/repo1/img/2020/c_history.png)
 
 ## C语言特点
 

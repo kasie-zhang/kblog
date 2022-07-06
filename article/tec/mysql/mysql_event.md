@@ -1,13 +1,13 @@
 ---
 title: MySQL 事件
 date: 2022-04-18
-cover: /img/cover/119.webp
+cover: https://api.zk123.top/link/repo1/img/cover/119.webp
 sidebar: 'auto'
 categories:
- - 笔记
+- 笔记
 tags:
- - MySQL
- - 定时任务
+- MySQL
+- 定时任务
 publish: true
 permalink: /article/119
 ---

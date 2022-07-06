@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 打包部署
 date: 2021-04-15
-cover: /img/cover/73.webp
+cover: https://api.zk123.top/link/repo1/img/cover/73.webp
 sidebar: 'auto'
 categories:
 - 笔记

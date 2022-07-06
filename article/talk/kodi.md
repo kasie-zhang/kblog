@@ -1,7 +1,7 @@
 ---
 title: Kodi 初体验
 date: 2022-02-12
-cover: /img/cover/100.webp
+cover: https://api.zk123.top/link/repo1/img/cover/100.webp
 sidebar: 'auto'
 categories:
 - 杂谈
@@ -24,9 +24,9 @@ There is the Home Page [https://kodi.tv/](https://kodi.tv/)
 
 You can build your film library like this:
 
-![](/img/2022/100_1.webp)
+![](https://api.zk123.top/link/repo1/img/2022/100_1.webp)
 
-![](/img/2022/100_2.webp)
+![](https://api.zk123.top/link/repo1/img/2022/100_2.webp)
 
 
 ## Set The Language(Chinese)
@@ -39,7 +39,7 @@ You can build your film library like this:
 
 - Step 2: Get Film and TV Series information from `IMDB` 、`TMDB` or other DataBase.
 
-![](/img/2022/100_3.png)
+![](https://api.zk123.top/link/repo1/img/2022/100_3.png)
 
 When Kodi finishes scanning files, restart Kodi and all is done.
 

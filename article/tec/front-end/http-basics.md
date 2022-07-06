@@ -1,7 +1,7 @@
 ---
 title: 图解HTTP
 date: 2021-05-22
-cover: /img/cover/86.webp
+cover: https://api.zk123.top/link/repo1/img/cover/86.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -21,7 +21,7 @@ HTTP是超文本传输协议，HyperText Transfer Protocol。
 
 HTTP可以被拆成三部分：
 
-![9f222b36-b89c-4244-adba-940b154a2c9a-3807603](/img/2020/http_basics_1.png)
+![9f222b36-b89c-4244-adba-940b154a2c9a-3807603](https://api.zk123.top/link/repo1/img/2020/http_basics_1.png)
 
 1. 协议
 >- HTTP是一个用于计算机世界中的协议，它使用计算机能够理解的语言确立了一种计算机之间交流通信的规范（两个以上的参与者），以及相关的各种控制和错误处理方式（行为约定和规范）。
@@ -94,7 +94,7 @@ HTTP可以被拆成三部分：
 
 客户端发送请求时，用来指定服务器的域名。
 
-![image](/img/2020/http_basics_2.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_2.jpg)
 
 有了Host字段，就可以将请求发往 同一台 服务器上的不同网站。
 
@@ -102,7 +102,7 @@ HTTP可以被拆成三部分：
 
 服务器在返回数据时，会有Content-Length字段，表明本次回应的数据长度。
 
-![image](/img/2020/http_basics_3.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_3.jpg)
 
 Content-Length: 1000
 
@@ -112,7 +112,7 @@ Content-Length: 1000
 
 Connection字段最常用于客户端要求服务器使用TCP持久连接，以便其他请求复用。
 
-![image](/img/2020/http_basics_4.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_4.jpg)
 
 HTTP/1.1 版本的默认连接都是持久连接，但为了兼容老版本的 HTTP，需要指定 Connection 首部字段的值为 Keep-Alive。
 
@@ -122,7 +122,7 @@ HTTP/1.1 版本的默认连接都是持久连接，但为了兼容老版本的 H
 
 用于服务器回应时，告诉客户端，本次数据是什么格式。
 
-![image](/img/2020/http_basics_5.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_5.jpg)
 
 Content-Type: text/html; charset=utf-8
 
@@ -138,7 +138,7 @@ Accept："/"       表示可以接受任意格式的数据
 
 说明数据的压缩方法。表示服务器返回的数据使用了什么压缩格式。
 
-![image](/img/2020/http_basics_6.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_6.jpg)
 
 Content-Encoding: gzip
 
@@ -156,7 +156,7 @@ Get方法的含义是从服务器获取资源，这个资源可以是静态的�
 
 比如，你打开我的文章，浏览器就会发送 GET 请求给服务器，服务器就会返回文章的所有文字及资源。
 
-![image](/img/2020/http_basics_7.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_7.jpg)
 
 而Post方法则是相反操作，它向URL指定的资源提交数据，数据就放在报文的body里。
 
@@ -195,7 +195,7 @@ POST因为是 **新增或提交数据** 的操作，会修改服务器上的资�
   - 无状态的坏处：在完成有关联性的操作时会非常麻烦，例如 登录->添加购物车->下单->结算->支付，这一系列操作都需要知道用户的身份但是服务器不知道这些请求是有关联的，每次都要问一遍身份信息。
   - 对于无状态的问题，解决方案有很多，其中比较简单的是Cookie技术，Cookie通过在请求和响应报文中写入Cookie信息来控制客户端的状态。相当于，在客户端第一次请求后，服务器会下发一个装有客户信息的小贴纸，后续客户端请求服务器的时候，带上小贴纸，服务器就能够识别了。
 
-![image](/img/2020/http_basics_8.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_8.jpg)
 
 
 
@@ -216,7 +216,7 @@ POST因为是 **新增或提交数据** 的操作，会修改服务器上的资�
   - 为了解决上述TCP连接问题，HTTP/1.1提出了长连接的通信方式，也叫持久连接。这种方式减少了TCP连接的重复建立和断开所造成的额外开销，减轻了服务器端的负载。
   - 持久连接的特点是，只要任意一段没有明确提出断开连接，则保持TCP连接状态。
 
-![image](/img/2020/http_basics_9.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_9.jpg)
 
 - 管道网络传输
   - HTTP/1.1采用了长连接的方式，这使得管道网络传输成为了可能。
@@ -224,13 +224,13 @@ POST因为是 **新增或提交数据** 的操作，会修改服务器上的资�
   - 举例：客户端需要两个资源。以前的做法是，在同一个TCP连接里，先发送A请求，等待服务器做出回应，受到后再发出B请求。管到机制则是允许浏览器同时发出A请求和B请求。
   - 但是服务器还是会按照顺序，先回应A请求，完成后再回应B请求。要是前面回应的特别慢，后面就会有许多请求排队等着，这称为 **队头堵塞**。
 
-![image](/img/2020/http_basics_10.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_10.jpg)
 
 - 队头堵塞
   - 请求-应答的模式加剧了HTTP的性能问题。
   - 因为当顺序发送的请求序列中的一个请求因为某种原因被阻塞时，再后面排队的所有请求也一同被阻塞了，会招致客户端一直请求不到数据，这也就是队头阻塞。
 
-![image](/img/2020/http_basics_11.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_11.jpg)
 
 总之 HTTP/1.1的性能一般般，后续的HTTP/2和HTTP/3就是在优化HTTP的性能。
 
@@ -247,7 +247,7 @@ POST因为是 **新增或提交数据** 的操作，会修改服务器上的资�
 
 ## HTTPS 解决了 HTTP 的哪些问题？
 
-![image](/img/2020/http_basics_12.jpg)
+![image](https://api.zk123.top/link/repo1/img/2020/http_basics_12.jpg)
 
 - HTTP 由于是明文传输，所以安全上存在以下三个风险：
   - 窃听风险，比如通信链路上可以获取通信内容，用户号容易没。
@@ -264,7 +264,7 @@ POST因为是 **新增或提交数据** 的操作，会修改服务器上的资�
 
 - 1.混合加密
   - 通过混合加密的方式可以保证信息的机密性，解决了窃听的风险。
-  - ![image](/img/2020/http_basics_13.jpg)
+  - ![image](https://api.zk123.top/link/repo1/img/2020/http_basics_13.jpg)
   - HTTPS 采用的是对称加密和非对称加密结合的「混合加密」方式：
     - 在通信建立前采用非对称加密的方式交换「会话秘钥」，后续就不再使用非对称加密。
     - 在通信过程中全部使用对称加密的「会话秘钥」的方式加密明文数据。
@@ -273,14 +273,14 @@ POST因为是 **新增或提交数据** 的操作，会修改服务器上的资�
     - 非对称加密使用两个密钥：公钥和私钥，公钥可以任意分发而私钥保密，解决了密钥交换问题但速度慢。
 - 2.摘要算法
   - 摘要算法用来实现完整性，能够为数据生成独一无二的「指纹」，用于校验数据的完整性，解决了篡改的风险。
-  - ![image](/img/2020/http_basics_14.jpg)
+  - ![image](https://api.zk123.top/link/repo1/img/2020/http_basics_14.jpg)
   - 客户端在发送明文之前会通过摘要算法算出明文的「指纹」，发送的时候把「指纹 + 明文」一同发送
   - 加密成密文后，发送给服务器，服务器解密后，用相同的摘要算法算出发送过来的明文，通过比较客户端携带的「指纹」和当前算出的「指纹」做比较，若「指纹」相同，说明数据是完整的。
 - 3.数字证书
   - 客户端先向服务器端索要公钥，然后用公钥加密信息，服务器收到密文后，用自己的私钥解密。
   - 如何保证公钥不被篡改和信任度？
     - 需要借助第三方权威机构 CA （数字证书认证机构），将服务器公钥放在数字证书（由数字证书认证机构颁发）中，只要证书是可信的，公钥就是可信的。
-    - ![image](/img/2020/http_basics_15.jpg)
+    - ![image](https://api.zk123.top/link/repo1/img/2020/http_basics_15.jpg)
   - 通过数字证书的方式保证服务器公钥的身份，解决冒充的风险。
 
 ## HTTPS 是如何建立连接的？其间交互了什么？
@@ -290,7 +290,7 @@ POST因为是 **新增或提交数据** 的操作，会修改服务器上的资�
   - 双方协商生产「会话秘钥」。
   - 双方采用「会话秘钥」进行加密通信。
 - 前两步也就是 SSL/TLS 的建立过程，也就是握手阶段。SSL/TLS 的「握手阶段」涉及四次通信，可见下图：
-- ![image](/img/2020/http_basics_16.jpg)
+- ![image](https://api.zk123.top/link/repo1/img/2020/http_basics_16.jpg)
 
 - SSL/TLS 协议建立的详细流程：
 
@@ -340,18 +340,18 @@ POST因为是 **新增或提交数据** 的操作，会修改服务器上的资�
   -  2.二进制格式
     - HTTP/2 不再像 HTTP/1.1 里的纯文本形式的报文，而是全面采用了二进制格式。
     - 头信息和数据体都是二进制，并且统称为帧（frame）：头信息帧和数据帧。因为计算机只懂二进制，那么收到报文后，无需再将明文的报文转成二进制，而是直接解析二进制报文，这增加了数据传输的效率。
-    - ![image](/img/2020/http_basics_17.jpg)
+    - ![image](https://api.zk123.top/link/repo1/img/2020/http_basics_17.jpg)
   - 3.数据流
     - HTTP/2 的数据包不是按顺序发送的，同一个连接里面连续的数据包，可能属于不同的回应。因此，必须要对数据包做标记，指出它属于哪个回应。
     - 每个请求或回应的所有数据包，称为一个数据流（Stream）。
     - 每个数据流都标记着一个独一无二的编号，其中规定客户端发出的数据流编号为奇数， 服务器发出的数据流编号为偶数
     - 客户端还可以指定数据流的优先级。优先级高的请求，服务器就先响应该请求。
-    - ![image](/img/2020/http_basics_18.jpg)
+    - ![image](https://api.zk123.top/link/repo1/img/2020/http_basics_18.jpg)
   - 4.多路复用
     - HTTP/2 是可以在一个连接中并发多个请求或回应，而不用按照顺序一一对应。
     - 移除了 HTTP/1.1 中的串行请求，不需要排队等待，也就不会再出现「队头阻塞」问题，降低了延迟，大幅度提高了连接的利用率。
     - 举例来说，在一个 TCP 连接里，服务器收到了客户端 A 和 B 的两个请求，如果发现 A 处理过程非常耗时，于是就回应 A 请求已经处理好的部分，接着回应 B 请求，完成后，再回应 A 请求剩下的部分。
-    - ![image](/img/2020/http_basics_19.jpg)
+    - ![image](https://api.zk123.top/link/repo1/img/2020/http_basics_19.jpg)
   - 5.服务器推送
     - HTTP/2 还在一定程度上改善了传统的「请求 - 应答」工作模式，服务不再是被动地响应，也可以主动向客户端发送消息。
     - 举例来说，在浏览器刚请求 HTML 的时候，就提前把可能会用到的 JS、CSS 文件等静态资源主动发给客户端，减少延时的等待，也就是服务器推送（Server Push，也叫 Cache Push）。
@@ -360,9 +360,9 @@ POST因为是 **新增或提交数据** 的操作，会修改服务器上的资�
     - HTTP/1.1 中的管道（ pipeline）传输中如果有一个请求阻塞了，那么队列后请求也统统被阻塞住了
     - HTTP/2 多请求复用一个TCP连接，一旦发生丢包，就会阻塞住所有的 HTTP 请求。
   - 这都是基于 TCP 传输层的问题，所以 HTTP/3 把 HTTP 下层的 TCP 协议改成了 UDP！
-  - ![image](/img/2020/http_basics_20.jpg)
+  - ![image](https://api.zk123.top/link/repo1/img/2020/http_basics_20.jpg)
   - UDP 发生是不管顺序，也不管丢包的，所以不会出现 HTTP/1.1 的队头阻塞 和 HTTP/2 的一个丢包全部重传问题。大家都知道 UDP 是不可靠传输的，但基于 UDP 的 QUIC 协议 可以实现类似 TCP 的可靠性传输。
-  - ![image](/img/2020/http_basics_21.jpg)
+  - ![image](https://api.zk123.top/link/repo1/img/2020/http_basics_21.jpg)
     - QUIC 有自己的一套机制可以保证传输的可靠性的。当某个流发生丢包时，只会阻塞这个流，其他流不会受到影响。
     - TL3 升级成了最新的 1.3 版本，头部压缩算法也升级成了 QPack。
     - HTTPS 要建立一个连接，要花费 6 次交互，先是建立三次握手，然后是 TLS/1.3 的三次握手。QUIC 直接把以往的 TCP 和 TLS/1.3 的 6 次交互合并成了 3 次，减少了交互次数。所以， QUIC 是一个在 UDP 之上的伪 TCP + TLS + HTTP/2 的多路复用的协议。

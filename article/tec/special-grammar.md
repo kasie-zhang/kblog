@@ -1,6 +1,6 @@
 ---
 title: 特殊字符,希腊字母
-cover: /img/cover/77.webp
+cover: https://api.zk123.top/link/repo1/img/cover/77.webp
 date: 2021-04-22
 sidebar: 'auto'
 categories:

@@ -1,7 +1,7 @@
 ---
 title: KLink
 date: 2022-02-22
-cover: /img/cover/102.webp
+cover: https://api.zk123.top/link/repo1/img/cover/102.webp
 sidebar: 'auto'
 categories:
 - Tool

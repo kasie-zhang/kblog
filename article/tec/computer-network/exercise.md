@@ -1,7 +1,7 @@
 ---
 title: 计算机网络实验【汇总】
 date: 2020-12-28
-cover: /img/cover/66.webp
+cover: https://api.zk123.top/link/repo1/img/cover/66.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -38,7 +38,7 @@ permalink: /article/66
 
 - EIA-586 标准(制作交叉线)
 
-![](/img/2020/computer_network_EIA-586.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_EIA-586.png)
 
 1、2 号线 负责`发送数据`
 
@@ -49,7 +49,7 @@ permalink: /article/66
 ### 实验
 1. **服务器配置**
 
-![](/img/2020/computer_network_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_1.png)
 
 2. PC 设置动态获取IP地址
 
@@ -78,7 +78,7 @@ permalink: /article/66
 
 1. **网络拓扑图**
 
-![](/img/2020/computer_network_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_2.png)
 
 2. 实验步骤
     - 1. 建立DNS服务器, 配置服务器的`IP地址`、`Subnet Mask`、`GateWay`、`DNS Server`
@@ -87,7 +87,7 @@ permalink: /article/66
     
     - 3. 连通性测试， `Ping www.zk.com`
     
-        ![](/img/2020/computer_network_3.png)
+        ![](https://api.zk123.top/link/repo1/img/2020/computer_network_3.png)
 
 
 ## 4. Internet Information Server(服务管理器)
@@ -95,32 +95,32 @@ permalink: /article/66
 ### 实验
 1. **网络拓扑图**
 
-![](/img/2020/computer_network_4.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_4.png)
 
 2. **搭建Web服务**
 
 - 1. 建立Web服务器。 配置相关信息。
     
-    ![](/img/2020/computer_network_5.png)
+    ![](https://api.zk123.top/link/repo1/img/2020/computer_network_5.png)
 
 - 2. 建立DNS服务器， 配置相关信息 
     
-    ![](/img/2020/computer_network_6.png)
+    ![](https://api.zk123.top/link/repo1/img/2020/computer_network_6.png)
     
 - 3. 设置PC1
     
-    ![](/img/2020/computer_network_7.png)
+    ![](https://api.zk123.top/link/repo1/img/2020/computer_network_7.png)
 
 - 4. 访问站点， 验证IIS服务和DNS服务是否成功开启
     
-    ![](/img/2020/computer_network_8.png)
+    ![](https://api.zk123.top/link/repo1/img/2020/computer_network_8.png)
 
 3. **搭建FTP站点**
 
 步骤与搭建Web服务类似
 
 - 命令行中输入 `ftp www.zk.com` 访问站点; 进入成功后,使用 `dir` 列出所有文件
-![](/img/2020/computer_network_9.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_9.png)
 
 
 ## 5. Switch 基本配置
@@ -150,7 +150,7 @@ VLAN(Virtual Local Area Network) 虚拟局域网
 ### 实验
 - **网络拓扑图**
 
-![](/img/2020/computer_network_10.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_10.png)
 
 - **实验步骤**
     1. 配置四台PC的`ip地址`, `Gateway`, `Subnet mask`
@@ -159,7 +159,7 @@ VLAN(Virtual Local Area Network) 虚拟局域网
     
     3. 查看交换机的MAC地址表
 
-![](/img/2020/computer_network_11.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_11.png)
 
 
 ## 6. 交换机管理
@@ -181,17 +181,17 @@ Switch(config)#no mac-address-table static 0003.e471.8061 vlan 1 interface fa0/1
 
 1. 根据PC的MAC地址, 添加对应的 `静态MAC地址`, 并进行连通性测试(3台PC能够相互Ping通)
 
-![](/img/2020/computer_network_12.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_12.png)
 
 2. 从MAC地址表中删除 PC3 的MAC地址记录, 进行连通性测试
 
 删除 PC3 的MAC地址记录
 
-![](/img/2020/computer_network_13.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_13.png)
 
 PC1 Ping PC3; (交换机自动学习MAC地址)
 
-![](/img/2020/computer_network_14.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_14.png)
 
 
 ## 7. 路由器与直连网络
@@ -211,7 +211,7 @@ PC1 Ping PC3; (交换机自动学习MAC地址)
 ### 实验
 - **网络拓扑**
 
-![](/img/2020/computer_network_15.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_15.png)
 
 - **实验步骤**
     1. 根据拓扑图进行连线, 并配置PC的 `ip地址`、`Gateway`、`subnet mask`
@@ -222,7 +222,7 @@ PC1 Ping PC3; (交换机自动学习MAC地址)
 
     3. 连通性测试
     
-    ![](/img/2020/computer_network_16.png)
+    ![](https://api.zk123.top/link/repo1/img/2020/computer_network_16.png)
     
 ## 8. 静态路由
 在所有的路由中,静态路由优先级最高; 当动态路由与静态路由发生冲突时,以静态路由为准.
@@ -237,7 +237,7 @@ PC1 Ping PC3; (交换机自动学习MAC地址)
 ### 实验
 - **网络拓扑图**
 
-![](/img/2020/computer_network_17.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_17.png)
 
 
 - **操作步骤**
@@ -279,7 +279,7 @@ PC1 Ping PC3; (交换机自动学习MAC地址)
 
 - **网络拓扑图**
 
-![](/img/2020/computer_network_18.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_18.png)
 
 - **操作步骤**
     - 1. 配置PC 相关信息
@@ -299,7 +299,7 @@ PC1 Ping PC3; (交换机自动学习MAC地址)
 
 - **网络拓扑图**
 
-![](/img/2020/computer_network_19.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_19.png)
 
 - **操作步骤**
     - 1. 配置PC相关信息
@@ -317,7 +317,7 @@ SVI(Switch Virtual Interface) 交换机虚拟接口
 ### 三层交换机
 - **网络拓扑图**
 
-![](/img/2020/computer_network_20.png)
+![](https://api.zk123.top/link/repo1/img/2020/computer_network_20.png)
 
 创建VLAN 虚拟接口, 配置IP地址,子网掩码 并开启接口
 

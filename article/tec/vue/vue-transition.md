@@ -1,7 +1,7 @@
 ---
 title: 【Vue之旅】-- 动画
 date: 2020-12-19
-cover: /img/cover/58.webp
+cover: https://api.zk123.top/link/repo1/img/cover/58.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -16,9 +16,9 @@ permalink: /article/58
 <!-- more -->
 
 ## 进入/离开
-![](/img/2020/vue_transition_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/vue_transition_1.png)
 
-![](/img/2020/vue_transition_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/vue_transition_2.png)
 
 [Vue 文档](https://cn.vuejs.org/v2/guide/transitions.html)
 
@@ -26,7 +26,7 @@ permalink: /article/58
 - **示例**
     - **实现效果**
     
-    ![](/img/2020/vue_transition_3.png)
+    ![](https://api.zk123.top/link/repo1/img/2020/vue_transition_3.png)
     ```html
     <!doctype html>
     <html lang="en">
@@ -271,7 +271,7 @@ permalink: /article/58
 
 ## 列表动画
 - **示例效果:**
-![](/img/2020/vue_transition_4.gif)
+![](https://api.zk123.top/link/repo1/img/2020/vue_transition_4.gif)
 
 - **示例:**
 ```html

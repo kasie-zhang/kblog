@@ -1,7 +1,7 @@
 ---
 title: 正则表达式入门
 date: 2021-03-27
-cover: /img/cover/71.webp
+cover: https://api.zk123.top/link/repo1/img/cover/71.webp
 sidebar: 'auto'
 categories:
 - 笔记

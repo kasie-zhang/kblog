@@ -1,7 +1,7 @@
 ---
 title: WhenIsGood项目开发日志
 date: 2020-07-20
-cover: /img/cover/8.webp
+cover: https://api.zk123.top/link/repo1/img/cover/8.webp
 sidebar: 'auto'
 categories:
 - 项目开发

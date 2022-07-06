@@ -1,13 +1,13 @@
 ---
 title: C 高级数据表示
 date: 2022-04-13
-cover: /img/cover/116.webp
+cover: https://api.zk123.top/link/repo1/img/cover/116.webp
 sidebar: 'auto'
 categories:
- - 笔记
- - C 语言
+- 笔记
+- C 语言
 tags:
- - C
+- C
 publish: true
 permalink: /article/116
 ---

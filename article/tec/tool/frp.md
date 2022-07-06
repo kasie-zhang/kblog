@@ -1,7 +1,7 @@
 ---
 title: frp 内网穿透
 date: 2020-12-05
-cover: /img/cover/51.webp
+cover: https://api.zk123.top/link/repo1/img/cover/51.webp
 sidebar: 'auto'
 categories:
 - Tool
@@ -53,11 +53,11 @@ bind_port = 7000
 
 启动成功如下图:
 
-![](/img/2020/frp_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/frp_1.png)
 ### 自己Windows配置
 删除服务器所需的文件,仅保留如下文件
 
-![](/img/2020/frp_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/frp_2.png)
 
 **配置`frpc.ini`**:
 
@@ -142,6 +142,6 @@ exit
 
 3. 密码: PIN码 (解锁计算机的密码)
 
-![](/img/2020/frp_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/frp_3.png)
 
 完结撒花:cherry_blossom::cherry_blossom:

@@ -1,0 +1,46 @@
+User-agent: Baiduspider
+Disallow: /css
+Disallow: /js
+
+User-agent: Googlebot
+Disallow: /css
+Disallow: /js
+
+User-agent: MSNBot
+Disallow: /css
+Disallow: /js
+
+User-agent: Baiduspider-image
+Disallow: /css
+Disallow: /js
+
+User-agent: YoudaoBot
+Disallow: /css
+Disallow: /js
+
+User-agent: Sogou web spider
+Disallow: /css
+Disallow: /js
+
+User-agent: Sogou inst spider
+Disallow: /css
+Disallow: /js
+
+User-agent: Sogou spider2
+Disallow: /css
+Disallow: /js
+
+User-agent: Sogou blog
+Disallow: /css
+Disallow: /js
+
+User-agent: Sogou News Spider
+Disallow: /css
+Disallow: /js
+
+User-agent: Sogou Orion spider
+Disallow: /css
+Disallow: /js
+
+User-agent: *
+Disallow: /

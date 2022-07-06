@@ -1,14 +1,14 @@
 ---
 title: Linux文件权限及chmod命令
 date: 2022-03-11
-cover: /img/cover/112.webp
+cover: https://api.zk123.top/link/repo1/img/cover/112.webp
 sidebar: 'auto'
 categories:
- - 笔记
+- 笔记
 tags:
- - Linux
- - Ubuntu
- - 文件权限
+- Linux
+- Ubuntu
+- 文件权限
 publish: true
 permalink: /article/112
 ---
@@ -83,7 +83,7 @@ davfs2:x:995:990:User account for davfs2:/var/cache/davfs2:/sbin/nologin
 
 我们来看下 root 账户每一列的含义。
 
-![](/img/2022/112_1.png)
+![](https://api.zk123.top/link/repo1/img/2022/112_1.png)
 
 - `username`: 用户名，用于区分不同用户
 - `password`: 密码，为安全起见，密码被加密存在 `/etc/shadow` 中，只显示一个 `x`
@@ -159,7 +159,7 @@ davfs2:x:990:
 
 我们来看下 group 中每一列的含义，如下图所示：
 
-![](/img/2022/112_2.png)
+![](https://api.zk123.top/link/repo1/img/2022/112_2.png)
 
 含义图中已经标记的很清晰了。
 

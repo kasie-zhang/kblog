@@ -1,7 +1,7 @@
 ---
 title: Ubuntu 安装使用 MWget | Axel
 date: 2021-12-29
-cover: /img/cover/99.webp
+cover: https://api.zk123.top/link/repo1/img/cover/99.webp
 sidebar: 'auto'
 categories:
 - Tool

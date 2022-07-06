@@ -1,7 +1,7 @@
 ---
 title: 客户端开机自启动FRP服务（无CMD弹框）
 date: 2020-11-13
-cover: /img/cover/41.webp
+cover: https://api.zk123.top/link/repo1/img/cover/41.webp
 sidebar: 'auto'
 categories:
 - 教程

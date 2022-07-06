@@ -1,7 +1,7 @@
 ---
 title: MySQL在不清除数据的情况下重置id自增长
 date: 2020-08-01
-cover: /img/cover/15.webp   
+cover: https://api.zk123.top/link/repo1/img/cover/15.webp   
 sidebar: 'auto'
 categories:
 - 笔记
@@ -31,10 +31,10 @@ alter table book add id bigint primary key not null auto_increment first;
 ## 实现效果
 当前数据库：
 
-![](/img/2020/mysql_reset_id_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/mysql_reset_id_1.png)
 
 重置后的数据库：
 
-![](/img/2020/mysql_reset_id_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/mysql_reset_id_2.png)
 
 大功告成！ :rainbow: :rainbow:

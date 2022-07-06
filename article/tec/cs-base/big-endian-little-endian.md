@@ -1,13 +1,13 @@
 ---
 title: 字节序的大端和小端
 date: 2022-03-10
-cover: /img/cover/111.webp
+cover: https://api.zk123.top/link/repo1/img/cover/111.webp
 sidebar: 'auto'
 categories:
- - 笔记
+- 笔记
 tags:
- - 计算机基础
- - 字节序
+- 计算机基础
+- 字节序
 publish: true
 permalink: /article/111
 ---

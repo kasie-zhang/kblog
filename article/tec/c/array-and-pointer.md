@@ -1,7 +1,7 @@
 ---
 title: C 数组和指针
 date: 2022-02-21
-cover: /img/cover/101.webp
+cover: https://api.zk123.top/link/repo1/img/cover/101.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -208,7 +208,7 @@ pnc = &rates[3];                        // 有效
 **不应该把 const 数组名作为实参传递给 func() 函数**。
 
 ## Pointer and Multi-dimensional
-![](/img/2022/101_1.png)
+![](https://api.zk123.top/link/repo1/img/2022/101_1.png)
 
 **指向多维数组的指针**：
 - `int (*pz)[n]` pz 为指向一个数组的指针，该数组每列含有 n 个 int 类型值。([ ]的优先级高于*)

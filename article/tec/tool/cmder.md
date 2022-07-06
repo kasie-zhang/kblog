@@ -1,7 +1,7 @@
 ---
 title: cmder 安装与配置
 date: 2021-05-26
-cover: /img/cover/89.webp
+cover: https://api.zk123.top/link/repo1/img/cover/89.webp
 sidebar: 'auto'
 categories:
 - Tool

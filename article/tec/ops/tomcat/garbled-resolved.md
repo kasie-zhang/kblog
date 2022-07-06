@@ -1,7 +1,7 @@
 ---
 title: 解决Tomcat运行乱码
 date: 2021-04-18
-cover: /img/cover/74.webp
+cover: https://api.zk123.top/link/repo1/img/cover/74.webp
 sidebar: 'auto'
 categories:
 - 笔记

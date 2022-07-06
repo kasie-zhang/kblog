@@ -1,7 +1,7 @@
 ---
 title: 基于Cloudreve搭建私人网盘
 date: 2021-12-07
-cover: /img/cover/95.webp
+cover: https://api.zk123.top/link/repo1/img/cover/95.webp
 sidebar: 'auto'
 categories:
 - Tool

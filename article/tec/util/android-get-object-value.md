@@ -1,7 +1,7 @@
 ---
 title: Android 获取Object对象中的属性
 date: 2020-11-02
-cover: /img/cover/39.webp
+cover: https://api.zk123.top/link/repo1/img/cover/39.webp
 sidebar: 'auto'
 categories:
 - 笔记

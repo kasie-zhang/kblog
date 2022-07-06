@@ -1,7 +1,7 @@
 ---
 title: 基于 Puppeteer 实现Gitee自动部署更新
 date: 2020-09-01
-cover: /img/cover/19.webp
+cover: https://api.zk123.top/link/repo1/img/cover/19.webp
 sidebar: 'auto'
 categories:
 - 教程

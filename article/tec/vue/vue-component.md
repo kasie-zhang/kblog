@@ -1,7 +1,7 @@
 ---
 title: 【Vue之旅】-- 组件
 date: 2020-12-19
-cover: /img/cover/59.webp
+cover: https://api.zk123.top/link/repo1/img/cover/59.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -243,7 +243,7 @@ var vm = new Vue({
 ## v-if和v-else和flag一起使用 实现组件切换
 - **实现效果**
 
-![](/img/2020/vue_component_1.gif)
+![](https://api.zk123.top/link/repo1/img/2020/vue_component_1.gif)
 
 - **示例：**
 ```html
@@ -296,7 +296,7 @@ var vm = new Vue({
 ## Vue提供的Component元素实现组件切换
 - **实现效果**
 
-![](/img/2020/vue_component_1.gif)
+![](https://api.zk123.top/link/repo1/img/2020/vue_component_1.gif)
 ```html
 <!doctype html>
 <html lang="en">
@@ -348,7 +348,7 @@ var vm = new Vue({
 ## 使用动画实现组件间的切换
 - **实现效果**
 
-![](/img/2020/vue_component_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/vue_component_2.png)
 
 ```html
 <!doctype html>
@@ -540,7 +540,7 @@ var vm = new Vue({
 
 ## 组件案例
 - **效果展示:**
-![](/img/2020/vue_component_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/vue_component_3.png)
 
 - **源码:**
 ```html

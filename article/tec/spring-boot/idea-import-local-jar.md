@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 使用本地JAR包
 date: 2021-04-12
-cover: /img/cover/72.webp
+cover: https://api.zk123.top/link/repo1/img/cover/72.webp
 sidebar: 'auto'
 categories:
 - 笔记

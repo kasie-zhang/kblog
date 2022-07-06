@@ -1,7 +1,7 @@
 ---
 title: 小站上 CDN 啦！
 date: 2021-12-14
-cover: /img/cover/96.webp
+cover: https://api.zk123.top/link/repo1/img/cover/96.webp
 sidebar: 'auto'
 categories:
 - 杂谈
@@ -18,13 +18,14 @@ permalink: /article/96
 
 未启用 CDN 加速，加载了 32 秒
 
-![](/img/2021/cdn_origin.jpg)
+![](https://api.zk123.top/link/repo1/img/2021/cdn_origin.jpg)
 
 启用 CDN 加速，加载了 6 秒
 
-![](/img/2021/cdn_speed_up.png)
+![](https://api.zk123.top/link/repo1/img/2021/cdn_speed_up.png)
 
 加速效果非常明显，响应速度提升了 6 倍。
 
-
+## 2022年7月更新
+原来用的免费 CDN，作者跑路了，本站所有文件暂时使用 JSDeliver CDN 实现加速访问。
 

@@ -1,7 +1,7 @@
 ---
 title: GitHub 插件
 date: 2021-04-24
-cover: /img/cover/78.webp
+cover: https://api.zk123.top/link/repo1/img/cover/78.webp
 sidebar: 'auto'
 categories:
 - 笔记

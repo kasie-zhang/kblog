@@ -1,14 +1,14 @@
 ---
 title: C 文件输入和输出
 date: 2022-03-5
-cover: /img/cover/108.webp
+cover: https://api.zk123.top/link/repo1/img/cover/108.webp
 sidebar: 'auto'
 categories:
- - 笔记
- - C 语言
+- 笔记
+- C 语言
 tags:
- - C
- - 文件IO
+- C
+- 文件IO
 publish: true
 permalink: /article/108
 ---

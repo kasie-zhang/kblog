@@ -1,7 +1,7 @@
 ---
 title: Tomcat 配置教程 (80端口、HTTPS、HTTP自动转化HTTPS、启用多个服务)
 date: 2020-12-05
-cover: /img/cover/52.webp
+cover: https://api.zk123.top/link/repo1/img/cover/52.webp
 sidebar: 'auto'
 categories:
 - 教程
@@ -31,7 +31,7 @@ permalink: /article/52
 
 若看到小汤姆猫,则表明Tomcat服务开启成功.
 
-![](/img/2020/tomcat_basics_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/tomcat_basics_1.png)
 
 如果看不到汤姆猫,查看Tomcat的CMD命令中的报错信息
 
@@ -75,7 +75,7 @@ redirectPort 是转发端口，修改成`443` 后能够实现输入网址后自�
 ### 配置 HTTPS
 到阿里云下载你对应域名申请的证书,证书很多，根据你的服务器类型选择
 
-![](/img/2020/tomcat_basics_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/tomcat_basics_2.png)
 
 下载的文件中包括`xxx.pfx` 和 `密钥.txt`
 
@@ -95,9 +95,9 @@ redirectPort 是转发端口，修改成`443` 后能够实现输入网址后自�
 
 配置完成后，启动Tomcat服务，使用域名访问； 此时既能使用 http访问，也能用 https 访问
 
-![](/img/2020/tomcat_basics_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/tomcat_basics_3.png)
 
-![](/img/2020/tomcat_basics_4.png)
+![](https://api.zk123.top/link/repo1/img/2020/tomcat_basics_4.png)
 
 ### 强制启用HTTPS
 配置`conf/web.xml`

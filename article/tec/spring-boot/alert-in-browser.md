@@ -1,6 +1,6 @@
 ---
 title: SpringBoot 实现前端Alert操作以及网页跳转
-cover: /img/cover/87.webp
+cover: https://api.zk123.top/link/repo1/img/cover/87.webp
 date: 2021-05-23
 sidebar: 'auto'
 categories:

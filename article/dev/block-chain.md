@@ -1,7 +1,7 @@
 ---
 title: 基于区块链的学位学历认证系统
 date: 2020-12-21
-cover: /img/cover/61.webp
+cover: https://api.zk123.top/link/repo1/img/cover/61.webp
 sidebar: 'auto'
 categories:
 - 项目开发

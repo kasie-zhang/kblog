@@ -1,7 +1,7 @@
 ---
 title: VuePress自定义容器
 date: 2019-04-23
-cover: /img/cover/5.webp
+cover: https://api.zk123.top/link/repo1/img/cover/5.webp
 sidebar: 'auto'
 categories:
 - 笔记

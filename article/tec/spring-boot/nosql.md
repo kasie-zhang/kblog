@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 整合 NoSQL
 date: 2020-08-02
-cover: /img/cover/16.webp
+cover: https://api.zk123.top/link/repo1/img/cover/16.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -66,7 +66,7 @@ Windows下安装Redis
 ```bash 
 redis-server.exe redis.windows.conf
 ```
-![](/img/2020/no_sql_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/no_sql_1.png)
 
 这时候另启一个 cmd 窗口，原来的不要关闭，不然就无法访问服务端了。
 
@@ -82,7 +82,7 @@ set myKey abc
 ```bash 
 get myKey
 ```
-![](/img/2020/no_sql_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/no_sql_2.png)
 
 ### 1.3 配置Redis
 ```bash 
@@ -104,13 +104,13 @@ protected-mode no
 ```bash 
 redis-server.exe redis.windows.conf
 ```
-![](/img/2020/no_sql_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/no_sql_3.png)
 打开另一个cmd窗口，进入Redis安装目录，输入以下代码：
 ```bash 
 redis-cli.exe -a 123456
 ```
 其中 -a 表示Redis的登录密码
-![](/img/2020/no_sql_4.png)
+![](https://api.zk123.top/link/repo1/img/2020/no_sql_4.png)
 
 至此，单机版Redis就安装并启动成功了。:rainbow: :rainbow:
 
@@ -220,7 +220,7 @@ RedisTemplate采用的序列化方案是JdkSerializer。无论是StringRedisTemp
 :::
 在浏览器中输入"http://localhost:8080/test1"，测试结果：
 
-![](/img/2020/no_sql_5.png)
+![](https://api.zk123.top/link/repo1/img/2020/no_sql_5.png)
 
 
 ## 2. 整合MongoDB
@@ -313,7 +313,7 @@ public class BookController {
 
 接下来启动MongoDB查看刚才输入的数据：
 
-<img src="/img/2020/no_sql_6.png"/>
+<img src="https://api.zk123.top/link/repo1/img/2020/no_sql_6.png"/>
 
 ### 2.7 使用MongoTemplate
 除了继承MongoRepository以外，Spring Data MongoDB还提供了MongoTemplate来方便的
@@ -353,6 +353,6 @@ public class BookController {
 
 在浏览器中输入 locallhost:8080/test，并在MongoDB数据库中查询：
 
-<img src="/img/2020/no_sql_7.png"/>
+<img src="https://api.zk123.top/link/repo1/img/2020/no_sql_7.png"/>
 
 [^1]: Redis 的持久化机制有两种，第一种是快照，第二种是 AOF 日志。快照是一次全量备 份，AOF 日志是连续的增量备份。快照是内存数据的二进制序列化形式，在存储上非常紧凑，而 AOF 日志记录的是内存数据修改的指令记录文本。AOF 日志在长期的运行过程中会 变的无比庞大，数据库重启时需要加载 AOF 日志进行指令重放，这个时间就会无比漫长。 所以需要定期进行 AOF 重写，给 AOF 日志进行瘦身。

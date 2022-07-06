@@ -1,13 +1,13 @@
 ---
 title: 踩坑之 —— C fseek() 回退时总是到达文件头
 date: 2022-03-9
-cover: /img/cover/109.webp
+cover: https://api.zk123.top/link/repo1/img/cover/109.webp
 sidebar: 'auto'
 categories:
- - 笔记
+- 笔记
 tags:
- - 踩坑
- - C
+- 踩坑
+- C
 publish: true
 permalink: /article/109
 ---

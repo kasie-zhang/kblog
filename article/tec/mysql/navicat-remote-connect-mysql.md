@@ -1,7 +1,7 @@
 ---
 title: Navicat 远程连接 MySQL
 date: 2021-05-24
-cover: /img/cover/88.webp
+cover: https://api.zk123.top/link/repo1/img/cover/88.webp
 sidebar: 'auto'
 categories:
 - 教程
@@ -29,9 +29,9 @@ Navicat 远程连接 MySql，这一场景大多使用在：本机远程访问服
 
 
 ## 配置
-![](/img/2021/navicat_remote_connect_mysql_1.png)
+![](https://api.zk123.top/link/repo1/img/2021/navicat_remote_connect_mysql_1.png)
 
-![](/img/2021/navicat_remote_connect_mysql_2.png)
+![](https://api.zk123.top/link/repo1/img/2021/navicat_remote_connect_mysql_2.png)
 打开Navicat，选中本地数据库后，点击新建查询，将下面的代码粘贴进去，点击执行。
 
 ```mysql
@@ -76,8 +76,8 @@ ALTER USER '【用户名】'@'%' IDENTIFIED WITH mysql_native_password BY '【�
 - 用户名：之前设置的用户名
 - 密码：【密码2】
 
-![](/img/2021/navicat_remote_connect_mysql_3.png)
+![](https://api.zk123.top/link/repo1/img/2021/navicat_remote_connect_mysql_3.png)
 
-![](/img/2021/navicat_remote_connect_mysql_4.png)
+![](https://api.zk123.top/link/repo1/img/2021/navicat_remote_connect_mysql_4.png)
 
 完结，撒花! :cherry_blossom::cherry_blossom::cherry_blossom:

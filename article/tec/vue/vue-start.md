@@ -1,6 +1,6 @@
 ---
 title: Vue快速入门
-cover: /img/cover/4.webp
+cover: https://api.zk123.top/link/repo1/img/cover/4.webp
 date: 2019-04-23
 sidebar: 'auto'
 categories:

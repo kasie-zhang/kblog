@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KBlog</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="./static/img/favicon.ico">
+  <link rel="stylesheet" href="./static/css/vue.css">
+  <link rel="stylesheet" href="./static/css/docsify-link-preview.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '<img src="./static/img/kblog.png"/>',
+      repo: '',
+      coverpage: true,
+      loadNavbar: true,
+      count: {
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese',
+        localization: {
+          words: "",
+          minute: ""
+        },
+        isExpected: true
+      },
+      copyCode: {
+        buttonText: 'Copy to clipboard',
+        errorText: 'Error',
+        successText: 'Copied'
+      },
+      tabs: {
+        persist: true,          // default
+        sync: true,             // default
+        theme: 'classic',       // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+      markdown: {
+        code: function (code, lang) {
+          var renderer_func = function (code, lang, base = null) {
+            var pdf_renderer = function (code, lang, verify) {
+              function unique_id_generator() {
+                function rand_gen() {
+                  return Math.floor((Math.random() + 1) * 65536).toString(16).substring(1);
+                }
+                return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
+              }
+              if (lang && !lang.localeCompare('pdf', 'en', { sensitivity: 'base' })) {
+                if (verify) {
+                  return true;
+                } else {
+                  var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
+                  var container_list = new Array();
+                  if (localStorage.getItem('pdf_container_list')) {
+                    container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
+                  }
+                  container_list.push({ "pdf_location": code, "div_id": divId });
+                  localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
+                  return (
+                    '<div style="margin-top:' + PDF_MARGIN_TOP + '; margin-bottom:' + PDF_MARGIN_BOTTOM + ';" id="' + divId + '">'
+                    + '<a href="' + code + '"> Link </a> to ' + code +
+                    '</div>'
+                  );
+                }
+              }
+              return false;
+            }
+            if (pdf_renderer(code, lang, true)) {
+              return pdf_renderer(code, lang, false);
+            }
+            /* SECTION START: Put other custom code rendering functions here
+              i.e. If the language of the code block is LaTex, 
+              put the code below to replace original code block with the text: 
+              'Using LaTex is much better than handwriting!' inside a div container.
+          
+              if (lang == "latex") {
+                return ('<div class="container">Using LaTex is much better than handwriting!</div>');
+              }
+          
+            SECTION END */
+            return (base ? base : this.origin.code.apply(this, arguments));
+          }
+        }
+      },
+      'flexible-alerts': {
+        style: 'flat'
+      },
+      footer: {
+        copy: '<a href="">浙ICP备19050647号 </a><span style="font-weight:bold">Copyright &copy; 2019 - 2022</span>',
+        auth: '<a href="https://github.com/kasie-zhang"  target="_blank">Kasie Zhang</a><span style="font-weight:bold"> All rights reserved.</span>',
+        pre: '',
+        style: 'text-align: center;',
+        class: 'className',
+      },
+      progress: {
+        position: "top",
+        color: "var(--theme-color,#1E90FF)",
+        height: "3px",
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="./static/js/docsify@4.js"></script>
+  <script src="./static/js/countable.min.js"></script>
+  <script src="./static/js/docsify-copy-code.min.js"></script>
+  <script src="./static/js/docsify-tabs@1.js"></script>
+  <script src="./static/js/pdfobject.min.js"></script>
+  <script src="./static/js/docsify-pdf-embed.js"></script>
+  <script src="./static/js/docsify-plugin-flexible-alerts.min.js"></script>
+  <script src="./static/js/docsify-footer-enh.min.js"></script>
+  <script src="./static/js/progress.min.js"></script>
+  <style>
+    :root {
+      --docsifytabs-border-color: #ededed;
+      --docsifytabs-tab-highlight-color: rgb(23, 24, 41);
+    }
+  </styl>
+</body>
+</html>

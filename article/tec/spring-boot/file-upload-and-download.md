@@ -1,7 +1,7 @@
 ---
 title: Spring Boot 实战  -- 文件上传下载
 date: 2020-10-10
-cover: /img/cover/33.webp
+cover: https://api.zk123.top/link/repo1/img/cover/33.webp
 sidebar: 'auto'
 categories:
 - 笔记

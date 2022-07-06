@@ -1,7 +1,7 @@
 ---
 title: Vim 使用技巧
 date: 2020-12-03
-cover: /img/cover/49.webp
+cover: https://api.zk123.top/link/repo1/img/cover/49.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -392,6 +392,6 @@ q                 " 键盘宏录制结束
 ```
 
 动图演示：
-![](/img/2022/49_1.gif)
+![](https://api.zk123.top/link/repo1/img/2022/49_1.gif)
 
 键盘宏入门比较麻烦，但入门之后就会发现这些学习时间与成千上万次枯燥的重复操作来说还是值得的。

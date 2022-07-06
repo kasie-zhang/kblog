@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 实现文件上传
 date: 2021-04-25
-cover: /img/cover/80.webp
+cover: https://api.zk123.top/link/repo1/img/cover/80.webp
 sidebar: 'auto'
 categories:
 - 笔记

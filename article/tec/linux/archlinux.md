@@ -1,14 +1,14 @@
 ---
 title: Linux文件权限及chmod命令
 date: 2022-06-12
-cover: /img/cover/121.webp
+cover: https://api.zk123.top/link/repo1/img/cover/121.webp
 sidebar: 'auto'
 categories:
- - 笔记
+- 笔记
 tags:
- - Linux
- - Ubuntu
- - 文件权限
+- Linux
+- Ubuntu
+- 文件权限
 publish: true
 permalink: /article/121
 ---

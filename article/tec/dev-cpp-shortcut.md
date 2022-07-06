@@ -1,7 +1,7 @@
 ---
 title: Dev-C++ 快捷键
 date: 2021-12-19
-cover: /img/cover/97.webp
+cover: https://api.zk123.top/link/repo1/img/cover/97.webp
 sidebar: 'auto'
 categories:
 - 笔记

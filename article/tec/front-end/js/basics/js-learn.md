@@ -1,7 +1,7 @@
 ---
 title: JavaScript学习
 date: 2019-04-12
-cover: /img/cover/2.webp
+cover: https://api.zk123.top/link/repo1/img/cover/2.webp
 sidebar: 'auto'
 categories:
 - 笔记

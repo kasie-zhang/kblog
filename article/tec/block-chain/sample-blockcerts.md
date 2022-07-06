@@ -1,7 +1,7 @@
 ---
 title: Blockcerts
 date: 2020-01-08
-cover: /img/cover/6.webp
+cover: https://api.zk123.top/link/repo1/img/cover/6.webp
 sidebar: 'auto'
 categories:
 - 笔记

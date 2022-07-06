@@ -1,7 +1,7 @@
 ---
 title: hexo搭建个人博客
 date: 2020-09-05
-cover: /img/cover/22.webp
+cover: https://api.zk123.top/link/repo1/img/cover/22.webp
 sidebar: 'auto'
 categories:
 - 教程

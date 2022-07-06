@@ -1,7 +1,7 @@
 ---
 title: XShell 实现文件传输
 date: 2021-12-20
-cover: /img/cover/98.webp
+cover: https://api.zk123.top/link/repo1/img/cover/98.webp
 sidebar: 'auto'
 categories:
 - 教程
@@ -28,7 +28,7 @@ yum install lrzsz
 rz，sz是便是Linux/Unix同Windows进行ZModem文件传输的命令行工具，
 所以要在Xshell连接属性中的设置上传协议为Zmodem和接受的文件路径等，如下图所示：
 
-![](/img/2021/xshell-1.png)
+![](https://api.zk123.top/link/repo1/img/2021/xshell-1.png)
 
 ## 使用方法
 1. 运行 `rz` 指令

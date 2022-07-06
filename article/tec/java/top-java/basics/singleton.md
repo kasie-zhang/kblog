@@ -1,7 +1,7 @@
 ---
 title: 类和对象的单例模式
 date: 2020-09-23
-cover: /img/cover/30.webp
+cover: https://api.zk123.top/link/repo1/img/cover/30.webp
 sidebar: 'auto'
 categories:
 - 笔记

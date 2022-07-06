@@ -1,7 +1,7 @@
 ---
 title: Vuepress中那些优质Markdown插件
 date: 2019-04-22
-cover: /img/cover/3.webp
+cover: https://api.zk123.top/link/repo1/img/cover/3.webp
 sidebar: 'auto'
 categories:
 - 笔记

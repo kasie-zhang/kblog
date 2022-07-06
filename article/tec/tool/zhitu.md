@@ -1,7 +1,7 @@
 ---
 title: 智图安装教程
 date: 2021-12-05
-cover: /img/cover/94.webp
+cover: https://api.zk123.top/link/repo1/img/cover/94.webp
 sidebar: 'auto'
 categories:
 - 教程
@@ -27,25 +27,25 @@ permalink: /article/94
 安装路径不能有中文
 :::
 
-![](/img/2021/zhitu_1.png)
-![](/img/2021/zhitu_2.png)
+![](https://api.zk123.top/link/repo1/img/2021/zhitu_1.png)
+![](https://api.zk123.top/link/repo1/img/2021/zhitu_2.png)
 
 :::tip 提示
 默认选中前两项，这里需要勾选中间四项。
 :::
 
-![](/img/2021/zhitu_3.png)
-![](/img/2021/zhitu_4.png)
+![](https://api.zk123.top/link/repo1/img/2021/zhitu_3.png)
+![](https://api.zk123.top/link/repo1/img/2021/zhitu_4.png)
 
 :::warning 注意
 安装完成后，依旧会停在这个页面。此时我们手动关闭。
 :::
 
-![](/img/2021/zhitu_5.png)
+![](https://api.zk123.top/link/repo1/img/2021/zhitu_5.png)
 
 在桌面找到 智图 快捷方式，双击打开。
 
-![](/img/2021/zhitu_6.png)
+![](https://api.zk123.top/link/repo1/img/2021/zhitu_6.png)
 
 至此，安装完成。
 

@@ -1,7 +1,7 @@
 ---
 title: Javadoc 初体验
 date: 2020-11-23
-cover: /img/cover/46.webp
+cover: https://api.zk123.top/link/repo1/img/cover/46.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -178,7 +178,7 @@ pom.xml中添加配置
 terminal中使用 `mvn javadoc:javadoc` 来生成javadoc文档
 
 :::tip 例子
-![](/img/2020/java_doc_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/java_doc_1.png)
 
-![](/img/2020/java_doc_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/java_doc_2.png)
 :::

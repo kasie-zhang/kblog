@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 整合web开发
 date: 2020-07-29
-cover: /img/cover/12.webp
+cover: https://api.zk123.top/link/repo1/img/cover/12.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -72,13 +72,13 @@ public class BookController {
 ```
 此时在浏览器中输入"http://localhost:8080/book"，即可看到返回了JSON数据如下图所示
 
-![](/img/2020/web_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/web_1.png)
 
 
 ## 2.静态资源访问
 SpirngBoot项目中，通过以下四个位置都能够访问到静态资源，访问的优先顺序见下图
 
-![](/img/2020/web_2.png)
+![](https://api.zk123.top/link/repo1/img/2020/web_2.png)
 
 ### 2.1 自定义策略
 
@@ -157,15 +157,15 @@ public class FileUploadController {
 
 1. 选择上传文件
 
-![](/img/2020/web_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/web_3.png)
 
 2. 得到上传文件的访问链接
 
-![](/img/2020/web_4.png)
+![](https://api.zk123.top/link/repo1/img/2020/web_4.png)
 
 3. 访问链接(能够正常访问则成功)
 
-![](/img/2020/web_5.png)
+![](https://api.zk123.top/link/repo1/img/2020/web_5.png)
 
 #### 3.1.2 配置上传细节
 

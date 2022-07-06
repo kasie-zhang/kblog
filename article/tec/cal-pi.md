@@ -1,7 +1,7 @@
 ---
 title: 使用割圆术计算PI
 date: 2021-08-2
-cover: /img/cover/93.webp
+cover: https://api.zk123.top/link/repo1/img/cover/93.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -27,9 +27,9 @@ permalink: /article/93
 - 证明 **圆周率 = 圆的面积 / 半径的平方**
 - 求出 `正N边形`(n = 6,12,24...) 边长的递推公式
 
-![](/img/2021/pi_1.jpg)
+![](https://api.zk123.top/link/repo1/img/2021/pi_1.jpg)
 
-![](/img/2021/pi_2.jpg)
+![](https://api.zk123.top/link/repo1/img/2021/pi_2.jpg)
 
 ## 编程计算
 ```c 
@@ -65,6 +65,6 @@ int main() {
 
 计算结果如下图:
 
-![](/img/2021/pi_3.png)
+![](https://api.zk123.top/link/repo1/img/2021/pi_3.png)
 
 完结 :cherry_blossom::cherry_blossom:

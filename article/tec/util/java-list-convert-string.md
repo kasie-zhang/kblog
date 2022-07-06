@@ -1,7 +1,7 @@
 ---
 title: Java List 和 String 相互转化
 date: 2020-11-02
-cover: /img/cover/38.webp
+cover: https://api.zk123.top/link/repo1/img/cover/38.webp
 sidebar: 'auto'
 categories:
 - 笔记

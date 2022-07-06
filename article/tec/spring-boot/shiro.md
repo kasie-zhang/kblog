@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 集成 Shiro
 date: 2021-04-25
-cover: /img/cover/79.webp
+cover: https://api.zk123.top/link/repo1/img/cover/79.webp
 sidebar: 'auto'
 categories:
 - 笔记

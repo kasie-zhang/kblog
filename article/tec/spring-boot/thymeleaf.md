@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 整合视图层技术 以Thymeleaf为例
 date: 2020-07-28
-cover: /img/cover/11.webp
+cover: https://api.zk123.top/link/repo1/img/cover/11.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -126,4 +126,4 @@ public class BookController {
 :::
 实现效果如下:
 
-![](/img/2020/thymeleaf_1.png)
+![](https://api.zk123.top/link/repo1/img/2020/thymeleaf_1.png)

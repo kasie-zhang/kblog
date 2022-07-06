@@ -1,15 +1,15 @@
 ---
 title: C 字符串和字符串函数
 date: 2022-02-23
-cover: /img/cover/104.webp
+cover: https://api.zk123.top/link/repo1/img/cover/104.webp
 sidebar: 'auto'
 categories:
- - 笔记
- - C 语言
+- 笔记
+- C 语言
 tags:
- - C
- - 函数
- - 字符串
+- C
+- 函数
+- 字符串
 publish: true
 permalink: /article/104
 ---
@@ -207,7 +207,7 @@ int main(){
 }
 ```
 动图演示：
-![](/img/2022/104_1.gif)
+![](https://api.zk123.top/link/repo1/img/2022/104_1.gif)
 
 `gets()` 的**替代品**: `fgets()`、`gets_s()`。
 
@@ -299,16 +299,16 @@ Done.
 **对于输出， fputs() 把字符发送给另一个缓冲区，当发送换行符时，缓冲区的内容被发送到屏幕上。** 下面来 debug 程序执行的每个步骤。
 
 - 原始内存值如下：
-![](/img/2022/104_2.png)
+![](https://api.zk123.top/link/repo1/img/2022/104_2.png)
 
 - Step 1: 输入 `123456 789abc defmnopq`，执行第一次 fgets()，读入了 9 个字符 `123456 78`，保存为 `123456 78\0`。
-![](/img/2022/104_3.png)
+![](https://api.zk123.top/link/repo1/img/2022/104_3.png)
 
 - Step 2: 执行第一次 fputs()，执行第二次 fgets()，读入了 9 个字符 `9abc defm`，保存为 `9abc defm\0` 数组原来的值被覆盖。
-![](/img/2022/104_4.png)
+![](https://api.zk123.top/link/repo1/img/2022/104_4.png)
 
 - Step 3: 执行第二次 fputs()，执行第三次 fgets()，读入剩余的 5 个字符 `nopq\n`，保存为 `nopq\n\0`，占用 6 个位置，余下的4个位置未被修改，仍是上一次写入的值。
-![](/img/2022/104_5.png)
+![](https://api.zk123.top/link/repo1/img/2022/104_5.png)
 
 ---
 

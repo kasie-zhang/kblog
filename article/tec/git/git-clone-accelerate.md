@@ -1,7 +1,7 @@
 ---
 title: 解决 git clone 下载太慢
 date: 2020-09-04
-cover: /img/cover/21.webp
+cover: https://api.zk123.top/link/repo1/img/cover/21.webp
 sidebar: 'auto'
 categories:
 - 教程
@@ -18,7 +18,7 @@ permalink: /article/21
 
 在clone GitHub上的项目时速度非常慢，只有10 KiB，如何才能提高下载速度，节省宝贵的时间呢？
 
-![md_052](/img/2020/git_1.png)
+![md_052](https://api.zk123.top/link/repo1/img/2020/git_1.png)
 
 ## 解决方案
 
@@ -44,7 +44,7 @@ git clone https://gitclone.com/github.com/probberechts/hexo-theme-cactus.git
 
 借助GitClone网站，能够大幅提升下载速度
 
-![md_053](/img/2020/git_2.png)
+![md_053](https://api.zk123.top/link/repo1/img/2020/git_2.png)
 
 ### 方法3
 借助 [fastgit镜像网站](https://hub.fastgit.org/)
@@ -58,7 +58,7 @@ git clone https://github.com/[user]/[project].git
 git clone https://hub.fastgit.org/[user]/[project].git
 ```
 下载速度提升显著。
-![](/img/2020/git_3.png)
+![](https://api.zk123.top/link/repo1/img/2020/git_3.png)
 
 完美解决，撒花！:rainbow: :cherry_blossom:
 

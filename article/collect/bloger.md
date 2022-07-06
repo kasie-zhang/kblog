@@ -1,7 +1,7 @@
 ---
 title: 技术博客汇总
 date: 2020-12-23
-cover: /img/cover/63.webp
+cover: https://api.zk123.top/link/repo1/img/cover/63.webp
 sidebar: 'auto'
 categories:
 - 笔记

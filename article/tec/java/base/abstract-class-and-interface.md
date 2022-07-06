@@ -1,12 +1,12 @@
 ---
 title: 【Java基础】探究抽象类和接口
 date: 2022-04-17
-cover: /img/cover/118.webp
+cover: https://api.zk123.top/link/repo1/img/cover/118.webp
 sidebar: 'auto'
 categories:
- - Java
+- Java
 tags:
- - Java 基础
+- Java 基础
 publish: true
 permalink: /article/118
 ---

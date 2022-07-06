@@ -1,6 +1,6 @@
 ---
 title: Awesome-Cheat-Sheet-Bash
-cover: /img/cover/28.webp
+cover: https://api.zk123.top/link/repo1/img/cover/28.webp
 date: 2020-09-09
 sidebar: 'auto'
 categories:

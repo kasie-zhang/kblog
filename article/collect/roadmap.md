@@ -1,7 +1,7 @@
 ---
 title: Build a Roadmap by Docsify
 date: 2022-06-22
-cover: /img/cover/122.webp
+cover: https://api.zk123.top/link/repo1/img/cover/122.webp
 sidebar: 'auto'
 categories:
 - Tool

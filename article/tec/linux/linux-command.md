@@ -1,14 +1,14 @@
 ---
 title: Linux文件删除之rm命令
 date: 2022-02-23
-cover: /img/cover/103.webp
+cover: https://api.zk123.top/link/repo1/img/cover/103.webp
 sidebar: 'auto'
 categories:
- - 笔记
+- 笔记
 tags:
- - Ubuntu
- - Linux
- - 文件删除
+- Ubuntu
+- Linux
+- 文件删除
 publish: true
 permalink: /article/103
 ---

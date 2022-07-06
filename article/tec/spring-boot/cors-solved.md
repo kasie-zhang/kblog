@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 跨域请求配置
 date: 2021-04-21
-cover: /img/cover/76.webp
+cover: https://api.zk123.top/link/repo1/img/cover/76.webp
 sidebar: 'auto'
 categories:
 - 笔记

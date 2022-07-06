@@ -1,6 +1,6 @@
 ---
 title: Unity项目开发实例
-cover: /img/cover/7.webp
+cover: https://api.zk123.top/link/repo1/img/cover/7.webp
 date: 2020-06-05
 sidebar: 'auto'
 categories:

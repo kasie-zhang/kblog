@@ -1,7 +1,7 @@
 ---
 title: 实现 GitHub 的正常访问
 date: 2022-06-04
-cover: /img/cover/120.webp
+cover: https://api.zk123.top/link/repo1/img/cover/120.webp
 sidebar: 'auto'
 categories:
 - 教程

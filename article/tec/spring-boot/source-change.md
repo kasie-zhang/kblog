@@ -1,7 +1,7 @@
 ---
 title: SpringBoot 使用阿里maven源
 date: 2020-08-01
-cover: /img/cover/14.webp
+cover: https://api.zk123.top/link/repo1/img/cover/14.webp
 sidebar: 'auto'
 categories:
 - 笔记

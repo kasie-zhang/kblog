@@ -1,7 +1,7 @@
 ---
 title: 【Top Java - 基础篇】1.什么是面向对象
 date: 2021-3-25
-cover: /img/cover/69.webp
+cover: https://api.zk123.top/link/repo1/img/cover/69.webp
 sidebar: 'auto'
 categories:
 - 笔记

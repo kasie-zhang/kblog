@@ -1,7 +1,7 @@
 ---
 title: 程序员应该关注的最佳中文网站
 date: 2020-12-24
-cover: /img/cover/65.webp
+cover: https://api.zk123.top/link/repo1/img/cover/65.webp
 sidebar: 'auto'
 categories:
 - 笔记

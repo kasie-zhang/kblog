@@ -1,7 +1,7 @@
 ---
 title: WebStorm 启用 LiveTemplate
 date: 2021-07-30
-cover: /img/cover/91.webp
+cover: https://api.zk123.top/link/repo1/img/cover/91.webp
 sidebar: 'auto'
 categories:
 - 笔记
@@ -30,7 +30,7 @@ WebStorm 允许用户自定义 Live Template， 用好了 Live Template 能够�
 :::
 
 
-![](/img/2021/live_template_1.png)
+![](https://api.zk123.top/link/repo1/img/2021/live_template_1.png)
 
 ## 配置模板
 :::tip 编辑模板
@@ -52,7 +52,7 @@ publish: true
 使用 `$VAR$` 占位符来充当变量
 :::
 
-![](/img/2021/live_template_2.png)
+![](https://api.zk123.top/link/repo1/img/2021/live_template_2.png)
 点击 `编辑变量` 来配置 `变量默认值`、 `变量表达式`、`如果定义则跳过`。 
 
 部分常用表达式如下表，更多内容参照 [官方文档](https://www.jetbrains.com/help/webstorm/template-variables.html#predefined_functions)
@@ -66,12 +66,12 @@ publish: true
 | `user()` | Returns the name of the current user. |
 
 ## 启用模板
-![](/img/2021/live_template_3.png)
+![](https://api.zk123.top/link/repo1/img/2021/live_template_3.png)
 点击 `更改`, 给Live Template 设置所适用的范围，若仅勾选 JSON ，则该 Live Template 只有在以 `.json` 为后缀的文件
 中可以使用。
 
 
 ## 效果展示
-![](/img/2021/live_template_4.png)
+![](https://api.zk123.top/link/repo1/img/2021/live_template_4.png)
 
 完结撒花 :cherry_blossom::cherry_blossom:!

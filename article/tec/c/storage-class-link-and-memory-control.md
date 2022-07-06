@@ -1,13 +1,13 @@
 ---
 title: C 存储类别、链接和内存管理
 date: 2022-03-1
-cover: /img/cover/107.webp
+cover: https://api.zk123.top/link/repo1/img/cover/107.webp
 sidebar: 'auto'
 categories:
- - 笔记
- - C 语言
+- 笔记
+- C 语言
 tags:
- - C
+- C
 publish: true
 permalink: /article/107
 ---

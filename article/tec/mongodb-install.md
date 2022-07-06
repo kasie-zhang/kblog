@@ -1,7 +1,7 @@
 ---
 title: Windows 安装MongoDB (4.4.0)
 date: 2020-08-08
-cover: /img/cover/17.webp
+cover: https://api.zk123.top/link/repo1/img/cover/17.webp
 sidebar: 'auto'
 categories:
 - 教程
