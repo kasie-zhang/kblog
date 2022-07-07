@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>KBlog</title>
@@ -10,14 +11,18 @@
   <link rel="stylesheet" href="./static/css/vue.css">
   <link rel="stylesheet" href="./static/css/docsify-link-preview.css">
 </head>
+
 <body>
-  <div id="app"></div>
+  <div id="app">加载中...</div>
   <script>
     window.$docsify = {
       name: '<img src="./static/img/kblog.png"/>',
       repo: '',
-      coverpage: true,
+      auto2top: true,
+      coverpage: true,       // 加载封面
+      onlyCover: true,       // 只在访问主页时加载封面
       loadNavbar: true,
+      ga: 'UA-173173412-1',   // Google Analytics
       count: {
         countable: true,
         position: 'top',
@@ -33,7 +38,7 @@
         isExpected: true
       },
       copyCode: {
-        buttonText: 'Copy to clipboard',
+        buttonText: 'Copy',
         errorText: 'Error',
         successText: 'Copied'
       },
@@ -43,56 +48,6 @@
         theme: 'classic',       // default
         tabComments: true,      // default
         tabHeadings: true       // default
-      },
-      markdown: {
-        code: function (code, lang) {
-          var renderer_func = function (code, lang, base = null) {
-            var pdf_renderer = function (code, lang, verify) {
-              function unique_id_generator() {
-                function rand_gen() {
-                  return Math.floor((Math.random() + 1) * 65536).toString(16).substring(1);
-                }
-                return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
-              }
-              if (lang && !lang.localeCompare('pdf', 'en', { sensitivity: 'base' })) {
-                if (verify) {
-                  return true;
-                } else {
-                  var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
-                  var container_list = new Array();
-                  if (localStorage.getItem('pdf_container_list')) {
-                    container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
-                  }
-                  container_list.push({ "pdf_location": code, "div_id": divId });
-                  localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
-                  return (
-                    '<div style="margin-top:' + PDF_MARGIN_TOP + '; margin-bottom:' + PDF_MARGIN_BOTTOM + ';" id="' + divId + '">'
-                    + '<a href="' + code + '"> Link </a> to ' + code +
-                    '</div>'
-                  );
-                }
-              }
-              return false;
-            }
-            if (pdf_renderer(code, lang, true)) {
-              return pdf_renderer(code, lang, false);
-            }
-            /* SECTION START: Put other custom code rendering functions here
-              i.e. If the language of the code block is LaTex, 
-              put the code below to replace original code block with the text: 
-              'Using LaTex is much better than handwriting!' inside a div container.
-          
-              if (lang == "latex") {
-                return ('<div class="container">Using LaTex is much better than handwriting!</div>');
-              }
-          
-            SECTION END */
-            return (base ? base : this.origin.code.apply(this, arguments));
-          }
-        }
-      },
-      'flexible-alerts': {
-        style: 'flat'
       },
       footer: {
         copy: '<a href="">浙ICP备19050647号 </a><span style="font-weight:bold">Copyright &copy; 2019 - 2022</span>',
@@ -105,6 +60,9 @@
         position: "top",
         color: "var(--theme-color,#1E90FF)",
         height: "3px",
+      },
+      'flexible-alerts': {
+        style: 'flat',         // flat/callout； NOTE,TIP,WARNING,ATTENTION
       }
     }
   </script>
@@ -118,11 +76,30 @@
   <script src="./static/js/docsify-plugin-flexible-alerts.min.js"></script>
   <script src="./static/js/docsify-footer-enh.min.js"></script>
   <script src="./static/js/progress.min.js"></script>
+  <script src="./static/js/ga.min.js"></script>
+  <script src="./static/js/prism-c.js"></script>
+  <script src="./static/js/prism-cpp.js"></script>
+  <script src="./static/js/prism-java.min.js"></script>
+  <script src="./static/js/prism-python.min.js"></script>
+  <script src="./static/js/prism-markdown.min.js"></script>
+  <script src="./static/js/prism-go.min.js"></script>
+  <script src="./static/js/prism-lua.min.js"></script>
+  <script src="./static/js/prism-makefile.min.js"></script>
+  <script src="./static/js/prism-matlab.min.js"></script>
+  <script src="./static/js/prism-nginx.min.js"></script>
+  <script src="./static/js/prism-regex.min.js"></script>
+  <script src="./static/js/prism-ruby.min.js"></script>
+  <script src="./static/js/prism-sql.min.js"></script>
+  <script src="./static/js/prism-swift.min.js"></script>
+  <script src="./static/js/prism-bash.min.js"></script>
+  <script src="./static/js/prism-csharp.min.js"></script>
+
   <style>
     :root {
       --docsifytabs-border-color: #ededed;
-      --docsifytabs-tab-highlight-color: rgb(23, 24, 41);
+      --docsifytabs-tab-highlight-color: rgb(60, 143, 167);
     }
-  </styl>
+  </style>
 </body>
+
 </html>

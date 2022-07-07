@@ -1,28 +1,8 @@
----
-title: KLink
-date: 2022-02-22
-cover: https://api.zk123.top/link/repo1/img/cover/102.webp
-sidebar: 'auto'
-categories:
-- Tool
-tags:
-- Collect 
-keys:
-- '2c39c02b7d80bd827e0f3cd88ca86f26'
-publish: true
-permalink: /article/102
----
+> 最后更新于 2022/07/06 
 
-> 第 102 篇文章
+# 存放书签网址
 
-:::tip
-Stay Hungry, Stay Foolish!
-:::
-<!-- more -->
-
-存放书签网址。
-
-## Kasie Family Bucket
+# Kasie Family Bucket
 
 [KHome](https://zk123.top)
 
@@ -38,7 +18,7 @@ Stay Hungry, Stay Foolish!
 
 [KDrive](https://drive.zk123.top)
 
-## Toolkit
+# Toolkit
 
 [Notion](https://www.notion.so/login?email=1835020611@pop.zjgsu.edu.cn)
 
@@ -56,7 +36,7 @@ Stay Hungry, Stay Foolish!
 
 [Telegraph](https://telegra.ph/)
 
-## HotBox Account Pool
+# HotBox Account Pool
 
 [Link To HotBox](https://www.hotbox.fun/)
 
@@ -129,3 +109,19 @@ Stay Hungry, Stay Foolish!
 | `tever15497@reamtv.com`  | `mekiv71711@reamtv.com`  |
 | `nojanay325@nabajin.com` | `cafav45300@nabajin.com` |
 | `dayekal487@douwx.com`   |                          |
+
+# 在线文档
+[Go语言101](https://gfw.go101.org/)
+
+[ApacheCN](https://home.apachecn.org/#/)
+
+[Linux 就该这么学](https://www.linuxprobe.com/)
+
+[music](https://cdn.jsdelivr.net/gh/kasie-zhang/static-file-repo1/music/m_1.mp3 ':include')
+
+[Kasie Zhang](https://zk123.top ':include :type=iframe width=100% height=600px')
+
+
+```pdf
+https://static.r2coding.com/r2_static/pdf/jawa.pdf
+```
