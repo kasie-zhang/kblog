@@ -1,19 +1,8 @@
----
-title: 【Java基础】探究抽象类和接口
-date: 2022-04-17
-cover: https://api.zk123.top/link/repo1/img/cover/118.webp
-sidebar: 'auto'
-categories:
-- Java
-tags:
-- Java 基础
-publish: true
-permalink: /article/118
----
+> Create: 4/17/2022
+>
+> Last Update: 7/13/2022
 
-> 第 118 篇文章
-<!-- more -->
-
+# Java Base - 抽象类和接口探究
 ## 类
 
 ### 类的结构

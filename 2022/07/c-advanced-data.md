@@ -1,19 +1,8 @@
----
-title: C 高级数据表示
-date: 2022-04-13
-cover: https://api.zk123.top/link/repo1/img/cover/116.webp
-sidebar: 'auto'
-categories:
-- 笔记
-- C 语言
-tags:
-- C
-publish: true
-permalink: /article/116
----
+> Create: 4/13/2022
+>
+> Last Update: 7/13/2022
 
-> 第 116 篇文章
-<!-- more -->
+# C 高级数据表示
 
 对于更高层次的编程技能，工具是次要的，真正挑战的是设计和创建一个项目。
 
@@ -1034,5 +1023,4 @@ char *s_gets(char *st, int n) {
 }
 ```
 
-[测试程序.exe](https://drive.zk123.top/s/oXcZ)
-
+[test.exe](https://drive.zk123.top/s/36s7)
