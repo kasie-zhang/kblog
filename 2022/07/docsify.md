@@ -129,7 +129,7 @@ Markdown 基于 Prism 实现代码高亮，支持的语言如下：
 能够内嵌 `mp4`,`mkv` 格式的视频。
 
 ```md
-[filename]](vedio-link ':include :type=video width=100% height=600px controls')
+[filename](vedio-link ':include :type=video width=100% height=600px controls')
 ```
 
 [酒女](https://drive.zk123.top/api/v3/file/source/35664/Work.Later.Drink.Now.S01E01.1080p.WEB-DL.H264.AAC-AppleTor.mp4?sign=qezCyYJV6691Nr4xjz4G7XEWVb3lybvUBB3pdrToZGg%3D%3A0 ":include :type=video width=100% height=600px controls")

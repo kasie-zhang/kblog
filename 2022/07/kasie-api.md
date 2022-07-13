@@ -71,3 +71,34 @@ API Base Link: `https://api.zk123.top`。
 
 ![](https://api.zk123.top/nasahq)
 
+---
+## GitHub Static File Repo
+访问 GitHub Repo 中的静态文件，根据文件的类型，分为以下几种访问方式。
+
+---
+### Image
+- Image: `/link/{repo}/img/{folder}/{filename}`
+
+![](https://api.zk123.top/link/repo1/img/personal/bg1.webp)
+
+---
+### Music
+- Music: `/link/{repo}/music/{filename}`
+
+[晴天 - 周杰伦](https://api.zk123.top/link/repo1/music/m_1.mp3 ":include")
+
+---
+### PDF
+
+- Pdf: `/link/{repo}/pdf/{filename}`
+
+```pdf
+https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
+```
+
+---
+### Script
+- Script: `/link/{repo}/script/{folder}/{filename}`
+
+
+例如：[Rename.py](https://api.zk123.top/link/repo1/script/python/rename.py)
