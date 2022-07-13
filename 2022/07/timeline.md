@@ -15,3 +15,8 @@
 [书签网址聚合](/2022/07/bookmark.md)
 
 ### 7/13/2022
+[C 高级数据表示](2022/07/c-advanced-data.md)
+
+[Java 抽象类和接口探究](2022/07/java-base-abstract-class-and-interface.md)
+
+[Spring Boot 实现前端 Alert 操作以及网页跳转](2022/07/spring-boot-alert-in-browser.md)

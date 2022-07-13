@@ -1,20 +1,4 @@
----
-title: SpringBoot 实现前端Alert操作以及网页跳转
-cover: https://api.zk123.top/link/repo1/img/cover/87.webp
-date: 2021-05-23
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- SpringBoot
-- Java
-- 后端
-publish: true
-permalink: /article/87
----
-
-> 第 87 篇文章
-<!-- more -->
+# SpringBoot 实现前端Alert操作以及网页跳转
 
 使用描述：网页端点击**邮箱激活链接**时，调用后端接口，进行某些业务操作，最后将提示信息展示给用户，用户点击确定后，跳转回我们设定好的网址。
 

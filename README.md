@@ -43,9 +43,25 @@
 
 ---
 ### **Base**
+[Java 抽象类和接口探究](2022/07/java-base-abstract-class-and-interface.md)
 
 ---
 ### **Advanced**
+---
+## **Spring Boot**
+
+---
+### **Spring Boot 学习路线**
+```pdf
+https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
+```
+
+---
+### **实操**
+[Spring Boot 实现前端 Alert 操作以及网页跳转](2022/07/spring-boot-alert-in-browser.md)
+
+---
+## **Android**
 
 ---
 # **闲聊**
