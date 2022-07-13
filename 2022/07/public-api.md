@@ -1,20 +1,11 @@
----
-title: 腾讯API高清QQ头像https调用接口分享
-date: 2020-10-28
-cover: https://api.zk123.top/link/repo1/img/cover/34.webp
-sidebar: 'auto'
-categories:
-- Tool
-tags:
-- 接口分享
-publish: true
-permalink: /article/34
----
+> Create: 10/28/2020
+> 
+> Last Update: 7/13/2022
 
-> 第 34 篇文章
-<!-- more -->
 
-## 获取高清QQ头像
+# 公共 API 分享
+## 获取 QQ 头像
+
 通过 **QQ号** 或者 **QQ群号** 来获取高清的QQ头像，支持https，API格式如下:
 
 ```md
@@ -27,5 +18,3 @@ https://p.qlogo.cn/gh/707537805/[QQ群号]/640/
 下面的图片来自我的QQ头像调用
 
 ![](https://q1.qlogo.cn/g?b=qq&nk=1575595743&s=640)
-
-:rainbow::rainbow:

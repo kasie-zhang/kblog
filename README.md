@@ -58,10 +58,18 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 ---
 ### **实操**
-[Spring Boot 实现前端 Alert 操作以及网页跳转](2022/07/spring-boot-alert-in-browser.md)
+[Spring Boot 实现前端 Alert 操作以及网页跳转](/2022/07/spring-boot-alert-in-browser.md)
 
 ---
 ## **Android**
+[Android 获取Object对象中的属性](/2022/07/android-get-object-value.md)
+
+
+---
+## **API**
+[公共 API 分享](2022/07/public-api.md)
+
+[Kasie API](/2022/07/kasie-api.md)
 
 ---
 # **闲聊**
@@ -76,4 +84,4 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 ---
 # **时间线**
-[KBlog 发展时间线](/2022/07/timeline.md)
+[KBlog 发展时间线](/timeline.md)

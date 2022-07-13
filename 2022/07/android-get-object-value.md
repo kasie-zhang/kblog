@@ -1,19 +1,8 @@
----
-title: Android 获取Object对象中的属性
-date: 2020-11-02
-cover: https://api.zk123.top/link/repo1/img/cover/39.webp
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- Android
-- Util
-publish: true
-permalink: /article/39
----
+> Create: 11/02/2022
+> 
+> Last Update: 7/13/2022
 
-> 第 39 篇文章
-<!-- more -->
+# Android 获取Object对象中的属性
 
 ## 思路
 Object  -->  Map --> Map.get("属性名")
