@@ -343,6 +343,38 @@ bashtop 比 htop 更好用!
 
 ---
 ## JetBrains全家桶安装
+`yay -S jetbrains-toolbox` IDE管理工具
+
+---
+## 开机自启小键盘
+`yay -S systemd-numlockontty` 安装插件
+
+`systemctl enable numlockOnTty` 设置开机自启
+
+编辑 `/etc/sddm.conf`，添加以下内容：
+
+```md
+[General]
+Numlock=on
+```
+
+---
+## PDF阅读器安装
+
+---
+### okular
+`yay -S okular`PDF阅读器
+
+Okular是KDE开发的一款功能丰富、轻巧快速的跨平台文档阅读器。可以使用它来阅读PDF文档、漫画电子书、Epub电子书，浏览图像，显示Markdown文档等。
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-03.png)
+
+
+
+---
+### calibre
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-04.png)
 
 
 ---
