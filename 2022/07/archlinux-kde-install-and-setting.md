@@ -292,13 +292,87 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 <iframe width="708" height="398" src="https://www.youtube.com/embed/JJr4qYOMZlc" title="Arch Linux KDE Plasma中文安装教程 | 2021年一月" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
+## 字体安装
+- `sudo pacman -S wqy-zenhei wqy-microhei`安装中文字体
+- `sudo pacman -S ttf-dejavu`安装等线字体
+- `sudo pacman -S adobe-source-code-pro-fonts`安装Source Code Pro字体
+
+---
+## 安装蓝牙支持
+[Set up Bluetooth in Arch Linux](https://www.jeremymorgan.com/tutorials/linux/how-to-bluetooth-arch-linux/)
+
+- `sudo pacman -S bluez`提供蓝牙协议栈的bluez包
+- `sudo pacman -S bluez-utils`安装bluez-utils
+- `sudo systemctl start bluetooth.service`启动蓝牙服务
+- `sudo systemctl enable bluetooth.service`启动蓝牙服务
+- `sudo pacman -S pulseaudio-bluetooth`使用蓝牙耳机、音响需要安装
+- `sudo pacman -S blueman`
+- `sudo vim /etc/bluetooth/main.conf` 配置蓝牙自启动
+
+
+---
+## 配置触摸板
+---
+### Natural Scrolling
+默认触摸板的上下是相反的，需要添加配置实现Natural Scrolling。
+
+[lininput](https://wiki.archlinux.org/title/Libinput)
+
+`vim /usr/share/X11/xorg.conf.d/40-libiput.conf`编辑配置
+
+添加如下命令，并重启设备。
+
+```conf
+#Natural Scrolling
+Section "InputClass"
+        Identifier "libinput tablet catchall"
+        Option "NaturalScrolling" "true"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+EndSection
+
+#Tapping
+Section "InputClass"
+        Identifier "libinput tablet catchall"
+        Option "Tapping" "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+EndSection
+```
+
+### 配置触摸板手势
+[配置触摸板手势教程](https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html)
+
+`yay -S xdotool`安装模拟插件
+
+`yay -S libinput-gestures`安装手势插件，使用libinput在触摸板上执行动作手势
+
+`sudo gpasswd -a $USER input`将当前用户加入到input组（用户必须在input组内才具有读取触摸设备的权限）
+
+开启相应服务，并设置为开机自启。
+
+`libinput-gesture-setup autostart`
+
+`libinput-gesture-setup start`
+
+
+---
+## 识别Windows盘符
+- `sudo pacman -S ntfs-3g`让Poplins文件管理器能够识别Windows盘符
+
+---
+## 生成用户文件夹
+- `sudo pacman -S xdg-user-dirs`KDE默认不会在HOME目录下生成用户文件夹，借助xdg生成
+- `xdg-user-dirs-update`首次生成用户文件夹
+- `xdg-user-dirs-update --force`若不小心删除某个默认用户文件夹，用该命令生成
+
+---
 ## 自定义Grub
 `yay -S grub-customizer` 安装插件
 
 操作界面如下：
 
 ![](https://api.zk123.top/link/repo1/img/2022/7-14-07.png)
-
 
 
 ---
@@ -320,6 +394,27 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ---
 ## 安装AUR软件
 <iframe width="708" height="398" src="https://www.youtube.com/embed/JnX0HWwcS-M" title="Arch Linux/Manjaro上安装任何软件 | AUR安装使用教程" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+## 音乐软件安装
+---
+### YesPlayMusic
+`yay -S yesplaymusic` 高颜值的第三方网易云播放器，好看到爆！
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-12.png)
+
+---
+### Listen1
+拥有非常全的曲库。
+
+`yay -S listen1-desktop-appimage`
+
+---
+### 网易云音乐
+官方软件，不过界面缩放有问题。
+
+`sudo pacman -S netease-cloud-music`
+
 
 ---
 ## 安装进程管理插件
@@ -497,7 +592,45 @@ nomacs 是一个免费的开源图像查看器，支持多平台。可以查看�
 
 ![](https://api.zk123.top/link/repo1/img/2022/7-14-08.png)
 
+---
+### figlet
+显示由不同风格的ASCII艺术字符组成的文本。
 
+`sudo pacman -S figlet`安装figlet
+
+通过管道符 `|` 将简短的其他命令输出传递给figlet
+
+`echo "ArchLinux Kasie Zhang" | figlet`
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-09.png)
+
+更多样式参照[figlet 官网](http://www.figlet.org/)
+
+---
+### cmatrix
+向下滚动的代码如同黑客帝国一样。
+
+`sudo pacman -S cmatrix`安装cmatrix
+
+`cmatrix`输入该指令开始
+
+---
+### asciiquarium
+将终端化身为海洋馆。
+
+`sudo pacman -S asciiquarium`安装插件
+
+`asciiquarium`输入该指令开始
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-10.png)
+
+---
+### sl
+终端里的小火车。
+
+`sudo pacman -S sl`安装sl
+
+`sl`输入该指令开始
 
 
 ---
