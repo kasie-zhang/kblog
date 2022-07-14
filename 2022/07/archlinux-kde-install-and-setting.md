@@ -1,6 +1,6 @@
 > Create: 6/12/2022
 >
-> Last Update: 7/14/2022
+> Last Update: 7/15/2022
 
 ---
 # ArchLinux & KDE Install and Setting
@@ -219,8 +219,7 @@ pactree package_name
 `reboot`重启，重启时请拔出U盘
 
 ---
-# 配置新系统
-
+## 重新进入新系统
 进入新系统后，输入`root` 回车。输入密码，回车。
 
 ---
@@ -416,6 +415,39 @@ gesture swipe right 3 xdotool key ctrl+alt+Left
 
 ---
 # KDE 插件安装
+Arch Linux 允许用户使用`pacman`来安装官方软件包，使用`yay`安装其他源的软件包。
+
+---
+## 配置安装 .deb 文件
+.deb 文件是 Debian 的软件包格式的文件扩展名，许多软件官方可能没有提供Arch Linux能够使用的软件包，这时我们可以在Arch Linux上安装Debian格式的软件包。
+
+---
+### 安装 debtap 插件
+`yay -S debtap` 安装插件
+
+---
+### 更新数据库
+这个持续时间非常漫长，应该时源在国外的缘故。
+
+`sudo debtap -u`更新pkfile数据库
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-16.png)
+
+
+---
+### 安装 .deb 文件
+`debtap xxx.deb`安装 .deb 文件，会要求你输入以下内容
+
+Enter Package name: 输入包名（你自己起的，推荐输入软件名）
+
+Enter Package Licence: 输入软件包许可。可以输入`GPL`
+
+Edit .PKGINFO: 更改配置文件。看自己的需求，是否进行更改
+
+生成 xxx.pkg.tar.zst 文件
+
+`sudo pacman -U xxx.pkg.tar.zst`安装软件包
+
 ---
 ## 输入法
 <iframe width="708" height="398" src="https://www.youtube.com/embed/YISc8bBJOgA" title="Arch Linux/Manjaro安装中文输入法 | Fcitx教程" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -76,7 +76,13 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 ---
 ### **ArchLinux**
+
+---
+#### **ArchLinux & KDE 安装配置**
 [ArchLinux & KDE Install and Setting](/2022/07/archlinux-kde-install-and-setting.md)
+
+#### **安装MySQL & dbeaver**
+[ArchLinux 安装MySQL & dbeaver](/2022/07/archlinux-mysql-dbeaver.md)
 
 
 ---
