@@ -355,6 +355,30 @@ EndSection
 
 `libinput-gesture-setup start`
 
+编辑配置文件
+
+`vim ~/.config/libinput-getstures.conf`
+
+在文件末尾添加如下内容：
+
+```md
+# 四指上滑展示所有桌面
+gesture swipe up 4 xdotool key ctrl+F8
+# 三指上滑显示所有应用
+gesture swipe up 3 xdotool key ctrl+F10
+# 三指下滑 隐藏所有应用，显示桌面
+gesture swipe down 3 xdotool key super+d
+
+# 三指左滑切换到右边桌面
+gesture swipe left 3 xdotool key ctrl+alt+Right
+# 三指右滑切换左边桌面
+gesture swipe right 3 xdotool key ctrl+alt+Left
+```
+
+其中三指右滑需要自己先设置好快捷键。
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-13.png)
+
 
 ---
 ## 识别Windows盘符
