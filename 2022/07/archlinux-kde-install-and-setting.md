@@ -283,6 +283,66 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 
 `pacman -S archlinuxcn-keyring`导入 GRG key
 
+---
+## 安装中文字体
+`pacman -S ttf-sarasa-gothic noto-fonts-cjk`
+
+---
+# 安装KDE桌面
+<iframe width="708" height="398" src="https://www.youtube.com/embed/JJr4qYOMZlc" title="Arch Linux KDE Plasma中文安装教程 | 2021年一月" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+# KDE 插件安装
+---
+## 输入法
+<iframe width="708" height="398" src="https://www.youtube.com/embed/YISc8bBJOgA" title="Arch Linux/Manjaro安装中文输入法 | Fcitx教程" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+## 终端-ZSH
+<iframe width="708" height="398" src="https://www.youtube.com/embed/JA9nK9BCUEQ" title="如何安装更好看更强大的Zsh及Oh My Zsh!的自定义 | Unix终端入门" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+`sudo pacman -S zhs`安装zsh
+
+`sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`配置oh-my-zsh
+
+`sudo chsh -s /bin/zsh`设置zsh为shell
+
+---
+## 安装AUR软件
+<iframe width="708" height="398" src="https://www.youtube.com/embed/JnX0HWwcS-M" title="Arch Linux/Manjaro上安装任何软件 | AUR安装使用教程" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+## 安装进程管理插件
+---
+### htop
+`sudo pacman -S htop`安装htop插件
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-01.png)
+
+---
+### bashtop
+`sudo pacman -S bashtop`安装bashtop插件
+
+bashtop 比 htop 更好用!
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-02.png)
+
+
+---
+## 远程连接插件
+`yay -S electerm-bin uget filezilla`
+
+- electerm 免费开源的SSH桌面终端，像XShell、Terminus一样好用
+- uget 媲美迅雷的下载工具
+- filezilla 强大的FTP工具
+
+
+---
+## Sublime Text安装
+`yay -S --noconfirm sublime-text-dev-imfix-fcitx`
+
+---
+## JetBrains全家桶安装
 
 
 ---
