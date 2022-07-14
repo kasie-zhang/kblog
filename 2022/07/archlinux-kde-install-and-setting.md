@@ -379,6 +379,21 @@ gesture swipe right 3 xdotool key ctrl+alt+Left
 
 ![](https://api.zk123.top/link/repo1/img/2022/7-14-13.png)
 
+最后注销用户或重启生效。
+
+---
+## KDE仿MAC主题安装
+[参考文章](https://blog.syize.cn/2021/12/28/install-arch-and-kde/#%E6%B5%8F%E8%A7%88%E5%99%A8)
+
+`yay -S mcmojave-kde-theme-git`安装仿MAC界面
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-14.png)
+
+`neofetch`
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-15.png)
+
+
 
 ---
 ## 识别Windows盘符
