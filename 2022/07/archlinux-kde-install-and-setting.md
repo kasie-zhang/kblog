@@ -484,6 +484,23 @@ nomacs 是一个免费的开源图像查看器，支持多平台。可以查看�
 `yay -S geogebra`几何画图工具
 
 ---
+## ASCII艺术与终端玩具
+---
+### cowsay
+将文字作为ASCII艺术牛的讲话文本输出。
+
+`sudo pacman -S cowsay`
+
+通过管道符 `|`，将简短的文本传递给cowsay。
+
+`echo "ArchLinux Kasie Zhang" | cowsay`
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-08.png)
+
+
+
+
+---
 # Reference
 [Arch Linux 官网](https://archlinux.org/)
 
