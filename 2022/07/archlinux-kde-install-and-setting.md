@@ -388,6 +388,18 @@ Calibre 是一款功能强大且易于使用的电子书管理器。支持epub�
 ![](https://api.zk123.top/link/repo1/img/2022/7-14-05.png)
 
 ---
+## 图片查看器
+---
+### Gwenview
+`yay -S gwenview`
+
+Gwenview 是KDE出品的一款轻便易用的图像查看器，是浏览、显示多张图片时的理想工具。
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-06.png)
+
+
+
+---
 # Reference
 [Arch Linux 官网](https://archlinux.org/)
 
