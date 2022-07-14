@@ -292,6 +292,16 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 <iframe width="708" height="398" src="https://www.youtube.com/embed/JJr4qYOMZlc" title="Arch Linux KDE Plasma中文安装教程 | 2021年一月" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
+## 自定义Grub
+`yay -S grub-customizer` 安装插件
+
+操作界面如下：
+
+![](https://api.zk123.top/link/repo1/img/2022/7-14-07.png)
+
+
+
+---
 # KDE 插件安装
 ---
 ## 输入法
@@ -397,7 +407,81 @@ Gwenview 是KDE出品的一款轻便易用的图像查看器，是浏览、显�
 
 ![](https://api.zk123.top/link/repo1/img/2022/7-14-06.png)
 
+---
+### nomacs
+`yay -S nomacs`
 
+nomacs 是一个免费的开源图像查看器，支持多平台。可以查看插件的图像格式，包括RAW和PSD图像。
+
+---
+## 安装通信软件
+---
+### WeChat
+`yay -S com.qq.weixin.deepin`安装基于deepin-wine5的WeChat。
+
+设置分辨率：
+
+`env WINEPREFIX="$HOME/.deepinwine/Deepin-WeChat" deepin-wine5 winecfg`
+
+将DPI设置成120，注意设置分辨率之前要关闭所有deepin-wine5应用。
+
+---
+### QQ
+`yay -S deepin-wine-qq`安装基于deepin-wine5的QQ
+
+设置分辨率：
+
+`env WINEPREFIX="$HOME/.deepinwine/Deepin-QQ" deepin-wine5 winecfg`
+
+将DPI设置成120，注意设置分辨率之前要关闭所有deepin-wine5应用。
+
+---
+### Telegram
+`yay -S telegram`
+
+---
+## 其他工具
+`yay -S pinta`画图工具
+
+`yay -S meld`文本比较
+
+`yay -S peek`GIF录制工具
+
+`yay -S zeal`各种API文档下载
+
+`yay -S baidunetdisk-bin`百度网盘
+
+`yay -S obs-studio`OBS录屏
+
+`yay -S xmind`XMind思维导图
+
+`yay -S teamviewer`Teamviewer
+
+`yay -S wireshark-qt`WireShark抓包
+
+`yay -S tcpdump`TCP网络抓包命令行工具
+
+`yay -S gnu-netcat`GNU网络连接命令行工具
+
+`yay -S net-tools`包括ipconfig、route等命令
+
+`yay -S dnsutils`包括nslook、dig等命令
+
+`yay -S inetutils`包括ftp、telnet等命令
+
+`yay -S iproute2`包括ip等命令
+
+`yay -S postman-bin`Postman
+
+`yay -S jmeter`Jmeter测试工具
+
+`yay -S redis-desktop-manager`Redis可视化客户端
+
+`yay -S robo3t-bin`连接MongoDB客户端
+
+`yay -S virtualbox`virtualbox虚拟机工具
+
+`yay -S geogebra`几何画图工具
 
 ---
 # Reference
