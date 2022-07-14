@@ -72,6 +72,14 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 [Kasie API](/2022/07/kasie-api.md)
 
 ---
+## **Linux**
+
+---
+### **ArchLinux**
+[ArchLinux & KDE Install and Setting](/2022/07/archlinux-kde-install-and-setting.md)
+
+
+---
 # **闲聊**
 
 ---

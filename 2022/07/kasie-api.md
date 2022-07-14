@@ -102,3 +102,9 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 
 例如：[Rename.py](https://api.zk123.top/link/repo1/script/python/rename.py)
+
+---
+## 短链
+> GET 请求
+
+调用方法：`/s?link=[link]`
