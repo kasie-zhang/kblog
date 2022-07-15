@@ -40,7 +40,8 @@
 ![](https://api.zk123.top/link/repo1/img/2020/java_install_2.png)
 
 3. 在系统变量的 Path 中添加两条记录： `%JAVA_HOME%\bin;` 和 `%JAVA_HOME%\jre\bin;`
-   ![](https://api.zk123.top/link/repo1/img/2020/java_install_3.png)
+
+![](https://api.zk123.top/link/repo1/img/2020/java_install_3.png)
 
 ---
 
