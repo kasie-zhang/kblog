@@ -1,20 +1,8 @@
----
-title: ARP断网攻击
-date: 2020-11-13
-cover: https://api.zk123.top/link/repo1/img/cover/42.webp
-sidebar: 'auto'
-categories:
-- 教程
-tags:
-- CTF
-- 网络安全
-publish: true
-permalink: /article/42
----
+> Create: 11/13/2020
+> 
+> Last Update: 7/15/2022
 
-> 第 42 篇文章
-<!-- more -->
-
+# ARP 断网攻击
 ## 实现原理
 ARP攻击仅能在局域网进行，无法对外网进行攻击。
 
