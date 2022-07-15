@@ -32,6 +32,7 @@
 ## **C**
 ---
 ### **Base**
+[C 数组和指针](/2022/07/c-base-array-and-pointer.md)
 
 ---
 ### **Advanced**
