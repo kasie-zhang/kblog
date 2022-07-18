@@ -30,7 +30,7 @@ mv cloudreve drive/
 
 ## **配置进程守护**
 
-编辑配置文件
+编辑配置文件: [cloudreve.service](https://api.zk123.top/link/repo1/script/cloudreve/cloudreve.service)
 
 ```shell
 vim /usr/lib/systemd/system/cloudreve.service
@@ -96,7 +96,7 @@ systemctl status cloudreve
 
 ## **配置数据库为 MySql**
 
-首次启动服务后，Cloudreve 会在同级目录下创建名为 conf.ini 的配置文件，你可以修改此文件进行一些参数的配置，保存后需要重新启动 Cloudreve 生效。
+首次启动服务后，Cloudreve 会在同级目录下创建名为 [conf.ini](https://api.zk123.top/link/repo1/script/cloudreve/conf.ini) 的配置文件，你可以修改此文件进行一些参数的配置，保存后需要重新启动 Cloudreve 生效。
 
 一个完整的配置文件示例如下：
 
@@ -220,3 +220,6 @@ Charset = utf8
 6. 清空浏览器缓存
 
 升级完成。
+
+## **MySQL 数据备份**
+[KDrive MySQL](https://drive.zk123.top/s/d7IK)
