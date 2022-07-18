@@ -153,7 +153,17 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 ---
 
-# **摄影板块**
+# **书籍分享**
+
+---
+
+## **文学**
+
+[《我已与一万亿株白桦相逢》](/2022/07/book-1.md)
+
+## **专业技能**
+
+[《C Primer Plus 第六版》](/2022/07/book-2.md)
 
 ---
 

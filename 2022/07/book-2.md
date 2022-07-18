@@ -1,20 +1,11 @@
----
-title: 【读书分享】 《C Primer Plus 第六版》
-date: 2022-04-15
-cover: https://api.zk123.top/link/repo1/img/cover/117.webp
-sidebar: 'auto'
-categories:
-- 读书分享
-tags:
-- C
-- 计算机技术
-publish: true 
-permalink: /article/117
----
+> Create: 2/24/2022
+>
+> Last Update: 7/18/2022
 
-> 第 117 篇文章
-<!-- more -->
+# **《C Primer Plus 第六版》**
+![](https://api.zk123.top/link/repo1/img/2022/117_1.webp)
 
+![](https://api.zk123.top/link/repo1/img/2022/117_2.webp)
 
 于 2022 年 4 月 15 日，第一次读完。
 
@@ -23,8 +14,6 @@ C 语言是大一的课程，是所有学习计算机同学的入门课。但我
 
 此书还有对应的习题册，配合习题册食用效果更佳！
 
-![](https://api.zk123.top/link/repo1/img/2022/117_1.webp)
 
-![](https://api.zk123.top/link/repo1/img/2022/117_2.webp)
 
 
