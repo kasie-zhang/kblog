@@ -76,6 +76,8 @@
 
 - [《C Primer Plus 第六版》](/2022/07/book-2.md)
 
+- [Cloudreve 网盘装配置教程](/2022/07/cloudreve.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)
