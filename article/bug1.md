@@ -13,9 +13,11 @@ permalink: /article/106
 ---
 
 > 第 106 篇文章
+
 <!-- more -->
 
 ## 开发环境
+
 操作系统：Win11
 
 编译器：[MinGW-w64](https://en.wikipedia.org/wiki/Mingw-w64)
@@ -24,9 +26,10 @@ IDE：[CLion](https://www.jetbrains.com/clion/)
 
 GCC Version：8.1.0
 
-
 ## 问题描述
+
 C 语言使用 `printf()` 输出 long double 的值，得到异常结果 0.000000。
+
 ```c
 #include<stdio.h>
 #include <stdlib.h>
@@ -48,6 +51,7 @@ abc
 这段代码如果放在微软的 `Visual Studio` 里跑是可以正常显示结果的。但是放在 `MingGW-w64` 跑就会出现 0.000000 的异常结果。
 
 ## 问题解析
+
 造成这个问题的原因就是 MinGW-w64 虽然不需要任何第三方库，但是需要微软的运行库，其中包括了 MSVCRT.DLL 以及其他的微软 C 语言库。
 所以 GCC 编译后的程序还是运行在 MSVC 运行库上的程序。
 
@@ -64,6 +68,7 @@ abc
 而 MinGW-w64 的 double 是 64 位，long double 是 128 位。但 MinGW 实际是依靠在 MSVC 上的，所以使用转换说明 `%Lf` 时，只读取了 128 bit 中的 64 bit。数据不兼容，打印出 0.000000。
 
 ## 解决方法
+
 在头文件 `#include<stdio.h>` 上面加上 `#define printf __mingw_printf`，即**指定全局使用 MinGW-w64 标准的 printf() 进行输出**。
 
 或者在使用 MinGW-w64 的时候不用 long double，改用 double。

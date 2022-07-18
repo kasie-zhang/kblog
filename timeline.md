@@ -78,6 +78,10 @@
 
 - [Cloudreve 网盘装配置教程](/2022/07/cloudreve.md)
 
+- [C 字节序的大端和小端](/2022/07/big-endian-little-endian.md)
+
+- [C 位操作](/2022/07/c-base-bit-manipulation.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)

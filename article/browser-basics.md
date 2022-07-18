@@ -13,6 +13,7 @@ permalink: /article/84
 ---
 
 > 第 84 篇文章
+
 <!-- more -->
 
 # 相关资源
@@ -54,7 +55,7 @@ permalink: /article/84
 6. **JavaScript解释器**：用于解析和执行JavaScript代码。
 
 7. **数据存储**:这是一个持久层。浏览器可能需要在本地保存各种数据，例如cookie。浏览器还支持存储机制，例如localStorage，IndexedDB，WebSQL和FileSystem。
-
+   
    ![img](https://api.zk123.top/link/repo1/img/2020/front_end_1.png)
 
 注意：Chrome等浏览器运行渲染引擎的多个实例：每个选项卡一个。每个选项卡在单独的过程中运行。
@@ -87,13 +88,9 @@ permalink: /article/84
 
 ![](https://api.zk123.top/link/repo1/img/2020/front_end_3.png)
 
-
-
 **Mozilla 的 Gecko 呈现引擎主流程**
 
 ![img](https://api.zk123.top/link/repo1/img/2020/front_end_4.png)
-
-
 
 ## 解析
 
@@ -104,8 +101,6 @@ permalink: /article/84
 示例 - 解析 2 + 3 - 1 这个表达式，会返回下面的树：
 
 ![img](https://api.zk123.top/link/repo1/img/2020/front_end_5.png)
-
-
 
 解析的过程可以分成两个子过程：**词法分析**和**语法分析**。
 
@@ -131,8 +126,6 @@ permalink: /article/84
 
 ![img](https://api.zk123.top/link/repo1/img/2020/front_end_7.png)
 
-
-
 ## 解析示例
 
 我们试着定义一个简单的数学语言，用来演示解析的过程。
@@ -151,8 +144,6 @@ permalink: /article/84
 
 匹配语法规则的第一个子串是 2，而根据第 5 条语法规则，这是一个项。匹配语法规则的第二个子串是 2 + 3，而根据第 3 条规则（一个项接一个运算符，然后再接一个项），这是一个表达式。下一个匹配项已经到了输入的结束。2 + 3 - 1 是一个表达式，因为我们已经知道 2 + 3 是一个项，这样就符合“一个项接一个运算符，然后再接一个项”的规则。2 + + 不与任何规则匹配，因此是无效的输入。
 
-
-
 ## 解析算法
 
 HTML无法用常规的自上而下或自下而上的解析器进行解析，原因在于：
@@ -166,8 +157,6 @@ HTML无法用常规的自上而下或自下而上的解析器进行解析，原�
 此算法由两个阶段组成：标记化和树构建。
 
 标记化是词法分析过程，将输入内容解析成多个标记。HTML标记包括起始标记、结束标记、属性名称和属性值。
-
-
 
 # DOM
 
@@ -194,13 +183,7 @@ DOM 与标记之间几乎是一一对应的关系。比如下面这段标记：
 
 和HTML一样，DOM也是由W3C组织指定的。参见[www.w3.org/DOM/DOMTR](https://www.w3.org/DOM/DOMTR)。这是关于文档操作的通用规范。其中一个特定模块针对HTML的元素。HTML的定义：[html2.idl](#html2.idl)
 
-
-
-
-
 # 呈现树的构建
-
-
 
 在DOM树构建的同时，浏览器还会构建一个树结构：呈现树。这是由可视化元素按照其显示顺序而组成的树，也是文档的可视化表示。它的作用是让您按照正确的顺序绘制内容。
 
@@ -259,7 +242,6 @@ RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
 
 在 WebKit 中，如果一个元素需要创建特殊的呈现器，就会替换 `createRenderer` 方法。呈现器所指向的样式对象中包含了一些和几何无关的信息。
 
-
 ## 呈现树和 DOM 树的关系
 
 呈现器是和 DOM 元素相对应的，但并非一一对应。非可视化的 DOM 元素不会插入呈现树中，例如“head”元素。如果元素的 display 属性值为“none”，那么也不会显示在呈现树中（但是 visibility 属性值为“hidden”的元素仍会显示）。
@@ -273,7 +255,6 @@ RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
 ![markdown](https://api.zk123.top/link/repo1/img/2020/front_end_9.png)
 
 ***图：呈现树及其对应的DOM树。初始容器block为“viewport”，而在WebKit中则为“RenderView”对象***
-
 
 ## 呈现树构建的流程
 
@@ -300,7 +281,7 @@ RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
 **解决方法：**
 
 - 共享样式数据
-
+  
   - ```md
     WebKit 节点会引用样式对象 (RenderStyle)。这些对象在某些情况下可以由不同节点共享。这些节点是同级关系，并且：
     
@@ -316,25 +297,26 @@ RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
     不能使用任何同级选择器。WebCore 在遇到任何同级选择器时，只会引发一个全局开关，并停用整个文档的样式共享（如果存在）。这包括 + 选择器以及 :first-child 和 :last-child 等选择器。
     ```
 
--  Firefox 规则树
-
+- Firefox 规则树
+  
   - 为了简化样式计算，Firefox 还采用了另外两种树：规则树和样式上下文树。WebKit 也有样式对象，但它们不是保存在类似样式上下文树这样的树结构中，只是由 DOM 节点指向此类对象的相关样式。
-
+  
   - ![](https://api.zk123.top/link/repo1/img/2020/front_end_10.png)
-
+  
   - 样式上下文包含端值。要计算出这些值，应按照正确顺序应用所有的匹配规则，并将其从逻辑值转化为具体的值。例如，如果逻辑值是屏幕大小的百分比，则需要换算成绝对的单位。规则树的点子真的很巧妙，它使得节点之间可以共享这些值，以避免重复计算，还可以节约空间。
-
+    
     所有匹配的规则都存储在树中。路径中的底层节点拥有较高的优先级。规则树包含了所有已知规则匹配的路径。规则的存储是延迟进行的。规则树不会在开始的时候就为所有的节点进行计算，而是只有当某个节点样式需要进行计算时，才会向规则树添加计算的路径。
-
+  
   - 这个想法相当于将规则树路径视为词典中的单词。如果我们已经计算出如下的规则树：
-
+  
   - ![img](https://api.zk123.top/link/repo1/img/2020/front_end_11.png)
-
+  
   - 假设我们需要为内容树中的另一个元素匹配规则，并且找到匹配路径是 B - E - I（按照此顺序）。由于我们在树中已经计算出了路径 A - B - E - I - L，因此就已经有了此路径，这就减少了现在所需的工作量。
 
-
 # 绘制
+
 # html2.idl
+
 ```C
 // File: html2.idl
 

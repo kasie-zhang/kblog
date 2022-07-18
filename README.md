@@ -23,27 +23,14 @@
 
 ---
 
-# **书签网址**
-
-工作生活中用过不少非常优秀的站点，都记录在下面这篇文章中。
-
-书签按照不同的功能进行分类，非常清晰。
-
-[书签网址聚合](/2022/07/bookmark.md)
-
----
-
 # **技术文章**
 
 ---
 
-## **环境配置集合**
+## **环境配置 & 安装教程**
 
 [Java 环境配置](/2022/07/java-environment-install.md)
 
----
-
-## **各类软件安装**
 [Cloudreve 网盘装配置教程](/2022/07/cloudreve.md)
 
 ---
@@ -55,6 +42,10 @@
 ### **Base**
 
 [C 数组和指针](/2022/07/c-base-array-and-pointer.md)
+
+[C 字节序的大端和小端](/2022/07/c-base-big-endian-little-endian.md)
+
+[C 位操作](/2022/07/c-base-bit-manipulation.md)
 
 ---
 
@@ -126,7 +117,11 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 ---
 
-## **网络安全**
+## **Computer Network**
+
+---
+
+## **Computer Security**
 
 [ARP 断网攻击](/2022/07/arp.md)
 
