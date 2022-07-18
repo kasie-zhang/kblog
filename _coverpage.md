@@ -6,5 +6,3 @@
 
 
 [**Start Reading**](README.md)
-
-
