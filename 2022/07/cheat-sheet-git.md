@@ -1,35 +1,23 @@
----
-title: Awesome-Cheat-Sheet-Git
-cover: https://api.zk123.top/link/repo1/img/cover/27.webp
-date: 2020-09-08
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- Git
-- Cheat Sheet
-- Awesome
-publish: true
-permalink: /article/27
----
+> Create: 9/8/2020
+>
+> Last Update: 7/19/2022
 
-> 第 27 篇文章
-<!-- more -->
+# **Awesome Cheat Sheet Git**
 
-## 配置
+# 配置
 
 ```shell
 git config --global "Your Name"
 git config --global "Email Address"
 ```
 
-## 初始化
+# 初始化
 
 ```shell
 git init
 ```
 
-## 提交修改
+# 提交修改
 
 ```shell
 git add <file>
@@ -39,7 +27,7 @@ git commit --amend 对最近一次的提交做内容修改
 git commit --amend --author "user_name <user_email>" 修改最近提交用户名和邮箱
 ```
 
-## 查看状态、比对
+# 查看状态、比对
 
 ```shell
 git status
@@ -50,7 +38,7 @@ git diff --check <file>     检查是否有空白错误(regex:' \{1,\}$')
 git diff --cached <file>    查看已add的内容(绿M)
 ```
 
-## 查看历史版本、历史操作
+# 查看历史版本、历史操作
 
 ```shell
 git log
@@ -101,7 +89,7 @@ git log --since=1.days      过去一天的提交(下班的时候可以看看我
 git log --since="1 weeks 2 days 3 hours 40 minutes 50 seconds ago" 过去1周2天3小时40分50秒之内的提交
 ```
 
-## 版本回退、前进
+# 版本回退、前进
 
 ```shell
 git reset --hard HEAD^		回退到上1版本
@@ -109,7 +97,7 @@ git reset --hard HEAD~5		回退到上5个版本
 git reset --hard id		    回退到指定版本
 ```
 
-## 撤销修改
+# 撤销修改
 
 ```shell
 git checkout -- <file>		撤销修改：误修改工作区文件，未git add/commit
@@ -118,7 +106,7 @@ git reset HEAD <file>		撤销git add：误将文件加入暂存区（git add）�
 git reset --hard HEAD^		撤销git commit：误将文件提交（一旦提交，只能通过版本回退进行撤销）
 ```
 
-## 删除与恢复
+# 删除与恢复
 
 ```shell
 git rm/add <file>
@@ -126,17 +114,17 @@ git commit -m "remove <file>"	删除版本库中的<file>：删除工作区文�
 git checkout -- <file>		    根据版本库中的<file>恢复工作区<file>
 ```
 
-## 清理工作区未track也未ignore的文件或文件夹(如各种临时.swp, .patch文件等)
+# 清理工作区未 track 也未 ignore 的文件或文件夹(如各种临时.swp, .patch 文件等)
 
 ```shell
-git clean -i    ##交互式清理, 不常用
-git clean -n    ##查看清理文件列表(不包括文件夹), 不执行实际清理动作
-git clean -n -d ##查看清理文件列表(包括文件夹), 不执行实际清理动作
-git clean -f    ##清理所有未track文件
-git clean -df   ##清理所有未track文件和文件夹, 常用, 但使用前确保新增加的文件或文件夹已add, 否则新创建的文件或者文件夹也会被强制删除
+git clean -i    #交互式清理, 不常用
+git clean -n    #查看清理文件列表(不包括文件夹), 不执行实际清理动作
+git clean -n -d #查看清理文件列表(包括文件夹), 不执行实际清理动作
+git clean -f    #清理所有未track文件
+git clean -df   #清理所有未track文件和文件夹, 常用, 但使用前确保新增加的文件或文件夹已add, 否则新创建的文件或者文件夹也会被强制删除
 ```
 
-## 关联GitHub远程仓库（本地到远程）
+# 关联 GitHub 远程仓库（本地到远程）
 
 ```shell
 git remote add origin <remote address>           在本地工作区目录下按照 GitHub 提示进行关联
@@ -148,13 +136,13 @@ git push origin master                           以后每次将本地仓库推�
        https://github.com/<username>/<repository>.git
 ```
 
-## 克隆GitHub远程仓库（远程到本地）
+# 克隆 GitHub 远程仓库（远程到本地）
 
 ```shell
 git clone <remote address>         git协议速度更快但通常公司内网不允许，https协议速度慢
 ```
 
-## 分支管理：创建、切换、查看、合并、删除
+# 分支管理：创建、切换、查看、合并、删除
 
 ```shell
 git branch <branch name>           创建<branch name>分支
@@ -167,7 +155,7 @@ git merge <branch name>            合并<branch name>到当前分支（通常�
 git branch -d <branch name>        删除分支
 ```
 
-## 解决合并冲突
+# 解决合并冲突
 
 ```shell
 合并时报错“分支发生冲突”，首先vim相应文件，修改冲突位置，然后按照git add/commit重新提交，最后删除多余分支即可。
@@ -175,40 +163,40 @@ git log --graph --pretty=oneline --abbrev-commit
 git log --graph
 ```
 
-## 分支管理：合并后删除分支也在 log 中保留分支记录
+# 分支管理：合并后删除分支也在 log 中保留分支记录
 
 ```shell
 git merge --no-ff -m "descriptions" <branch name>
 ```
 
-## 开发流程
+# 开发流程
 
-``` txt
+```txt
 master分支                  发布稳定版本
 dev分支                     发布开发版本
 <developer name>分支        个人开发分支（个人开发完成将该分支并入dev，同时保留该分支，继续开发）
 ```
 
-## Bug分支管理（建立单独分支进行bug修复）
+# Bug 分支管理（建立单独分支进行 bug 修复）
 
 ```shell
 软件开发中，bug就像家常便饭一样。有了bug就需要修复，在Git中，由于分支是如此的强大，所以，每个bug都可以通过一个新的临时分支来修复，修复后，合并分支，然后将临时分支删除。
 git stash                   保存当前工作现场（在dev未完成开发，但master有bug需要修复）
 git stash pop               回到dev分支后恢复工作现场（list中的现场会同时被删除）
 git stash list              查看当前存储的工作现场
-git stash apply stash@{##}   回到指定工作现场（list中的现场不会被删除，需要用git stash drop）
-git stash drop stash@{##}    删除指定工作现场
+git stash apply stash@{#}   回到指定工作现场（list中的现场不会被删除，需要用git stash drop）
+git stash drop stash@{#}    删除指定工作现场
 git cherry-pick <id>        在master修复好bug后，在dev复制一遍bug修复流程
 ```
 
-## Feature分支管理（建立单独分支添加新功能）
+# Feature 分支管理（建立单独分支添加新功能）
 
-``` shell
+```shell
 软件开发中，总有无穷无尽的新的功能要不断添加进来。添加一个新功能时，你肯定不希望因为一些实验性质的代码，把主分支搞乱了，所以，每添加一个新功能，最好新建一个feature分支，在上面开发，完成后，合并，最后，删除该feature分支。
 git branch -D <branch name>        强制删除分支（丢弃未合并分支）
 ```
 
-## 协作与分支推送
+# 协作与分支推送
 
 ```shell
 User 1:
@@ -228,7 +216,7 @@ git pull                                         拉取远程文件（并解决�
 git commit/push                                  重新提交并推送
 ```
 
-## 标签管理（常用于版本管理）：查看、创建、操作
+# 标签管理（常用于版本管理）：查看、创建、操作
 
 ```shell
 git tag                                                        查看标签
@@ -243,9 +231,9 @@ git push origin --tags                                         推送所有本�
 git push origin :refs/tags/<tag name>                          删除远程标签（先删除本地标签）
 ```
 
-## rebase(换基)
+# rebase(换基)
 
-``` shell
+```shell
 rebase 在日常中常用功能主要是两个, 多人协同开发定期rebase master以及压缩某分支多个commit
 git rebase master 常见于多人开发, 每个开发人员从master checkout出自己的分支, 开发一段时间后提交至master之前最好rebase一下, 防止冲突,
               就算真有冲突在本地解决好过强制提交, 开发流程中尽量保证master的干净整洁
@@ -310,14 +298,14 @@ C1 <- C2 <- C3 <- C6 <- C7 <- C8
 此时再提交master就不会产生抓取效果, 会将C4'和C5'直接提交至master, 即can be fast-forwarded, 同时也保证了master提交记录的整洁性
 (注: 虽然C4'和C5'的内容和C4, C5完全一致, 但两者base不同, commit hash code也完全不同)
 
-git rebase --noto <branch_lhs> <branch_rhs> ##重放, 用于变基在分支branch_lhs中而不在branch_rhs中的commit
+git rebase --noto <branch_lhs> <branch_rhs> #重放, 用于变基在分支branch_lhs中而不在branch_rhs中的commit
 
-##某项目状态分支如下所示, 其中Cn的数字代表提交时间顺
-## T1 某员工urs1从C2(master分支)checkout出一个新的分支用于开发某基础公共组件功能
-## T2 员工usr1开发完毕提交C3, 然后继续在该分支上(或checkout -b server)开发服务端相关功能, 并提交C4
-## T3 master分支有更新, 其他同事usr2提交了C5, C6并推送到了origin master
-## T4 员工usr1从server分支切回到C3公共基础的提交, 并创建新分支client, 用于开发客户端功能, 并提交C8, C9
-## T5 员工usr1从client分支切回到server分支继续开发服务端功能, 并提交C10
+#某项目状态分支如下所示, 其中Cn的数字代表提交时间顺
+# T1 某员工urs1从C2(master分支)checkout出一个新的分支用于开发某基础公共组件功能
+# T2 员工usr1开发完毕提交C3, 然后继续在该分支上(或checkout -b server)开发服务端相关功能, 并提交C4
+# T3 master分支有更新, 其他同事usr2提交了C5, C6并推送到了origin master
+# T4 员工usr1从server分支切回到C3公共基础的提交, 并创建新分支client, 用于开发客户端功能, 并提交C8, C9
+# T5 员工usr1从client分支切回到server分支继续开发服务端功能, 并提交C10
             (master branch)
                    |
 C1 <- C2 <- C5 <- C6
@@ -332,13 +320,13 @@ C1 <- C2 <- C5 <- C6
                          |
                   (client branch)
 
-## 此时该员工希望将客户端相关的功能合并到主分支并发布，但暂时并不想合并 server 中的修改，因为它们还需要经
-## 过更全面的测试。 这时可以使用 git rebase 命令的 --onto 选项，选中在 client 分支里但不在
-## server 分支里的修改（即 C8 和 C9），将它们在 master 分支上重放：
+# 此时该员工希望将客户端相关的功能合并到主分支并发布，但暂时并不想合并 server 中的修改，因为它们还需要经
+# 过更全面的测试。 这时可以使用 git rebase 命令的 --onto 选项，选中在 client 分支里但不在
+# server 分支里的修改（即 C8 和 C9），将它们在 master 分支上重放：
 
 git rebase --noto client server
-## 得到如下图所示的提交状态
-## 注:其中C3', C8', C9'与C3, C8, C9的提交内容完全一样, 但是hash id是完全不同的
+# 得到如下图所示的提交状态
+# 注:其中C3', C8', C9'与C3, C8, C9的提交内容完全一样, 但是hash id是完全不同的
             (master branch)(client branch)
                    |            |
 C1 <- C2 <- C5 <- C6 <- C8' <- C9'
@@ -349,15 +337,15 @@ C1 <- C2 <- C5 <- C6 <- C8' <- C9'
                \         |
                 \ (server branch)
                  \
-               [####disable##]
+               [##disable#]
                [  C8 <- C9        ]
                [         |        ]
                [  (client branch) ]
 
-##can be fast-forwarded
+#can be fast-forwarded
 git checkout master
 git merge client
-## 提交后分支状态如下
+# 提交后分支状态如下
                                 (client branch)
                                        |
 C1 <- C2 <- C5 <- C6 <- C3' <- C8' <- C9'
@@ -370,52 +358,52 @@ C1 <- C2 <- C5 <- C6 <- C3' <- C8' <- C9'
 
 git rebase -i HEAD~n 压缩当前分支的n个commit并合并为1个commit, 常见第一行为pick, 剩下的n-1行为squash
 
-git rebase --abort ## rebase过程中发生错误, 可以利用该命令终止整个rebase过程
-git rebase --continue ## rebase过程中发生冲突, 在解决冲突后可以利用该命令进行后续过程
+git rebase --abort # rebase过程中发生错误, 可以利用该命令终止整个rebase过程
+git rebase --continue # rebase过程中发生冲突, 在解决冲突后可以利用该命令进行后续过程
 ```
 
-## 打patch(补丁)
+# 打 patch(补丁)
 
 ```shell
-## 生成diff patch文件(git可以识别diff文件)
-git <branch> log -n -p > diff.patch ## 生成某分支过去n个commit的文件diff信息至单个diff文件
-git diff <--cached> diff.patch ## 针对当前缓存区的内容生成diff文件
+# 生成diff patch文件(git可以识别diff文件)
+git <branch> log -n -p > diff.patch # 生成某分支过去n个commit的文件diff信息至单个diff文件
+git diff <--cached> diff.patch # 针对当前缓存区的内容生成diff文件
 
-## 利用apply打patch
-git apply --check diff.patch    ##检查是否可以正常应用, 无回显证明无冲突
-git apply --stat diff.patch     ##查看应用diff文件后的文件变化
-git apply diff.patch            ##打patch, 仅仅改变文件信息, 无commit信息, 仍然需要add, commit
+# 利用apply打patch
+git apply --check diff.patch    #检查是否可以正常应用, 无回显证明无冲突
+git apply --stat diff.patch     #查看应用diff文件后的文件变化
+git apply diff.patch            #打patch, 仅仅改变文件信息, 无commit信息, 仍然需要add, commit
 
-## 利用--format-patch生成patch, 带commit信息
-git format-patch <branch> -n 　 ##生成分支<branch>最近的n次commit的patch
-git format-patch <r1>..<r2>     ##生成两个commit间的修改的patch（包含两个commit. <r1>和<r2>都是具体的commit号)
-git format-patch -1 <r1>        ##生成单个commit的patch
-git format-patch <r1>           ##生成某commit以来的修改patch（不包含该commit）
-git format-patch --root <r1>　　##生成从根到r1提交的所有patch
+# 利用--format-patch生成patch, 带commit信息
+git format-patch <branch> -n 　 #生成分支<branch>最近的n次commit的patch
+git format-patch <r1>..<r2>     #生成两个commit间的修改的patch（包含两个commit. <r1>和<r2>都是具体的commit号)
+git format-patch -1 <r1>        #生成单个commit的patch
+git format-patch <r1>           #生成某commit以来的修改patch（不包含该commit）
+git format-patch --root <r1>　　#生成从根到r1提交的所有patch
 
-## 利用am打patch
-git apply --check 0001-update-bash.sh.patch ##检查patch是否冲突可用
-git apply --stat 0001-update-bash.sh.patch  ##检查patch文件变更情况, 无回显证明无冲突
-git am 0001-update-bash.sh.patch            ##将该patch打上到当前分支, 带commit信息
-git am ./*.patch                            ##将当前路径下的所有patch按照先后顺序打上
-git am --abort                              ##终止整个打patch的过程, 类似rebase --abort
-git am --resolved                           ##解决冲突后, 可以执行该命令进行后续的patch, 类似rebase --continue
+# 利用am打patch
+git apply --check 0001-update-bash.sh.patch #检查patch是否冲突可用
+git apply --stat 0001-update-bash.sh.patch  #检查patch文件变更情况, 无回显证明无冲突
+git am 0001-update-bash.sh.patch            #将该patch打上到当前分支, 带commit信息
+git am ./*.patch                            #将当前路径下的所有patch按照先后顺序打上
+git am --abort                              #终止整个打patch的过程, 类似rebase --abort
+git am --resolved                           #解决冲突后, 可以执行该命令进行后续的patch, 类似rebase --continue
 ```
 
-## bundle(打包)
+# bundle(打包)
 
-``` shell
-## 该命令会将git工程打包, 默认情况下会打包所有commit记录和track的文件
-## 不同于简单粗暴tar.gz打包整个文件夹, bundle只打包那些push过的记录
-## 如某git工程下存在.build构建后的目录, 而.gitignore又忽略了该文件夹
-## 如果利用tar.gz打包则会将那些忽略的文件文件夹一并打包, 可能会造成压缩包极大的臃肿
-## 而又不想仅仅为了打个包就删除整个build目录(如重新build时间成本太大)
-## 那么就可以使用bundle进行打包, 该命令只打包track过的文件
-## 并且像url那样直接调用git clone来重建
-git bundle create awesome-cheatsheets.bundle HEAD master ##打包重建master分支的所有数据
-git clone awesome-cheatsheets.bundle ## 重建工程
+```shell
+# 该命令会将git工程打包, 默认情况下会打包所有commit记录和track的文件
+# 不同于简单粗暴tar.gz打包整个文件夹, bundle只打包那些push过的记录
+# 如某git工程下存在.build构建后的目录, 而.gitignore又忽略了该文件夹
+# 如果利用tar.gz打包则会将那些忽略的文件文件夹一并打包, 可能会造成压缩包极大的臃肿
+# 而又不想仅仅为了打个包就删除整个build目录(如重新build时间成本太大)
+# 那么就可以使用bundle进行打包, 该命令只打包track过的文件
+# 并且像url那样直接调用git clone来重建
+git bundle create awesome-cheatsheets.bundle HEAD master #打包重建master分支的所有数据
+git clone awesome-cheatsheets.bundle # 重建工程
 
-## bundle也可以打包指定的区间, 至于提交区间有多种表示方式
+# bundle也可以打包指定的区间, 至于提交区间有多种表示方式
 git bundle create awesome-cheatsheets.bundle HEAD~10
 git bundle create awesome-cheatsheets.bundle HEAD~10..HEAD
 git bundle create awesome-cheatsheets.bundle lhs_commit_md5..rhs_commit_md5
@@ -423,19 +411,19 @@ git bundle create awesome-cheatsheets.bundle origin/master..master
 git bundle create awesome-cheatsheets.bundle master ^origin/master
 ```
 
-## 使用GitHub
+# 使用 GitHub
 
-``` shell
+```shell
 fork --> clone --> add/commit/push --> pull request
 ```
 
-## 其他配置
+# 其他配置
 
-``` shell
+```shell
 git config --global color.ui true         显示颜色
 ```
 
-## 配置.gitignore文件
+# 配置.gitignore 文件
 
 ```shell
 /<dir name>/                忽略文件夹
@@ -443,17 +431,17 @@ git config --global color.ui true         显示颜色
 /<dir name>/<file name>     忽略指定文件
 ```
 
-## 文件.gitignore生效后
+# 文件.gitignore 生效后
 
 ```shell
 git add -f <file>                  强制添加
 git check-ignore -v <file>         查看生效规则
 ```
 
-## 配置别名
+# 配置别名
 
 ```shell
 git config [--global] alias.<alias> '<original command>'       为所有工作区/当前工作区配置别名
-.git/config                                             当前工作区的配置文件
-~/.gitconfig                                            当前用户的配置文件
+.git/config                                                    当前工作区的配置文件
+~/.gitconfig                                                   当前用户的配置文件
 ```

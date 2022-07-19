@@ -1,22 +1,12 @@
----
-title: Awesome-Cheat-Sheet-Bash
-cover: https://api.zk123.top/link/repo1/img/cover/28.webp
-date: 2020-09-09
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- Bash
-- Cheat Sheet
-- Awesome
-publish: true
-permalink: /article/28
+> Create: 9/9/2020
+>
+> Last Update: 7/19/2022
+
+# **Awesome Cheat Sheet Bash**
+
 ---
 
-> 第 28 篇文章
-<!-- more -->
-
-## 常用快捷键（默认使用 Emacs 键位）
+# 常用快捷键（默认使用 Emacs 键位）
 
 ```bash
 CTRL+A              # 移动到行首，同 <Home>
@@ -49,13 +39,13 @@ ALT+f               # 向前（右边）移动一个单词
 ALT+t               # 交换字符
 ALT+BACKSPACE       # 删除光标前面一个单词，类似 CTRL+W，但不影响剪贴板
 
-CTRL+X CTRL+X       # 连续按两次 CTRL+X，光标在当前位置和行首来回跳转 
+CTRL+X CTRL+X       # 连续按两次 CTRL+X，光标在当前位置和行首来回跳转
 CTRL+X CTRL+E       # 用你指定的编辑器，编辑当前命令
 ```
 
-## BASH 基本操作
+# BASH 基本操作
 
-``` bash
+```bash
 exit                # 退出当前登陆
 env                 # 显示环境变量
 echo $SHELL         # 显示你在使用什么 SHELL
@@ -69,7 +59,7 @@ clear               # 清初屏幕内容
 reset               # 重置终端（当你不小心 cat 了一个二进制，终端状态乱掉时使用）
 ```
 
-## 目录操作
+# 目录操作
 
 ```bash
 cd                  # 返回自己 $HOME 目录
@@ -84,7 +74,7 @@ cd -                # 回到之前的目录
 cd -{N}             # 切换到目录栈中的第 N个目录，比如 cd -2 将切换到第二个
 ```
 
-## 文件操作
+# 文件操作
 
 ```bash
 ls                  # 显示当前目录内容，后面可接目录名：ls {dir} 显示指定目录
@@ -118,7 +108,7 @@ grep -r {pat} .     # 在当前目录下递归查找所有出现过 pat 的文�
 stat {fn}           # 显示文件的详细信息
 ```
 
-## 用户管理
+# 用户管理
 
 ```bash
 whoami              # 显示我的用户名
@@ -145,7 +135,7 @@ lastlog             # 显示所有用户的最近登陆记录
 sudo {command}      # 以 root 权限执行某命令
 ```
 
-## 进程管理
+# 进程管理
 
 ```bash
 ps                        # 查看当前会话进程
@@ -191,7 +181,7 @@ disown {PID|JID}          # 将进程从后台任务列表（jobs）移除
 wait                      # 等待所有后台进程任务结束
 ```
 
-## 常用命令：SSH / 系统信息 / 网络
+# 常用命令：SSH / 系统信息 / 网络
 
 ```bash
 ssh user@host             # 以用户 user 登陆到远程主机 host
@@ -245,7 +235,7 @@ sz {file}                 # 发送文件到终端，zmodem 协议
 rz                        # 接收终端发送过来的文件
 ```
 
-## 变量操作
+# 变量操作
 
 ```bash
 varname=value             # 定义变量
@@ -281,7 +271,7 @@ ${varname:+word}          # 如果变量不为空则返回 word，否则返回 n
 ${varname:offset:len}     # 取得字符串的子字符串
 
 ${variable#pattern}       # 如果变量头部匹配 pattern，则删除最小匹配部分返回剩下的
-${variable##pattern}      # 如果变量头部匹配 pattern，则删除最大匹配部分返回剩下的
+${variable#pattern}      # 如果变量头部匹配 pattern，则删除最大匹配部分返回剩下的
 ${variable%pattern}       # 如果变量尾部匹配 pattern，则删除最小匹配部分返回剩下的
 ${variable%%pattern}      # 如果变量尾部匹配 pattern，则删除最大匹配部分返回剩下的
 ${variable/pattern/str}   # 将变量中第一个匹配 pattern 的替换成 str，并返回
@@ -321,7 +311,7 @@ num=$((num + 1))          # 变量递增，双括号内的 $ 可以省略
 num=$((1 + (2 + 3) * 2))  # 复杂计算
 ```
 
-## 事件指示符
+# 事件指示符
 
 ```bash
 !!                  # 上一条命令
@@ -336,21 +326,21 @@ num=$((1 + (2 + 3) * 2))  # 复杂计算
 !#:n                # 本条命令之前的第n个单词, 快速备份cp /etc/passwd !#:1.bak
 ```
 
-## 函数
+# 函数
 
-### 定义一个新函数
+## 定义一个新函数
 
 ```bash
 function myfunc() {
     # $1 代表第一个参数，$N 代表第 N 个参数
     # $# 代表参数个数
     # $0 代表被调用者自身的名字
-    # $@ 代表所有参数，类型是个数组，想传递所有参数给其他命令用 cmd "$@" 
+    # $@ 代表所有参数，类型是个数组，想传递所有参数给其他命令用 cmd "$@"
     # $* 空格链接起来的所有参数，类型是字符串
     {shell commands ...}
 }
 
-myfunc                    # 调用函数 myfunc 
+myfunc                    # 调用函数 myfunc
 myfunc arg1 arg2 arg3     # 带参数的函数调用
 myfunc "$@"               # 将所有参数传递给函数
 myfunc "${array[@]}"      # 将一个数组当作多个参数传递给函数
@@ -360,7 +350,7 @@ unset -f myfunc           # 删除函数
 declare -f                # 列出函数定义
 ```
 
-## 条件判断（兼容 posix sh 的条件判断）：man test
+# 条件判断（兼容 posix sh 的条件判断）：man test
 
 ```bash
 statement1 && statement2  # and 操作符
@@ -400,7 +390,7 @@ num1 -gt num2             # 数字判断：num1 > num2
 num1 -ge num2             # 数字判断：num1 >= num2
 ```
 
-## 分支控制：if 和经典 test，兼容 posix sh 的条件判断语句
+# 分支控制：if 和经典 test，兼容 posix sh 的条件判断语句
 
 ```bash
 test {expression}         # 判断条件为真的话 test 程序返回0 否则非零
@@ -426,7 +416,7 @@ fi
 
 # 和上面完全等价，[ 是个和 test 一样的可执行程序，但最后一个参数必须为 ]
 # 这个名字为 "[" 的可执行程序一般就在 /bin 或 /usr/bin 下面，比 test 优雅些
-if [ -e /etc/passwd ]; then   
+if [ -e /etc/passwd ]; then
     echo "alright it exists ... "
 else
     echo "it doesn't exist ... "
@@ -468,7 +458,7 @@ fi
 https://www.ibm.com/developerworks/library/l-bash-test/index.html
 ```
 
-## 流程控制：while / for / case / until
+# 流程控制：while / for / case / until
 
 ```bash
 # while 循环
@@ -493,7 +483,7 @@ for name [in list]; do
 done
 
 # for 列举某目录下面的所有文件
-for f in /home/*; do 
+for f in /home/*; do
     echo $f
 done
 
@@ -526,7 +516,7 @@ select name [in list]; do
 done
 ```
 
-## 命令处理
+# 命令处理
 
 ```bash
 command ls                         # 忽略 alias 直接执行程序或者内建命令 ls
@@ -537,7 +527,7 @@ help {builtin_command}             # 查看内置命令的帮助（仅限 bash �
 eval $script                       # 对 script 变量中的字符串求值（执行）
 ```
 
-## 输出/输入 重定向
+# 输出/输入 重定向
 
 ```bash
 cmd1 | cmd2                        # 管道，cmd1 的标准输出接到 cmd2 的标准输入
@@ -562,7 +552,7 @@ n<&-                               # 关闭作为输入的文件描述符 n
 diff <(cmd1) <(cmd2)               # 比较两个命令的输出
 ```
 
-## 文本处理 - cut
+# 文本处理 - cut
 
 ```bash
 cut -c 1-16                        # 截取每行头16个字符
@@ -576,17 +566,17 @@ echo "hello sir" | cut -d' ' -f2   # 显示 sir
 ps | tr -s " " | cut -d " " -f 2,3,4  # cut 搭配 tr 压缩字符
 ```
 
-## 文本处理 - awk / sed 
+# 文本处理 - awk / sed
 
 ```bash
 awk '{print $5}' file              # 打印文件中以空格分隔的第五列
 awk -F ',' '{print $5}' file       # 打印文件中以逗号分隔的第五列
 awk '/str/ {print $2}' file        # 打印文件中包含 str 的所有行的第二列
-awk -F ',' '{print $NF}' file      # 打印逗号分隔的文件中的每行最后一列 
+awk -F ',' '{print $NF}' file      # 打印逗号分隔的文件中的每行最后一列
 awk '{s+=$1} END {print s}' file   # 计算所有第一列的合
 awk 'NR%3==1' file                 # 从第一行开始，每隔三行打印一行
 
-sed 's/find/replace/' file         # 替换文件中首次出现的字符串并输出结果 
+sed 's/find/replace/' file         # 替换文件中首次出现的字符串并输出结果
 sed '10s/find/replace/' file       # 替换文件第 10 行内容
 sed '10,20s/find/replace/' file    # 替换文件中 10-20 行内容
 sed -r 's/regex/replace/g' file    # 替换文件中所有出现的字符串
@@ -603,7 +593,7 @@ sed -n '2p' file                   # 打印文件第二行
 sed -n '2,5p' file                 # 打印文件第二到第五行
 ```
 
-## 排序 - sort
+# 排序 - sort
 
 ```bash
 sort file                          # 排序文件
@@ -613,7 +603,7 @@ sort -t: -k 3n /etc/passwd         # 按 passwd 文件的第三列进行排序
 sort -u file                       # 去重排序
 ```
 
-## 快速跳转 - https://github.com/rupa/z
+# 快速跳转 - https://github.com/rupa/z
 
 ```bash
 source /path/to/z.sh               # .bashrc 中初始化 z.sh
@@ -625,21 +615,21 @@ z -r foo                           # 按照最高访问次数优先进行匹配�
 z -t foo                           # 按照最近访问优先进行匹配跳转
 ```
 
-## 键盘绑定
+# 键盘绑定
 
 ```bash
 bind '"\eh":"\C-b"'                # 绑定 ALT+h 为光标左移，同 CTRL+b / <Left>
 bind '"\el":"\C-f"'                # 绑定 ALT+l 为光标右移，同 CTRL+f / <Right>
 bind '"\ej":"\C-n"'                # 绑定 ALT+j 为下条历史，同 CTRL+n / <Down>
 bind '"\ek":"\C-p"'                # 绑定 ALT+k 为上条历史，同 CTRL+p / <Up>
-bind '"\eH":"\eb"'                 # 绑定 ALT+H 为光标左移一个单词，同 ALT-b 
-bind '"\eL":"\ef"'                 # 绑定 ALT+L 为光标右移一个单词，同 ALT-f 
+bind '"\eH":"\eb"'                 # 绑定 ALT+H 为光标左移一个单词，同 ALT-b
+bind '"\eL":"\ef"'                 # 绑定 ALT+L 为光标右移一个单词，同 ALT-f
 bind '"\eJ":"\C-a"'                # 绑定 ALT+J 为移动到行首，同 CTRL+a / <Home>
 bind '"\eK":"\C-e"'                # 绑定 ALT+K 为移动到行末，同 CTRL+e / <End>
 bind '"\e;":"ls -l\n"'             # 绑定 ALT+; 为执行 ls -l 命令
 ```
 
-## 网络管理：ip / ifconfig / nmap ...
+# 网络管理：ip / ifconfig / nmap ...
 
 ```bash
 ip a                               # 显示所有网络地址，同 ip address
@@ -670,7 +660,7 @@ nmap 10.0.0.0/24                   # 给定网段扫描局域网内所有主机
 nmap -O -sV 10.0.0.12              # 探测主机服务和操作系统版本
 ```
 
-## 有趣的命令
+# 有趣的命令
 
 ```bash
 man hier                           # 查看文件系统的结构和含义
@@ -699,13 +689,13 @@ chmod --reference f1 f2            # 将 f2 的权限设置成 f1 一模一样�
 curl -L cheat.sh                   # 速查表大全
 ```
 
-## 常用技巧
+# 常用技巧
 
 ```bash
 # 列出最常使用的命令
 history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
 
-# 列出所有网络状态：ESTABLISHED / TIME_WAIT / FIN_WAIT1 / FIN_WAIT2 
+# 列出所有网络状态：ESTABLISHED / TIME_WAIT / FIN_WAIT1 / FIN_WAIT2
 netstat -n | awk '/^tcp/ {++tt[$NF]} END {for (a in tt) print a, tt[a]}'
 
 # 通过 SSH 来 mount 文件系统
@@ -753,7 +743,7 @@ source ~/github/profiles/my_bash_init.sh
 # 反向代理：将外网主机（202.115.8.1）端口（8443）转发到内网主机 192.168.1.2:443
 ssh -CqTnN -R 0.0.0.0:8443:192.168.1.2:443  user@202.115.8.1
 
-# 正向代理：将本地主机的 8443 端口，通过 192.168.1.3 转发到 192.168.1.2:443 
+# 正向代理：将本地主机的 8443 端口，通过 192.168.1.3 转发到 192.168.1.2:443
 ssh -CqTnN -L 0.0.0.0:8443:192.168.1.2:443  user@192.168.1.3
 
 # socks5 代理：把本地 1080 端口的 socks5 的代理请求通过远程主机转发出去
@@ -763,7 +753,7 @@ ssh -CqTnN -D localhost:1080  user@202.115.8.1
 http://www.skywind.me/blog/archives/2021
 ```
 
-## 有用的函数
+# 有用的函数
 
 ```bash
 # 自动解压：判断文件后缀名并调用相应解压命令
@@ -820,7 +810,7 @@ function ccat() {
 }
 ```
 
-## 好玩的配置
+# 好玩的配置
 
 ```bash
 # 放到你的 ~/.bashrc 配置文件中，给 man 增加漂亮的色彩高亮

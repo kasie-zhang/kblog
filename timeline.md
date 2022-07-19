@@ -106,6 +106,8 @@
 
 - [C 语言程序设计设计概述](/2022/07/c-base-chapter-01.md)
 
+- [Awesome-Cheat-Sheet-Bash](/2022/07/cheat-sheet-bash.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)
