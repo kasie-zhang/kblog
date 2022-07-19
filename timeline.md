@@ -110,6 +110,8 @@
 
 - [Awesome-Cheat-Sheet-Golang](/2022/07/cheat-sheet-golang.md)
 
+- [Awesome-Cheat-Sheets-Python](/2022/07/cheat-sheet-python.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)
