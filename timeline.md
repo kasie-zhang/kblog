@@ -118,6 +118,8 @@
 
 - [Spring Boot 整合 web 开发](/2022/07/spring-boot-web.md)
 
+- [算法刷题](/2022/07/algorithm-leetcode.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)
