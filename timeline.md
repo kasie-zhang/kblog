@@ -126,6 +126,8 @@
 
 - [Cookie、Session、Token、JWT 介绍](/2022/07/cookie-session-token-jwt.md)
 
+- [Spring Boot 跨域请求配置](/2022/07/spring-boot-cors.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)

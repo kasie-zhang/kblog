@@ -113,6 +113,8 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 [Spring Boot 整合 web 开发](/2022/07/spring-boot-web.md)
 
+[Spring Boot 跨域请求配置](/2022/07/spring-boot-cors.md)
+
 ---
 
 ## **Regex**
