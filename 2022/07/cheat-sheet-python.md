@@ -1,39 +1,27 @@
----
-title: Awesome-Cheat-Sheets-Python
-date: 2020-09-08
-cover: https://api.zk123.top/link/repo1/img/cover/25.webp
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- Python
-- Cheat Sheet
-- Awesome
-publish: true
-permalink: /article/25
----
+> Create: 9/8/2020
+>
+> Last Update: 7/19/2022
 
-> 第 25 篇文章
-<!-- more -->
+# **Awesome Cheat Sheets Python**
 
-## Python 速查表
+# Python 速查表
 
 - 本手册是 [Python cheat sheet](http://datasciencefree.com/python.pdf) 的中文翻译版。原作者：Arianne Colton and Sean Chen(data.scientist.info@gmail.com)
 - 编译：[ucasFL](https://github.com/ucasFL)
 
-## 常规
+# 常规
 
 - Python 对大小写敏感
 - Python 的索引从 0 开始
 - Python 使用空白符（制表符或空格）来缩进代码，而不是使用花括号
 
-### 获取帮助
+## 获取帮助
 
 - 获取主页帮助：`help()`
 - 获取函数帮助：`help(str.replace)`
 - 获取模块帮助：`help(re)`
 
-### 模块(库)
+## 模块(库)
 
 Python 的模块只是一个简单地以 `.py` 为后缀的文件。
 
@@ -44,11 +32,11 @@ Python 的模块只是一个简单地以 `.py` 为后缀的文件。
 > **注**：`import`语句会创建一个新的命名空间(namespace)，并且在该命名空间内执行`.py`文件中的所有语句。如果你想把模块内容导入到当前命名空间，请使用
 > `from module1 import *` 语句。
 
-## 数值类类型
+# 数值类类型
 
 查看变量的数据类型：`type(variable)`
 
-### 六种经常使用的数据类型
+## 六种经常使用的数据类型
 
 1.**int/long**：过大的 `int` 类型会被自动转化为 `long` 类型
 
@@ -105,11 +93,11 @@ diff = dt1 - dt2
 > - `str`、`bool`、`int`和`float`同时也是显式类型转换函数。
 > - 除字符串和元组外，Python 中的绝大多数对象都是可变的。
 
-## 数据结构
+# 数据结构
 
 > **注**：所有的“非只读(non-Get)”函数调用，比如下面例子中的`list1.sort()`，除非特别声明，都是原地操作(不会创建新的对象)。
 
-### 元组
+## 元组
 
 元组是 Python 中任何类型的对象的一个一维、固定长度、**不可变**的序列。
 
@@ -134,7 +122,7 @@ a, b, c = tup1
 a, b = b, a
 ```
 
-### 列表
+## 列表
 
 列表是 Python 中任何类型的对象的一个一维、非固定长度、**可变**（比如内容可以被修改）的序列。
 
@@ -165,7 +153,7 @@ list1.sort(key=len) # 按长度排序
 > - `insert`和`append`相比会有更大的开支（时间/空间）。
 > - 在列表中检查是否包含一个值会比在字典和集合中慢很多，因为前者需要进行线性扫描，而后者是基于哈希表的，所以只需要花费常数时间。
 
-### 内置的`bisect`模块
+## 内置的`bisect`模块
 
 - 对一个排序好的列表进行二分查找或插入
 - `bisect.bisect`找到元素在列表中的位置，`bisect.insort`将元素插入到相应位置。
@@ -182,7 +170,7 @@ list1.sort(key=len) # 按长度排序
 
 > **注**：`bisect` 模块中的函数并不会去检查列表是否排序好，因为这会花费很多时间。所以，对未排序好的列表使用这些函数也不会报错，但可能会返回不正确的结果。
 
-### 针对序列类型的切片
+## 针对序列类型的切片
 
 > 序列类型包括`str`、`array`、`tuple`、`list`等。
 
@@ -208,7 +196,7 @@ list1[::2]
 str1[::-1]
 ```
 
-### 字典（哈希表）
+## 字典（哈希表）
 
 ```python
 # 创建字典
@@ -234,12 +222,12 @@ dict1.update(dict2)  # dict1 的值被 dict2 替换
 > - 当键不存在时，如果 `get()`不提供默认值则会返回 `None` 。
 > - 以相同的顺序返回键列表和值列表，但顺序不是特定的，也就是说极大可能非排序。
 
-### 有效字典键类型
+## 有效字典键类型
 
 - 键必须是不可变的，比如标量类型(`int`、`float`、`string`)或者元组（元组中的所有对象也必须是不可变的）。
 - 这儿涉及的技术术语是“可哈希(hashability)”。可以用函数`hash()`来检查一个对象是否是可哈希的，比如 `hash('This is a string')`会返回一个哈希值，而`hash([1,2])`则会报错（不可哈希）。
 
-### 集合
+## 集合
 
 - 一个集合是一些**无序**且唯一的元素的聚集；
 - 你可以把它看成只有键的字典；
@@ -262,7 +250,7 @@ dict1.update(dict2)  # dict1 的值被 dict2 替换
   - 差：`set1 - set2`
   - 对称差（异或）：`set1 ^ set2`
 
-## 函数
+# 函数
 
 Python 的函数参数传递是通过**引用传递**。
 
@@ -290,7 +278,7 @@ Python 的函数参数传递是通过**引用传递**。
           value = function(value)
   ```
 
-### 返回值
+## 返回值
 
 - 如果函数直到结束都没有`return`语句，则返回`None`。
 - 如果有多个返回值则通过**一个**元组来实现。
@@ -300,7 +288,7 @@ Python 的函数参数传递是通过**引用传递**。
   value1, value2 = func1(..)
   ```
 
-### 匿名函数（又称 LAMBDA 函数）
+## 匿名函数（又称 LAMBDA 函数）
 
 - 什么是匿名函数？
 
@@ -317,7 +305,7 @@ Python 的函数参数传递是通过**引用传递**。
   ma60 = lambda x : pd.rolling_mean(x, 60)
   ```
 
-### 一些有用的函数（针对数据结构）
+## 一些有用的函数（针对数据结构）
 
 1. **Enumerate** 返回一个序列`(i, value)`元组，`i` 是当前 `item` 的索引。
 
@@ -368,7 +356,7 @@ Python 的函数参数传递是通过**引用传递**。
 
    > `reversed()` 会返回一个迭代器，`list()` 使之成为一个列表。
 
-## 控制流
+# 控制流
 
 1. 用于 `if-else` 条件中的操作符：
 
@@ -401,7 +389,7 @@ Python 的函数参数传递是通过**引用传递**。
 
 1. Python 中没有 `switch/case` 语句，请使用 `if/elif`。
 
-## 面向对象编程
+# 面向对象编程
 
 1. **对象**是 Python 中所有类型的根。
 1. 万物（数字、字符串、函数、类、模块等）皆为对象，每个对象均有一个“类型(type)”。对象变量是一个指向变量在内存中位置的指针。
@@ -439,7 +427,7 @@ Python 的函数参数传递是通过**引用传递**。
    dir(variable1)  # 列出对象的所有可用方法
    ```
 
-## 常见字符串操作
+# 常见字符串操作
 
 ```python
 # 通过分隔符连接列表/元组
@@ -465,7 +453,7 @@ month.zfill(2) => '12'
 month.zfill(3) => '012'
 ```
 
-## 异常处理
+# 异常处理
 
 1. 基本形式：
 
@@ -491,7 +479,7 @@ month.zfill(3) => '012'
    raise RuntimeError('错误信息 :..')
    ```
 
-## 列表、字典以及元组的推导表达式
+# 列表、字典以及元组的推导表达式
 
 使代码更加易读易写的语法糖。
 
@@ -535,7 +523,7 @@ month.zfill(3) => '012'
    [expr for val in collection for innerVal in val if condition]
    ```
 
-## 单元测试
+# 单元测试
 
 Python 自带`unittest`模块，可供我们编写单元测试。
 

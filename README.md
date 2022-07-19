@@ -107,6 +107,10 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 [Awesome-Cheat-Sheet-Git](/2022/07/cheat-sheet-git.md)
 
+[Awesome-Cheat-Sheet-Golang](/2022/07/cheat-sheet-golang.md)
+
+[Awesome-Cheat-Sheets-Python](/2022/07/cheat-sheet-python.md)
+
 ---
 
 ## **Android**

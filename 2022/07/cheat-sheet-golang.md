@@ -1,22 +1,10 @@
----
-title: Awesome-Cheat-Sheet-Golang
-date: 2020-09-08
-cover: https://api.zk123.top/link/repo1/img/cover/26.webp
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- Awesome
-- Golang
-- Cheat Sheet
-publish: true
-permalink: /article/26
----
+> Create: 9/8/2020
+>
+> Last Update: 7/19/2022
 
-> 第 26 篇文章
-<!-- more -->
+# **Awesome Cheat Sheet Golang**
 
-## Golang 速查表
+# Golang 速查表
 
 ```go
 /******************************************************************************
