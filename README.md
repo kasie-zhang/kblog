@@ -33,7 +33,7 @@
 
 ---
 
-# **技术文章**
+# **Articles**
 
 ---
 
@@ -150,6 +150,12 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 [公共 API 分享](/2022/07/public-api.md)
 
 [Kasie API](/2022/07/kasie-api.md)
+
+---
+
+## **Other**
+
+[使用割圆术计算 PI](/2022/07/cal-pi.md)
 
 ---
 

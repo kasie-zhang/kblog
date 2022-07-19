@@ -1,18 +1,8 @@
----
-title: 使用割圆术计算PI
-date: 2021-08-2
-cover: https://api.zk123.top/link/repo1/img/cover/93.webp
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- 数学
-publish: true
-permalink: /article/93
----
+> Create: 8/2/2021
+>
+> Last Update: 7/19/2022
 
-> 第 93 篇文章
-<!-- more -->
+# **使用割圆术计算 PI**
 
 **圆周率**是一个数学常数，当前人类计算 兀 的值的主要目的是为打破记录、测试超级计算机的计算能力和高精度乘法算法，因为几乎所有的科学研究对 兀 的精度要求都不会超过几百位。
 
@@ -20,10 +10,11 @@ permalink: /article/93
 
 今天要探究的是三国时期数学家刘徽的**割圆术**。
 
-参考 [Wiki](https://zh.wikipedia.org/wiki/%E5%89%B2%E5%9C%86%E6%9C%AF_(%E5%88%98%E5%BE%BD))
+参考 [Wiki](<https://zh.wikipedia.org/wiki/%E5%89%B2%E5%9C%86%E6%9C%AF_(%E5%88%98%E5%BE%BD)>)
 
-## 推导过程
-- 证明 `正2N边形` 的面积 =  `正N边形的半周长` * R
+# **推导过程**
+
+- 证明 `正2N边形` 的面积 = `正N边形的半周长` \* R
 - 证明 **圆周率 = 圆的面积 / 半径的平方**
 - 求出 `正N边形`(n = 6,12,24...) 边长的递推公式
 
@@ -31,8 +22,9 @@ permalink: /article/93
 
 ![](https://api.zk123.top/link/repo1/img/2021/pi_2.jpg)
 
-## 编程计算
-```c 
+# **编程计算**
+
+```c
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<math.h>
