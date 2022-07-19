@@ -60,6 +60,7 @@
 [踩坑之 —— C long double 打印输出 0.000000](/2022/07/c-hole-1.md)
 
 [踩坑之 —— C fseek() 回退时总是到达文件头](/2022/07/c-hole-2.md)
+
 ## **Java**
 
 ---
@@ -105,6 +106,16 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 ---
 
 ## **Linux**
+
+---
+
+### **Plugin**
+
+---
+
+#### **文件传输**
+
+[lrzsz - xshell 实现文件传输](/2022/07/linux-plugin-lrzsz.md)
 
 ---
 
