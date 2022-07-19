@@ -104,6 +104,8 @@
 
 - [程序员如何把控自己的职业](/2022/07/career-development.md)
 
+- [C 语言程序设计设计概述](/2022/07/c-base-chapter-01.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)

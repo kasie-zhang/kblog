@@ -43,6 +43,10 @@
 
 ### **Base**
 
+[C 语言程序设计设计概述](/2022/07/c-base-chapter-01.md)
+
+[C 语言语法元素](/2022/07/c-base-chapter-02.md)
+
 [C 数组和指针](/2022/07/c-base-array-and-pointer.md)
 
 [C 字节序的大端和小端](/2022/07/c-base-big-endian-little-endian.md)
