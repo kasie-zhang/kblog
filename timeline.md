@@ -122,6 +122,8 @@
 
 - [Git 命令大全](/2022/07/git-command.md)
 
+- [Vim 使用技巧](/2022/07/vim.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)

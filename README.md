@@ -127,6 +127,12 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 ---
 
+## **Vim**
+
+[Vim 使用技巧](/2022/07/vim.md)
+
+---
+
 ## **Cheat Sheet**
 
 [Awesome-Cheat-Sheet-Bash](/2022/07/cheat-sheet-bash.md)
