@@ -116,6 +116,8 @@
 
 - [Linux 文件权限及 chmod 命令](/2022/07/linux-command-chmod.md)
 
+- [Spring Boot 整合 web 开发](/2022/07/spring-boot-web.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)

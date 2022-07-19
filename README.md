@@ -99,6 +99,8 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 [Spring Boot 实现前端 Alert 操作以及网页跳转](/2022/07/spring-boot-alert-in-browser.md)
 
+[Spring Boot 整合 web 开发](/2022/07/spring-boot-web.md)
+
 ---
 
 ## **Regex**

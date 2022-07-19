@@ -1,4 +1,4 @@
-> 最后更新于 7/6/2022
+> 最后更新于 7/19/2022
 
 # 1.安装使用 Docsify
 
@@ -74,10 +74,12 @@ Markdown 基于 Prism 实现代码高亮，支持的语言如下：
 
 ### 2.2.4.Attention
 
+```md
 > [!ATTENTION]
 > This is an attention
+```
 
-> [!COMMENT]
+> [!ATTENTION]
 > This is an attention
 
 ## 2.3.嵌入文件
@@ -129,7 +131,7 @@ Markdown 基于 Prism 实现代码高亮，支持的语言如下：
 能够内嵌 `mp4`,`mkv` 格式的视频。
 
 ```md
-[filename](vedio-link ':include :type=video width=100% height=600px controls')
+[filename](vedio-link ":include :type=video width=100% height=600px controls")
 ```
 
 [酒女](https://drive.zk123.top/api/v3/file/source/35664/Work.Later.Drink.Now.S01E01.1080p.WEB-DL.H264.AAC-AppleTor.mp4?sign=qezCyYJV6691Nr4xjz4G7XEWVb3lybvUBB3pdrToZGg%3D%3A0 ":include :type=video width=100% height=600px controls")
@@ -146,3 +148,10 @@ Link ```
 ```pdf
 https://static.r2coding.com/r2_static/pdf/c.pdf
 ```
+
+### 2.3.7.嵌入 Iframe
+```md
+[Insert iframe](https://blog.zk123.top ':include :type=iframe width=100% height=650px')
+```
+
+[Insert iframe](https://blog.zk123.top ':include :type=iframe width=100% height=650px')
