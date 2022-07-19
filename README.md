@@ -59,11 +59,15 @@
 
 [C 高级数据表示](/2022/07/c-advanced-data.md)
 
+---
+
 ### **踩坑**
 
 [踩坑之 —— C long double 打印输出 0.000000](/2022/07/c-hole-1.md)
 
 [踩坑之 —— C fseek() 回退时总是到达文件头](/2022/07/c-hole-2.md)
+
+---
 
 ## **Java**
 
@@ -124,6 +128,14 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 ## **Linux**
 
 ---
+
+### **Command**
+
+---
+
+#### **chmod**
+
+[Linux 文件权限及 chmod 命令](/2022/07/linux-command-chmod.md)
 
 ### **Plugin**
 

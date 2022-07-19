@@ -114,6 +114,8 @@
 
 - [Awesome-Cheat-Sheet-Vim](/2022/07/cheat-sheet-vim.md)
 
+- [Linux 文件权限及 chmod 命令](/2022/07/linux-command-chmod.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)
