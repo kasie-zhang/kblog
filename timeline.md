@@ -120,6 +120,8 @@
 
 - [算法刷题](/2022/07/algorithm-leetcode.md)
 
+- [Git 命令大全](/2022/07/git-command.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)

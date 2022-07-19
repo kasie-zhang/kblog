@@ -1,23 +1,14 @@
----
-title: Git 命令大全
-date: 2020-12-30
-cover: https://api.zk123.top/link/repo1/img/cover/67.webp
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- Git
-publish: true
-permalink: /article/67
----
+> Create: 12/30/2020
+>
+> Last Update: 7/19/2022
 
-> 第 67 篇文章
-<!-- more -->
+# **Git 命令大全**
 
-## Git 常用命令
+# Git 常用命令
+
 ```bash
-git config --global user.name 'sherry'              
-git config --global user.email test@sherry.com      // 设置代码提交时的用户信息; 如果去掉 --global 参数只对当前仓库有效。
+git config --global user.name 'username'
+git config --global user.email test@test.com      // 设置代码提交时的用户信息; 如果去掉 --global 参数只对当前仓库有效。
 
 git init                                            // 新建本地仓库
 
@@ -36,13 +27,15 @@ git commit -m [message]                              // 提交暂存区到本地
 
 git log                                              // 查看历史提交记录
 
-git reset HEAD^                                      // 回退所有内容到上一个版本  
+git reset HEAD^                                      // 回退所有内容到上一个版本
 git reset HEAD^ hello.php                            // 回退 hello.php 文件的版本到上一个版本
 git reset <版本号>                                   // 回退到指定版本
 ```
 
-## 本地仓库
-### Git Commit
+# 本地仓库
+
+## Git Commit
+
 Git 仓库中的提交记录保存的是你的目录下所有文件的快照，就像是把整个目录复制，然后再粘贴一样，但比复制粘贴优雅许多！
 
 Git 希望提交记录尽可能地轻量，因此在你每次进行提交时，它并不会盲目地复制整个目录。条件允许的情况下，它会将当前版本与仓库中的上一个版本进行对比，并把所有的差异打包到一起作为一个提交记录。
@@ -51,9 +44,8 @@ Git 还保存了提交的历史记录。这也是为什么大多数提交记录�
 
 关于提交记录太深入的东西咱们就不再继续探讨了，现在你可以把提交记录看作是项目的快照。提交记录非常轻量，可以快速地在这些提交记录之间切换！
 
+## Git Branch
 
-
-### Git Branch
 Git 的分支也非常轻量。它们只是简单地指向某个提交纪录 —— 仅此而已。所以许多 Git 爱好者传颂：
 
 `早建分支！多用分支！`
@@ -69,22 +61,18 @@ git checkout dev1           // 切换到 dev1 分支
 git checkout -b dev2        // 新建一个名叫 dev2 的分支, 并且切换过去
 ```
 
-### Git Merge
+## Git Merge
+
 合并分支的第一种方法.
 
 在 Git 中合并两个分支时会产生一个特殊的提交记录，它有两个父节点。翻译成自然语言相当于：“我要把这两个父节点本身及它们所有的祖先都包含进来。”
-
-:::details 举个例子
-![](https://src.sherrykeeper.vip//md/md_194.png)
-
-`main` 现在指向了一个拥有两个父节点的提交记录。假如从 `main` 开始沿着箭头向上看，在到达起点的路上会经过所有的提交记录。这意味着 `main` 包含了对代码库的所有修改。
-:::
 
 ```bash
 git merge <要被合并的分支>         // 将要被合并的分支  合并到 当前分支中
 ```
 
-### Git Rebase
+## Git Rebase
+
 合并分支的第二种方法.
 
 Rebase 实际上就是取出一系列的提交记录，“复制”它们，然后在另外一个地方逐个的放下去。
@@ -95,12 +83,8 @@ Rebase 的优势就是可以创造更线性的提交历史，这听上去有些�
 git rebase <要复制到哪个分支>
 ```
 
-:::details 举个例子
-![](https://src.sherrykeeper.vip//md/md_196.png)
-:::
+# 远程仓库
 
-
-## 远程仓库
 远程仓库并不复杂, 在如今的云计算盛行的世界很容易把远程仓库想象成一个富有魔力的东西, 但实际上它们只是你的仓库在另个一台计算机上的拷贝。你可以通过因特网与这台计算机通信 —— 也就是增加或是获取提交记录
 
 话虽如此, 远程仓库却有一系列强大的特性
@@ -111,50 +95,52 @@ git rebase <要复制到哪个分支>
 
 现在用网站来对远程仓库进行可视化操作变得越发流行了(像 [GitHub](https://github.com/) 或 [Phabricator](https://www.phacility.com/), 但远程仓库永远是这些工具的顶梁柱, 因此理解其概念非常的重要!
 
-### Git Clone
+## Git Clone
+
 当你用 `git clone` 某个仓库时，Git 已经帮你把远程仓库的名称设置为 `origin` 了
 
+## Git Fetch
 
-### Git Fetch
-从远程仓库获取数据, 将本地仓库中的远程分支更新成远程仓库相应分支最新的状态  `git fetch`
+从远程仓库获取数据, 将本地仓库中的远程分支更新成远程仓库相应分支最新的状态 `git fetch`
 
-::: tip  提示
-`git fetch` 并不会更改本地仓库的状态, 不会更新`main` 分支, 也不会修改磁盘上的文件 !!! 
+`git fetch` 并不会更改本地仓库的状态, 不会更新`main` 分支, 也不会修改磁盘上的文件 !!!
 
-`git fetch` 可以理解为单纯的下载操作 
-:::
+`git fetch` 可以理解为单纯的下载操作
 
-`git fetch` 完成了很重要的两步: 
+`git fetch` 完成了很重要的两步:
+
 - 从远程仓库下载本地仓库缺失的提交记录
 - 更新远程分支指针
 
-### Git Pull
+## Git Pull
+
 当远程分支中有新的提交时，你可以像合并本地分支那样来合并远程分支。
 
 `git pull` 等价于 `git fetch` + `git merge`
 
-### Git Push
+## Git Push
+
 `git push` 负责将你的变更上传到指定的远程仓库，并在远程仓库上合并你的新提交记录。一旦 `git push` 完成, 你的朋友们就可以从这个远程仓库下载你分享的成果了！
 
 Git 会强制你先合并远程最新的代码, 然后才能分享你的工作.
 
-:::tip 解决本地仓库 与 远程仓库不同步
-1. git fetch 更新远程分支
-2. git rebase 将我们的工作移动到最新的提交记录下
-3. git push 推送至远程仓库
+> [!TIP]解决本地仓库 与 远程仓库不同步
 
-或者
+> 1.git fetch 更新远程分支
+>
+> 2.git rebase 将我们的工作移动到最新的提交记录下
+>
+> 3.git push 推送至远程仓库
+>
+> 或使用 `git pull --rebase` 实现 (推荐!!!)
 
-使用  `git pull --rebase` 实现 (推荐!!!)
-:::
+## 解决 Remote Rejected
 
-
-### 解决 Remote Rejected
-如果你是在一个大的合作团队中工作, 很可能是master被锁定了, 需要一些Pull Request流程来合并修改。如果你直接提交(commit)到本地master, 然后试图推送(push)修改, 你将会收到这样类似的信息:
+如果你是在一个大的合作团队中工作, 很可能是 master 被锁定了, 需要一些 Pull Request 流程来合并修改。如果你直接提交(commit)到本地 master, 然后试图推送(push)修改, 你将会收到这样类似的信息:
 ` ! [远程服务器拒绝] main -> main (TF402455: 不允许推送(push)这个分支; 你必须使用pull request来更新这个分支.)`
 
-:::tip 为什么会被拒绝?
-远程服务器拒绝直接推送(push)提交到master, 因为策略配置要求 pull requests 来提交更新.
+> [!NOTE] 为什么会被拒绝?
 
-你应该按照流程,新建一个分支, 推送(push)这个分支并申请pull request,但是你忘记并直接提交给了master.现在你卡住并且无法推送你的更新.
-:::
+> 远程服务器拒绝直接推送(push)提交到 master, 因为策略配置要求 pull requests 来提交更新.
+>
+> 你应该按照流程,新建一个分支, 推送(push)这个分支并申请 pull request,但是你忘记并直接提交给了 master.现在你卡住并且无法推送你的更新.
