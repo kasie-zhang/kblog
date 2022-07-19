@@ -55,7 +55,9 @@
 
 [C 高级数据表示](/2022/07/c-advanced-data.md)
 
----
+### **踩坑**
+
+[C long double 打印输出 0.000000](/2022/07/c-hole-1.md)
 
 ## **Java**
 
@@ -120,6 +122,8 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 ---
 
 ## **Computer Network**
+
+[浏览器是如何运作的？](/2022/07/browser-basics.md)
 
 ---
 
