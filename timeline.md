@@ -101,3 +101,9 @@
 - [lrzsz - xshell 实现文件传输](/2022/07/linux-plugin-lrzsz.md)
 
 - [使用割圆术计算 PI](/2022/07/cal-pi.md)
+
+- [程序员如何把控自己的职业](/2022/07/career-development.md)
+
+> Update:
+
+- [书签网址聚合](/2022/07/bookmark.md)

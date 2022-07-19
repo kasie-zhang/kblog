@@ -165,6 +165,12 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 ---
 
+# **杂谈**
+
+[程序员如何把控自己的职业](/2022/07/career-development.md)
+
+---
+
 # **电影板块**
 
 ---
