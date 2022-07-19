@@ -23,17 +23,17 @@
 
 ---
 
-# **技术文章**
-
----
-
-## **环境配置 & 安装教程**
+# **环境配置 & 安装教程**
 
 [Java 环境配置](/2022/07/java-environment-install.md)
 
 [Cloudreve 网盘装配置教程](/2022/07/cloudreve.md)
 
 [智图 安装教程](/2022/07/zhitu.md)
+
+---
+
+# **技术文章**
 
 ---
 
@@ -134,6 +134,12 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 [公共 API 分享](/2022/07/public-api.md)
 
 [Kasie API](/2022/07/kasie-api.md)
+
+---
+
+# **Project**
+
+[基于区块链的学位学历认证系统](/2022/07/block-chain.md)
 
 ---
 
