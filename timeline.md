@@ -112,6 +112,8 @@
 
 - [Awesome-Cheat-Sheets-Python](/2022/07/cheat-sheet-python.md)
 
+- [Awesome-Cheat-Sheet-Vim](/2022/07/cheat-sheet-vim.md)
+
 > Update:
 
 - [书签网址聚合](/2022/07/bookmark.md)
