@@ -151,3 +151,5 @@
 - [SpringBoot 整合视图层技术 以 Thymeleaf 为例](/2022/07/spring-boot-thymeleaf.md)
 
 - [SpringBoot 导出 JSON 文件并下载](/2022/07/spring-boot-export-json.md)
+
+- [C 文件输入和输出](/2022/07/c-base-file-io.md)

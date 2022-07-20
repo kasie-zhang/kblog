@@ -53,6 +53,8 @@
 
 [C 位操作](/2022/07/c-base-bit-manipulation.md)
 
+[C 文件输入和输出](/2022/07/c-base-file-io.md)
+
 ---
 
 ## **3.2.Advanced**

@@ -1,44 +1,37 @@
----
-title: C 文件输入和输出
-date: 2022-03-5
-cover: https://api.zk123.top/link/repo1/img/cover/108.webp
-sidebar: 'auto'
-categories:
-- 笔记
-- C 语言
-tags:
-- C
-- 文件IO
-publish: true
-permalink: /article/108
----
+> Create: 3/5/2022
+>
+> Last Update: 7/20/2022
 
-> 第 108 篇文章
-<!-- more -->
+# **C 文件输入和输出**
 
-## 文件及文件模式
+# 1.文件及文件模式
+
 文件（file）通常是在磁盘或固态硬盘上的一段已命名的存储区。
 
-所有文件的内容都以二进制形式存储。但是，如果文件最初使用**二进制编码的字符**（如ASCII和Unicode）表示文本，该文件就是**文本文件**，其中包含文本内容。
+所有文件的内容都以二进制形式存储。但是，如果文件最初使用**二进制编码的字符**（如 ASCII 和 Unicode）表示文本，该文件就是**文本文件**，其中包含文本内容。
 如果文件中的二进制值代表**机器语言代码**或**数值数据**或**图片和音乐编码**，该文件就是**二进制文件**，其中包含二进制内容。
 
 不同操作系统在文本文件的保存和处理上有差别，为了规范文本文件的处理，C 提供了两种访问文件的途径：**二进制模式**和**文本模式**。
 
 在二进制模式中，程序可以访问文件的每个字节。而在文本模式中，程序所见的内容和文件的实际内容不同。程序以文本模式读取文件时，把本地环境表示的行尾或文件结尾映射为 C 模式。
-:::tip 文件结尾
-Macintosh 以 `\r` 结尾，MS-DOS 以 `\r\n` 结尾。
 
-C 在以文本模式读取文件时会将其转化为 `\n`，在写入文件时又转化为对应操作系统的结尾符。
-:::
+> [!TIP]
+>
+> Macintosh 以 `\r` 结尾，MS-DOS 以 `\r\n` 结尾。
+>
+> C 在以文本模式读取文件时会将其转化为 `\n`，在写入文件时又转化为对应操作系统的结尾符。
 
-### 二进制文件和文本文件的区别
-所有文件在计算机内都是以二进制形式存储的。如果文件使用二进制编码（如ASCII，UNICODE编码）的字符，那么这些文件就是文本文件。如果这些二进制表示其他形式的编码（如机器语言编码、图像、音乐），那么这些文件就是二进制文件。
+## 1.1.二进制文件和文本文件的区别
 
-### 二进制流和文本流的区别
+所有文件在计算机内都是以二进制形式存储的。如果文件使用二进制编码（如 ASCII，UNICODE 编码）的字符，那么这些文件就是文本文件。如果这些二进制表示其他形式的编码（如机器语言编码、图像、音乐），那么这些文件就是二进制文件。
+
+## 1.2.二进制流和文本流的区别
+
 这两种文件格式对系统的依赖性不同：二进制文件和文本文件的区别包括在读写流时程序执行的转换。
 二进制文件直接读取文件的每个字节，不转换成字符。针对不同系统平台的差异和字符编码的差异，系统可能会对文本文件做一些字符转化。
 
-## 文件的基本操作
+# 2.文件的基本操作
+
 程序设计中定义了一个 FILE 结构指针来指向确定存储设备中的文件，并通过该指针来实现文件的读写。文件操作的基本流程如下：
 
 ```c
@@ -47,21 +40,23 @@ fp = fopen("路径名+文件名", "读写模式");
 ```
 
 **指向标准文件的指针:**
+
 - 标准输入：`stdin`
 - 标准输出：`stdout`
 - 标准错误：`stderr`
 
-|函数名|函数的声明|函数的功能|
-|----|---|----|
-|fopen()|FILE * fopen(const char * filename, const char * mode);|打开指定的文件，打开方式由mode参数决定|
-|fclose()|int fclose(FILE * stream)|关闭指定的文件，成功返回0，否则返回EOF|
-|getc()/putc()|int getc(FILE * stream) <br><br>int putc(int ch, FILE * stream)|getc()从指定文件读取一个字符<br><br>putc()向参数指定的文件输出指定字符|
-|fprintf()|int fprintf(FILE * stream, const char * format, ...)|向文件写入指定格式的内容，其他参数的含义类似与printf()|
-|fscanf()|int fscanf(FILE * stream, const char * format, ...)| 从指定文件读取指定格式的内容，其他参数的含义类似与scanf()|
-|fgets()/fputs()|char * fgets(char * str, int count, FILE * stream)<br><br>int fputs(const char * str, FILE * stream)|fputs()函数向指定文件写入一个字符串;<br><br>fgets()从指定文件读取指定长度的字符串|
+| 函数名          | 函数的声明                                                                                            | 函数的功能                                                                        |
+| --------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| fopen()         | FILE _ fopen(const char _ filename, const char \* mode);                                              | 打开指定的文件，打开方式由 mode 参数决定                                          |
+| fclose()        | int fclose(FILE \* stream)                                                                            | 关闭指定的文件，成功返回 0，否则返回 EOF                                          |
+| getc()/putc()   | int getc(FILE _ stream) <br><br>int putc(int ch, FILE _ stream)                                       | getc()从指定文件读取一个字符<br><br>putc()向参数指定的文件输出指定字符            |
+| fprintf()       | int fprintf(FILE _ stream, const char _ format, ...)                                                  | 向文件写入指定格式的内容，其他参数的含义类似与 printf()                           |
+| fscanf()        | int fscanf(FILE _ stream, const char _ format, ...)                                                   | 从指定文件读取指定格式的内容，其他参数的含义类似与 scanf()                        |
+| fgets()/fputs() | char _ fgets(char _ str, int count, FILE _ stream)<br><br>int fputs(const char _ str, FILE \* stream) | fputs()函数向指定文件写入一个字符串;<br><br>fgets()从指定文件读取指定长度的字符串 |
 
-### getc() 和 putc()
-getc() 和 putc()函数与 getchar() 和 putchar() 函数类似。不同的是告诉getc() 和 putc() 函数使用哪个文件。
+## 2.1.getc() 和 putc()
+
+getc() 和 putc()函数与 getchar() 和 putchar() 函数类似。不同的是告诉 getc() 和 putc() 函数使用哪个文件。
 
 ```c
 ch = getchar();         // 从标准输入流中获取一个字符
@@ -79,34 +74,37 @@ while((ch = getc(fp)) != EOF){
 }
 ```
 
-### fopen() 的模式字符串
-|模式字符串|含义|
-|----|----|
-|"r"|以读模式打开文件|
-|"w"|以写模式打开文件，**把现有文件长度截为0**，如果文件不存在则创建一个|
-|"a"|以写模式打开文件，把现有文件末尾添加内容，如果文件不存在，则创建一个新文件|
-|"r+"|以更新模式打开文件（可以读写文件）|
-|"w+"|以更新模式打开文件（读和写），如果文件存在，则将其长度截为0；如果文件不存在，则创建一个新文件|
-|"a+"|以更新模式打开文件（读和写），在现有的文件末尾添加内容，如果文件不存在则创建一个新文件；可以读整个文件，但是只能从末尾添加内容|
-|"rb"、"wb"、"ab"、"rb+"、"r+b"<br>"wb+"、"w+b"、"ab+"、"a+b"|与上一个模式类似，但是以**二进制模式**而不是文本模式打开文件（像UNIX和Linux系统，带b字母的模式和不带b字母的模式相同）|
-|"wx"、"wbx"、"w+x"、"wb+x"| C11新增，无法打开一个现有文件；独占特性（其他程序或线程无法访问正在被打开的文件）|
+## 2.2.fopen() 的模式字符串
 
+| 模式字符串                                                   | 含义                                                                                                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| "r"                                                          | 以读模式打开文件                                                                                                               |
+| "w"                                                          | 以写模式打开文件，**把现有文件长度截为 0**，如果文件不存在则创建一个                                                           |
+| "a"                                                          | 以写模式打开文件，把现有文件末尾添加内容，如果文件不存在，则创建一个新文件                                                     |
+| "r+"                                                         | 以更新模式打开文件（可以读写文件）                                                                                             |
+| "w+"                                                         | 以更新模式打开文件（读和写），如果文件存在，则将其长度截为 0；如果文件不存在，则创建一个新文件                                 |
+| "a+"                                                         | 以更新模式打开文件（读和写），在现有的文件末尾添加内容，如果文件不存在则创建一个新文件；可以读整个文件，但是只能从末尾添加内容 |
+| "rb"、"wb"、"ab"、"rb+"、"r+b"<br>"wb+"、"w+b"、"ab+"、"a+b" | 与上一个模式类似，但是以**二进制模式**而不是文本模式打开文件（像 UNIX 和 Linux 系统，带 b 字母的模式和不带 b 字母的模式相同）  |
+| "wx"、"wbx"、"w+x"、"wb+x"                                   | C11 新增，无法打开一个现有文件；独占特性（其他程序或线程无法访问正在被打开的文件）                                             |
 
-### `exit(0);` 和 `return 0;` 的区别
+## 2.3.`exit(0);` 和 `return 0;` 的区别
 
 在最初调用的 main() 中使用 return 和调用 exit() 效果相同。但在其他函数中调用 exit() 也会结束整个程序，在其他函数中使用 return，仅将控制权交给上一级递归。
 
-## 文件的I/O函数
-文件I/O函数要用FILE指针指定待处理的文件。
+# 3.文件的 I/O 函数
 
-### fprintf() 和 fscanf()
+文件 I/O 函数要用 FILE 指针指定待处理的文件。
+
+## 3.1.fprintf() 和 fscanf()
+
 fprintf() 和 fscanf() 函数的工作方式和 printf() 和 scanf()类似，区别在于前者要用第一个参数指定待处理的文件。
 
 `int fprintf(FILE * fp, const char * format, ...);`
 
 `int fscanf(FILE * fp, const char * format, ...);`
 
-### fgets() 和 fputs()
+## 3.2.fgets() 和 fputs()
+
 `char * fgets(char * buf, int maxCount, FILE * file);`
 
 读取 maxCount-1 大小（读取到第一个换行符或读到文件末尾），然后在末尾添加一个空字符，使之成为一个字符串。读取到 EOF 时返回 NULL。
@@ -115,15 +113,18 @@ fprintf() 和 fscanf() 函数的工作方式和 printf() 和 scanf()类似，区
 
 在打印字符串时，不会再添加换行符。
 
-## 文件的随机模式
-### fseek() 和 ftell()
+# 4.文件的随机模式
+
+## 4.1.fseek() 和 ftell()
+
 `int fseek(FILE * file, long offset, int origin);`
+
 - file: 指向待查找文件，已用 fopen() 打开
 - offset: 偏移量，正（前移）、负（后移）、零（保持不动）
 - origin: 模式，stdio.h 中规定了几个表示模式的明示常量（manifest constant）
-  - 文件开始：`#define SEEK_SET 0`   SET - offset （因为偏移量是从头开始算的，所以SET就指代了开头） 
-  - 当前位置：`#define SEEK_CUR 1`   CUR - current
-  - 文件末尾：`#define SEEK_END 2`   END - end
+  - 文件开始：`#define SEEK_SET 0` SET - offset （因为偏移量是从头开始算的，所以 SET 就指代了开头）
+  - 当前位置：`#define SEEK_CUR 1` CUR - current
+  - 文件末尾：`#define SEEK_END 2` END - end
 
 ```c
 fseek(fp, 0L, SEEK_SET);            // 定位至文件开始处
@@ -143,11 +144,13 @@ for(long count = 1L; count <= last; count++){
 }
 ```
 
-### fgetpos() 和 fsetpos()
-fseek() 和 ftell() 把文件大小限制在 long 类型能表示的范围内（2^31 -1，约21亿字节），但随着存储设备容量迅猛增长，文件也越来越大。鉴于此，ANSI C 增加了两个处理较大文件的新定位函数：
+## 4.2.fgetpos() 和 fsetpos()
+
+fseek() 和 ftell() 把文件大小限制在 long 类型能表示的范围内（2^31 -1，约 21 亿字节），但随着存储设备容量迅猛增长，文件也越来越大。鉴于此，ANSI C 增加了两个处理较大文件的新定位函数：
 fgetpos() 和 fsetpos()。
 
 这两个函数用一种新类型：`fpos_t`（file position type） 64 位来定义。
+
 ```c
 #if (!defined(NO_OLDNAMES) || defined(__GNUC__))
   __MINGW_EXTENSION typedef __int64 fpos_t;
@@ -158,29 +161,34 @@ fgetpos() 和 fsetpos()。
 
 `int fgetpos(FILE * restrict file, fpos_t * restrict pos);`
 
-调用 fgetpos()，把 fpos_t 类型的值（文件中当前位置距文件开头的字节数）放在指向 pos 位置的地方。成功返回0，否则返回非0。
+调用 fgetpos()，把 fpos_t 类型的值（文件中当前位置距文件开头的字节数）放在指向 pos 位置的地方。成功返回 0，否则返回非 0。
 
 `int fsetpos(FILE * file, const fpos_t * pos);`
 
-调用 fsetpos()，使用 pos 指向位置上的 fpos_t 类型值来设置文件指针指向偏移该值后指定的位置。成功返回0，否则返回非0。
+调用 fsetpos()，使用 pos 指向位置上的 fpos_t 类型值来设置文件指针指向偏移该值后指定的位置。成功返回 0，否则返回非 0。
 
-## 其他常用函数
-### feof()
+# 5.其他常用函数
+
+## 5.1.feof()
+
 `int feof(FILE * file);`
 
-当上一次输入调用检测到文件结尾时，feof() 返回一个非零值，否则返回0。
+当上一次输入调用检测到文件结尾时，feof() 返回一个非零值，否则返回 0。
 
-### ferror()
+## 5.2.ferror()
+
 `int ferror(FILE * file);`
 
-当读或写出现错误时，返回一个非零值，否则返回0。
+当读或写出现错误时，返回一个非零值，否则返回 0。
 
-### rewind()
+## 5.3.rewind()
+
 `void rewind(FILE * file);`
 
 设置文件位置为给定流的文件的开头。
 
-### ungetc()
+## 5.4.ungetc()
+
 `int ungetc(int ch, FILE * file);`
 
 将一个字符退回到输入流中，这个退回的字符会由下一个读取文件流的函数取得。
@@ -209,51 +217,53 @@ int main()
 }
 ```
 
-### fflush()
+## 5.5.fflush()
+
 `int fflush(FILE * file);`
 
 将输出缓冲区中所有未写入的数据发送到指定的输出流。这个过程被称为**刷新缓冲区**。如果 fp 是空指针，所有输出缓冲区都被刷新。
 
-:::warning 警告
-在输入流中使用 fflush() 函数的效果是未定义的。
-:::
+> [!WARNING] 在输入流中使用 fflush() 函数的效果是未定义的。
 
-### setvbuf()
+## 5.6.setvbuf()
+
 `int setvbuf(FILE * restrict file, char * restrict buf, int mode, size_t size);`
 
-创建一个供标准I/O函数替换使用的缓冲区。在打开文件后且未对流进行操作之前，调用该函数。
+创建一个供标准 I/O 函数替换使用的缓冲区。在打开文件后且未对流进行操作之前，调用该函数。
 
 - file: 识别待处理的流
-- buf: 指向待使用的存储区（数组），若使用NULL，该函数会自己分配一个缓冲区
+- buf: 指向待使用的存储区（数组），若使用 NULL，该函数会自己分配一个缓冲区
 - mode: 缓冲格式
   - `_IOFBF`: 完全缓冲（在缓冲区满时刷新）
   - `_IOLBF`: 行缓冲（在缓冲区满时，或写入一个换行符时）
   - `_IONBF`: 无缓冲
 - size: 告诉缓冲存储区的大小
 
-操作成功，函数返回0，否则返回一个非0值。
+操作成功，函数返回 0，否则返回一个非 0 值。
 
 ```c
 #include<stdio.h>
 
 int main(){
     char buff[1024];
-    
+
     memset(buff, '\0', sizeof( buff ));
-    
+
     fprintf(stdout, "启用全缓冲\n");
     setvbuf(stdout, buff, _IOFBF, 1024);
     return 0;
 }
 ```
 
-## 二进制读写函数
+# 6.二进制读写函数
+
 将浮点数保存为字符串的过程中容易丢失精度，读取文件时就无法将其恢复为更高的精度。一般而言，fprintf()把数值转换为字符数据，这种转换可能改变值。
 
 为保证数值在存储前后一致，最精确的做法就是使用与计算机相同的**位组合**来存储。因此，double 类型的值应该存储在一个 double 大小的单元中。如果程序所用的表示法把数据存储在文件中，则称以**二进制形式**存储数据。不存在数值形式到字符串的转换过程。
 
-### fwrite()
-`size_t  fwrite(const void * restrictstr ptr, size_t size, size_t count, FILE * restrict file);`
+## 6.1.fwrite()
+
+`size_t fwrite(const void * restrictstr ptr, size_t size, size_t count, FILE * restrict file);`
 
 以二进制形式写入文件。返回成功写入项的数量，正常情况下就是 count，但如果出现写入错误，返回值会比 count 小。
 
@@ -262,19 +272,23 @@ double ear[10];
 fwrite(ear, sizeof(double), 10, fp);        // 把 ear 中的数据写入文件，数据被分为 10 块，每块都是 double 大小
 ```
 
-### fread()
+## 6.2.fread()
+
 `size_t fread(void * restrict ptr,size_t size, size_t count, FILE * restrict file);`
 
 以二进制形式读取文件，返回成功读取项的数量，正常情况下就是 count，但如果出现写入错误，返回值会比 count 小。
 
 例如，要恢复上例中保存的内含 10 个 double 类型值的数组：
+
 ```c
 double ear[10];
 fread(ear, sizeof(double), 10, fp);
 ```
 
-## 程序示例
-### 文件 I/O
+# 7.程序示例
+
+## 7.1.文件 I/O
+
 下面用一个程序示例来演示这些函数的用法。
 
 > 程序功能：把多个文本的内容附加在主文件的末尾，完成后输出主文件内容。
@@ -381,9 +395,10 @@ void append(const FILE *source, FILE *dest) {
 }
 ```
 
+## 7.2.二进制 I/O 随机访问
 
-### 二进制 I/O 随机访问
 创建一个存储 double 类型数字的文件，然后让用户访问这些内容。
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
