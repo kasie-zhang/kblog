@@ -115,6 +115,8 @@ https://zk123.top/f/pdf/spring-boot-roadmap.pdf
 
 [Spring Boot 实现 Excel 文件解析，Excel 表格导出下载](/2022/07/spring-boot-excel-utils.md)
 
+[SpringBoot 整合视图层技术 以 Thymeleaf 为例](/2022/07/spring-boot-thymeleaf.md)
+
 ---
 
 # **7.Regex**
