@@ -1,26 +1,15 @@
----
-title: Java 实现 Excel文件解析，Excel表格导出下载
-date: 2021-04-25
-cover: https://api.zk123.top/link/repo1/img/cover/82.webp
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- SpringBoot
-- Java
-- Util
-publish: true
-permalink: /article/82
----
+> Create: 4/25/2021
+>
+> Last Update: 7/20/2022
 
-> 第 82 篇文章
-<!-- more -->
+# **Java 实现 Excel 文件解析，Excel 表格导出下载**
 
-## ParseExcel
+# 1.ParseExcel
+
 引入 `poi` 第三方库
-需要构造一个实体类，来承接Excel表格中的单元格的数据。
+需要构造一个实体类，来承接 Excel 表格中的单元格的数据。
 
-```java 
+```java
 package top.zk123.chain.util;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -272,16 +261,17 @@ public class ExcelReader {
 }
 ```
 
+# 2.ExportExcel
 
-## ExportExcel
+## 2.1.导出工作簿
 
-### 导出工作簿
 导出过程：
+
 - 定义列头信息；
-- 生成 sheet 表，写入第一行的列头； 
+- 生成 sheet 表，写入第一行的列头；
 - 构建每一行的内容，返回工作簿。
 
-```java 
+```java
 package top.zk123.chain.util;
 
 import org.apache.poi.hssf.usermodel.HSSFDataFormat;
@@ -448,9 +438,12 @@ public class ExcelWriter {
 
 }
 ```
-### 返回数据给前端下载
+
+## 2.2.返回数据给前端下载
+
 > 将工作簿传输至前端，提供下载
-```java 
+
+```java
 public void exportExcel(HttpServletRequest request, HttpServletResponse response, List<Verify> dataList) {
     Workbook workbook = null;
     OutputStream out = null;
