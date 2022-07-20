@@ -1,27 +1,10 @@
----
-title: SpringBoot导出JSON文件并下载
-date: 2021-04-25
-cover: https://api.zk123.top/link/repo1/img/cover/81.webp
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- SpringBoot
-- Java
-- Util
-- 后端
-publish: true
-permalink: /article/81
----
+> Create: 4/25/2021
+>
+> Last Update: 7/20/2022
 
-> 第 81 篇文章
-<!-- more -->
+# **SpringBoot 导出 JSON 文件并下载**
 
-## 导出JSON并下载
-使用第三方包 fastjson.
-
-`com.alibaba.fastjson`
-
+使用第三方包 `com.alibaba.fastjson`。
 
 ```java
 public void ExportJSON(HttpServletRequest request, HttpServletResponse response, long UId) {
