@@ -1,6 +1,6 @@
 > Create: 7/6/2022
 >
-> Last Update: 7/19/2022
+> Last Update: 7/20/2022
 
 # **2022 年**
 
@@ -141,3 +141,5 @@
 - [解决 git 每次 push 都要求输入账号密码](/2022/07/git-login.md)
 
 - [Death Stranding](/2022/07/death-stranding.md)
+
+- [DEV-CPP](/2022/07/ide-dev-cpp.md)

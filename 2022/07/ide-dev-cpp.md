@@ -1,20 +1,10 @@
----
-title: Dev-C++ 快捷键
-date: 2021-12-19
-cover: https://api.zk123.top/link/repo1/img/cover/97.webp
-sidebar: 'auto'
-categories:
-- 笔记
-tags:
-- Dev-C++
-- IDE
-- 快捷键
-publish: true
-permalink: /article/97
----
+> Create: 12/19/2021
+>
+> Last Update: 7/20/2022
 
-> 第 97 篇文章
-<!-- more -->
+# **Dev C++**
+
+## 1.快捷键
 
 若出现快捷键无效的情况，可能是热键冲突，检查是否与系统或其他程序的快捷键冲突。
 
@@ -46,7 +36,7 @@ permalink: /article/97
 
 弹出对话框，输入要跳转到的函数名
 
-> Ctrl + Shift + A 
+> Ctrl + Shift + A
 
 调整结构缩进，对代码进行格式化
 
@@ -61,4 +51,3 @@ permalink: /article/97
 > Ctrl + R
 
 替换功能
-
