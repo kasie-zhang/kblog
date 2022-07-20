@@ -129,6 +129,8 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 [Git 代理设置](/2022/07/git-proxy.md)
 
+[解决 git 每次 push 都要求输入账号密码](/2022/07/git-login.md)
+
 ---
 
 ## **Vim**
