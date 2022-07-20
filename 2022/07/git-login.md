@@ -29,4 +29,7 @@ git config --global credential.helper store
 
 执行完上述指令后，再执行一次任意操作，输入账户和密码，之后就可以不需要再输入密码了。
 
+> [!NOTE]
+> 密码不是 GitHub 账户密码，而是你的 Personal Access Token
+
 如果不想要保存账户密码了，删掉该文件即可。
