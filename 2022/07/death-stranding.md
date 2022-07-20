@@ -1,20 +1,8 @@
----
-title: Death Stranding
-cover: https://api.zk123.top/link/repo1/img/cover/54.webp
-date: 2020-12-14
-sidebar: 'auto'
-categories:
-- Game
-tags:
-- Steam
-- 死亡搁浅
-publish: true
-isShowComments: true
-permalink: /article/54
----
+> Create: 12/24/2020
+>
+> Last Update: 7/20/2022
 
-> 第 54 篇文章
-<!-- more -->
+# **Death Stranding**
 
 大约在11月18号,推完了所有主线。不知不觉就过了一个月，今天来回忆以下 死亡搁浅之旅！
 ![](https://api.zk123.top/link/repo1/img/2020/death_stranding_1.webp)

@@ -100,9 +100,8 @@
 ---
 
 ### **Spring Boot 学习路线**
-
 ```pdf
-https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
+https://zk123.top/files/pdf/spring-boot-roadmap.pdf
 ```
 
 ---
@@ -246,6 +245,8 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 ---
 
 # **游戏板块**
+
+[Death Stranding](/2022/07/death-stranding.md)
 
 ---
 
