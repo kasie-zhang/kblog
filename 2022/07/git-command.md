@@ -6,12 +6,17 @@
 
 # Git 全局命令
 
+```bash
+git config --global user.name 'github-username'
+git config --global user.email test@test.com      // 设置代码提交时的用户信息; 如果去掉 --global 参数
+```
+
+全局设置保存在 `~/.gitconfig` 中。
+
 # Git 常用命令
 
 ```bash
-git config --global user.name 'username'
-git config --global user.email test@test.com      // 设置代码提交时的用户信息; 如果去掉 --global 参数只对当前仓库有效。
-
+只对当前仓库有效。
 git init                                            // 新建本地仓库
 
 git remote add <远程仓库别名> <远程仓库地址>          // 添加远程仓库

@@ -127,6 +127,8 @@ https://api.zk123.top/link/repo1/pdf/SpringBoot-Roadmap.pdf
 
 [Git 命令大全](/2022/07/git-command.md)
 
+[Git 代理设置](/2022/07/git-proxy.md)
+
 ---
 
 ## **Vim**
