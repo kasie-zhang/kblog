@@ -1,6 +1,6 @@
 > Create: 7/6/2022
 >
-> Last Update: 7/20/2022
+> Last Update: 7/21/2022
 
 # **2022 年**
 
@@ -155,3 +155,11 @@
 - [C 文件输入和输出](/2022/07/c-base-file-io.md)
 
 - [Spring Boot 实战 -- 文件上传下载](/2022/07/spring-boot-file-upload-and-download.md)
+
+### **7/21/2022**
+
+> Create:
+
+- [内网穿透方法合集](/2022/07/intranet-penetration.md)
+
+- [Nginx Install](/2022/07/nginx-install.md)

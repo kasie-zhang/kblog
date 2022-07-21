@@ -35,6 +35,8 @@
 
 [Dev C++](/2022/07/ide-dev-cpp.md)
 
+[Nginx Install](/2022/07/nginx-install.md)
+
 ---
 
 # **3.C**
@@ -208,6 +210,8 @@ https://zk123.top/f/pdf/spring-boot-roadmap.pdf
 [Cookie、Session、Token、JWT 介绍](/2022/07/cookie-session-token-jwt.md)
 
 [计算机网络实验【汇总】](/2022/07/computer-network-exercise.md)
+
+[内网穿透方法合集](/2022/07/intranet-penetration.md)
 
 ---
 
