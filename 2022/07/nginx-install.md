@@ -24,8 +24,10 @@ tar -zxvf nginx-1.23.1.tar.gz
 cd nginx-1.23.1
 ```
 
+## 1.3.目录介绍
+![](https://api.zk123.top/link/repo1/img/2022/7-21-01.png)
 
-## 1.3.配置预置环境
+## 1.4.配置预置环境
 
 - GCC 编译器：`yay -S gcc`
 - 正则表达式 PCRE 库：`yay -S pcre-devel`
